@@ -41,7 +41,10 @@ jobs:
       - name: Rebuild the progression
         run: |
           mkdir -p progression
-          python3 tools/practice_progression.py --csv progression/progression.csv || true
+          # Stable paths, not dated ones: consumers pin a URL once.
+          python3 tools/practice_progression.py \
+            --out progression/progression.json \
+            --csv progression/progression.csv || true
 
       # Commit even when the capture failed. The raw page is archived BEFORE
       # parsing, so a failed parse still leaves bytes worth keeping -- and the
