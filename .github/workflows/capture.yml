@@ -1,0 +1,73 @@
+name: Capture practice report
+
+# THE ONLY JOB THAT HAS A DEADLINE. nfl.com/injuries carries one Practice
+# Status column and overwrites it daily, so a run that does not happen loses
+# that day from every source on earth. Everything else here can be redone.
+on:
+  schedule:
+    # Times are UTC. Kevin is US/Central, so during CDT (UTC-5):
+    #   21:47 UTC = 16:47 local, same weekday      -> Wed/Thu/Fri = 3,4,5
+    #   01:47 UTC = 20:47 local on the PREVIOUS day -> Thu/Fri/Sat = 4,5,6
+    # Twice a day on purpose: clubs file through the afternoon and amend, and
+    # west-coast clubs file late. The later capture of a day wins as a
+    # correction. Under CST the local times drift an hour earlier, which the
+    # wide window absorbs.
+    - cron: '47 21 * * 3,4,5'
+    - cron: '47 1 * * 4,5,6'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: capture
+  cancel-in-progress: false
+
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # No pip install: both tools are stdlib-only, deliberately. A collector
+      # with a dependency tree is a collector that can fail to start on the one
+      # afternoon that matters.
+      - name: Capture today's filing
+        id: capture
+        run: |
+          python3 tools/nfl_injury_report.py; echo "exit=$?" >> "$GITHUB_OUTPUT"
+        continue-on-error: true
+
+      - name: Rebuild the progression
+        run: |
+          mkdir -p progression
+          python3 tools/practice_progression.py --csv progression/progression.csv || true
+
+      # Commit even when the capture failed. The raw page is archived BEFORE
+      # parsing, so a failed parse still leaves bytes worth keeping -- and the
+      # parse can be redone later with --from-raw, but only if they were pushed.
+      - name: Commit and push
+        run: |
+          git config user.name  "practice-report-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data progression
+          if git diff --cached --quiet; then
+            echo "nothing changed -- not a failure"
+            exit 0
+          fi
+          CLUBS=$(python3 -c "import json,glob,os;f=max(glob.glob('data/practice-*.json'),key=os.path.getmtime);d=json.load(open(f));print(f\"{d['clubs_filed']} clubs, {d['players']} players\")" 2>/dev/null || echo "capture")
+          git commit -m "Capture $(date -u +%Y-%m-%d\ %H:%M) UTC: ${CLUBS}"
+          for i in 1 2 3; do
+            git push && break
+            echo "push rejected, rebasing (attempt $i)"
+            git pull --rebase origin main || exit 1
+          done
+
+      # The capture is allowed to fail; the run must still say so out loud,
+      # because a green tick on a day nothing was collected is the one outcome
+      # that loses data silently.
+      - name: Fail the run if the capture failed
+        if: steps.capture.outputs.exit != '0'
+        run: |
+          echo "::error::Collector exited ${{ steps.capture.outputs.exit }} -- raw bytes were still archived and pushed; re-parse later with --from-raw"
+          exit 1
