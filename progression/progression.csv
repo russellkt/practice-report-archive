@@ -1,0 +1,37 @@
+player,team,position,practice_wed,practice_thu,practice_fri,trend,injury,game_status,full_participation_final
+A.J. Haulcy,IND,S,LIMITED,,,LIMITED_SINGLE,,,False
+AJ Barner,SEA,TE,FULL,,,FULL_SINGLE,,,True
+Aaron Donald,LAR,DE,LIMITED,,,LIMITED_SINGLE,,,False
+Alaric Jackson,LAR,T,DNP,,,DNP_SINGLE,,,False
+Alec Pierce,IND,WR,LIMITED,,,LIMITED_SINGLE,,,False
+Alfred Collins,SF,DT,LIMITED,,,LIMITED_SINGLE,,,False
+Andrew Ogletree,IND,TE,LIMITED,,,LIMITED_SINGLE,,,False
+Anthony Bradford,SEA,G,FULL,,,FULL_SINGLE,,,True
+Ben Brown,NE,C,DNP,,,DNP_SINGLE,Knee,Out,False
+Bobby Brown III,CAR,DT,LIMITED,,,LIMITED_SINGLE,,,False
+Byron Young,LAR,LB,DNP,,,DNP_SINGLE,,,False
+Christian Barmore,NE,DT,FULL,,,FULL_SINGLE,,,True
+Dre Greenlaw,SF,LB,LIMITED,,,LIMITED_SINGLE,,,False
+Emanuel Wilson,SEA,RB,FULL,,,FULL_SINGLE,,,True
+George Kittle,SF,TE,LIMITED,,,LIMITED_SINGLE,,,False
+Gracen Halton,SF,DT,LIMITED,,,LIMITED_SINGLE,,,False
+Grant Stuard,LAR,LB,LIMITED,,,LIMITED_SINGLE,,,False
+James Thompson Jr.,SF,DT,DNP,,,DNP_SINGLE,,,False
+Jaylen Watson,LAR,CB,DNP,,,DNP_SINGLE,,,False
+Jonathon Brooks,CAR,RB,LIMITED,,,LIMITED_SINGLE,,,False
+Josh Jones,SEA,T,LIMITED,,,LIMITED_SINGLE,,,False
+Julian Neal,SEA,CB,FULL,,,FULL_SINGLE,,,True
+Kyle Juszczyk,SF,FB,LIMITED,,,LIMITED_SINGLE,,,False
+Luke Gifford,SF,LB,LIMITED,,,LIMITED_SINGLE,,,False
+Myles Garrett,LAR,LB,DNP,,,DNP_SINGLE,,,False
+Nick Bosa,SF,DE,LIMITED,,,LIMITED_SINGLE,,,False
+Nick Emmanwori,SEA,S,LIMITED,,,LIMITED_SINGLE,Ankle,Questionable,False
+Patrick Jones II,CAR,LB,DNP,,,DNP_SINGLE,,,False
+Renardo Green,SF,CB,LIMITED,,,LIMITED_SINGLE,,,False
+Romello Height,SF,DE,LIMITED,,,LIMITED_SINGLE,,,False
+Sedrick Van Pran-Granger,IND,C,LIMITED,,,LIMITED_SINGLE,,,False
+Tory Horton,SEA,WR,LIMITED,,,LIMITED_SINGLE,Hamstring,Questionable,False
+TreVeyon Henderson,NE,RB,DNP,,,DNP_SINGLE,Ankle,Out,False
+Ty Okada,SEA,S,DNP,,,DNP_SINGLE,Hamstring,Out,False
+Tyler Higbee,LAR,TE,DNP,,,DNP_SINGLE,,,False
+Upton Stout,SF,CB,FULL,,,FULL_SINGLE,,,True
