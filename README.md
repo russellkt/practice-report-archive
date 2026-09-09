@@ -82,3 +82,15 @@ silently drops players reads as good news about them.
 Data derived from publicly published NFL injury reports at
 <https://www.nfl.com/injuries/>. Code and compiled data in this repository are
 released under [CC BY 4.0](LICENSE) — use it, attribute it.
+
+## Scope: this repository publishes the NFL filing and nothing else
+
+The practice report is a league-mandated disclosure, and who practised at what
+level is a fact. Facts are not copyrightable, and the filing is published
+precisely so it is public.
+
+Other sources of player health — beat reporting, aggregator news bodies,
+analysts' writing — are **not** republished here, in whole or in part. That is
+somebody's work, and reading it is a different act from redistributing it. Any
+tooling that consumes this archive alongside those sources should keep them on
+its own side of the line.
