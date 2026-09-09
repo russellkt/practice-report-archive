@@ -1,0 +1,444 @@
+{
+  "captured_at": "2026-09-09T18:47:15+00:00",
+  "capture_date": "2026-09-09",
+  "weekday": "Wednesday",
+  "source": "https://www.nfl.com/injuries/",
+  "week": null,
+  "note": "A SNAPSHOT, not a current-state file. The page carries one Practice Status column which is overwritten each day, so this day's participation exists only in captures like this one.",
+  "clubs_filed": 4,
+  "clubs_filed_list": [
+    "LAR",
+    "NE",
+    "SEA",
+    "SF"
+  ],
+  "players": 29,
+  "teams": [
+    {
+      "team": "NE",
+      "team_name": "Patriots",
+      "players": [
+        {
+          "player": "Christian Barmore",
+          "player_slug": "christian-barmore",
+          "position": "DT",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Ben Brown",
+          "player_slug": "ben-brown-2",
+          "position": "C",
+          "injury": "Knee",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "TreVeyon Henderson",
+          "player_slug": "treveyon-henderson",
+          "position": "RB",
+          "injury": "Ankle",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        }
+      ]
+    },
+    {
+      "team": "SEA",
+      "team_name": "Seahawks",
+      "players": [
+        {
+          "player": "AJ Barner",
+          "player_slug": "aj-barner",
+          "position": "TE",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Anthony Bradford",
+          "player_slug": "anthony-bradford",
+          "position": "G",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Nick Emmanwori",
+          "player_slug": "nick-emmanwori",
+          "position": "S",
+          "injury": "Ankle",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Tory Horton",
+          "player_slug": "tory-horton",
+          "position": "WR",
+          "injury": "Hamstring",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Josh Jones",
+          "player_slug": "josh-jones-2",
+          "position": "T",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        },
+        {
+          "player": "Julian Neal",
+          "player_slug": "julian-neal",
+          "position": "CB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Ty Okada",
+          "player_slug": "ty-okada",
+          "position": "S",
+          "injury": "Hamstring",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "Emanuel Wilson",
+          "player_slug": "emanuel-wilson",
+          "position": "RB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        }
+      ]
+    },
+    {
+      "team": "SF",
+      "team_name": "49ers",
+      "players": [
+        {
+          "player": "Nick Bosa",
+          "player_slug": "nick-bosa",
+          "position": "DE",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        },
+        {
+          "player": "Alfred Collins",
+          "player_slug": "alfred-collins",
+          "position": "DT",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        },
+        {
+          "player": "Luke Gifford",
+          "player_slug": "luke-gifford",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        },
+        {
+          "player": "Renardo Green",
+          "player_slug": "renardo-green",
+          "position": "CB",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        },
+        {
+          "player": "Dre Greenlaw",
+          "player_slug": "dre-greenlaw-x9042",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        },
+        {
+          "player": "Gracen Halton",
+          "player_slug": "gracen-halton",
+          "position": "DT",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        },
+        {
+          "player": "Romello Height",
+          "player_slug": "romello-height",
+          "position": "DE",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        },
+        {
+          "player": "Kyle Juszczyk",
+          "player_slug": "kyle-juszczyk",
+          "position": "FB",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        },
+        {
+          "player": "George Kittle",
+          "player_slug": "george-kittle",
+          "position": "TE",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        },
+        {
+          "player": "Upton Stout",
+          "player_slug": "upton-stout",
+          "position": "CB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "James Thompson Jr.",
+          "player_slug": "james-thompson-jr",
+          "position": "DT",
+          "injury": null,
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": null
+        }
+      ]
+    },
+    {
+      "team": "LAR",
+      "team_name": "Rams",
+      "players": [
+        {
+          "player": "Aaron Donald",
+          "player_slug": "aaron-donald",
+          "position": "DE",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        },
+        {
+          "player": "Myles Garrett",
+          "player_slug": "myles-garrett",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": null
+        },
+        {
+          "player": "Tyler Higbee",
+          "player_slug": "tyler-higbee",
+          "position": "TE",
+          "injury": null,
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": null
+        },
+        {
+          "player": "Alaric Jackson",
+          "player_slug": "alaric-jackson",
+          "position": "T",
+          "injury": null,
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": null
+        },
+        {
+          "player": "Grant Stuard",
+          "player_slug": "grant-stuard",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        },
+        {
+          "player": "Jaylen Watson",
+          "player_slug": "jaylen-watson",
+          "position": "CB",
+          "injury": null,
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": null
+        },
+        {
+          "player": "Byron Young",
+          "player_slug": "byron-young-2",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": null
+        }
+      ]
+    }
+  ],
+  "league": "fairhope",
+  "team_name": "Mid Rustlers",
+  "ours": [],
+  "not_on_report": [
+    {
+      "name": "Jonathan Taylor",
+      "position": "RB",
+      "team": "IND",
+      "slot": "RB",
+      "group": "starters",
+      "why": "not on any filed report -- which means healthy ONLY if his club has filed; check clubs_filed_list"
+    },
+    {
+      "name": "Chase Brown",
+      "position": "RB",
+      "team": "CIN",
+      "slot": "RB",
+      "group": "starters",
+      "why": "not on any filed report -- which means healthy ONLY if his club has filed; check clubs_filed_list"
+    },
+    {
+      "name": "DeVonta Smith",
+      "position": "WR",
+      "team": "PHI",
+      "slot": "WR",
+      "group": "starters",
+      "why": "not on any filed report -- which means healthy ONLY if his club has filed; check clubs_filed_list"
+    },
+    {
+      "name": "David Montgomery",
+      "position": "RB",
+      "team": "HOU",
+      "slot": "RB/WR/TE",
+      "group": "starters",
+      "why": "not on any filed report -- which means healthy ONLY if his club has filed; check clubs_filed_list"
+    },
+    {
+      "name": "Parker Washington",
+      "position": "WR",
+      "team": "JAX",
+      "slot": "WR",
+      "group": "starters",
+      "why": "not on any filed report -- which means healthy ONLY if his club has filed; check clubs_filed_list"
+    },
+    {
+      "name": "Trevor Lawrence",
+      "position": "QB",
+      "team": "JAX",
+      "slot": "QB",
+      "group": "starters",
+      "why": "not on any filed report -- which means healthy ONLY if his club has filed; check clubs_filed_list"
+    },
+    {
+      "name": "Juwan Johnson",
+      "position": "TE",
+      "team": "NO",
+      "slot": "TE",
+      "group": "starters",
+      "why": "not on any filed report -- which means healthy ONLY if his club has filed; check clubs_filed_list"
+    },
+    {
+      "name": "Cam Little",
+      "position": "K",
+      "team": "JAX",
+      "slot": "K",
+      "group": "starters",
+      "why": "not on any filed report -- which means healthy ONLY if his club has filed; check clubs_filed_list"
+    },
+    {
+      "name": "Chargers D/ST",
+      "position": "D/ST",
+      "team": "LAC",
+      "slot": "D/ST",
+      "group": "starters",
+      "why": "not on any filed report -- which means healthy ONLY if his club has filed; check clubs_filed_list"
+    },
+    {
+      "name": "Malik Nabers",
+      "position": "WR",
+      "team": "NYG",
+      "slot": "BE",
+      "group": "bench",
+      "why": "not on any filed report -- which means healthy ONLY if his club has filed; check clubs_filed_list"
+    },
+    {
+      "name": "Jaylen Waddle",
+      "position": "WR",
+      "team": "DEN",
+      "slot": "BE",
+      "group": "bench",
+      "why": "not on any filed report -- which means healthy ONLY if his club has filed; check clubs_filed_list"
+    },
+    {
+      "name": "Christian Watson",
+      "position": "WR",
+      "team": "GB",
+      "slot": "BE",
+      "group": "bench",
+      "why": "not on any filed report -- which means healthy ONLY if his club has filed; check clubs_filed_list"
+    },
+    {
+      "name": "Tucker Kraft",
+      "position": "TE",
+      "team": "GB",
+      "slot": "BE",
+      "group": "bench",
+      "why": "not on any filed report -- which means healthy ONLY if his club has filed; check clubs_filed_list"
+    },
+    {
+      "name": "RJ Harvey",
+      "position": "RB",
+      "team": "DEN",
+      "slot": "BE",
+      "group": "bench",
+      "why": "not on any filed report -- which means healthy ONLY if his club has filed; check clubs_filed_list"
+    },
+    {
+      "name": "Jordan Mason",
+      "position": "RB",
+      "team": "MIN",
+      "slot": "BE",
+      "group": "bench",
+      "why": "not on any filed report -- which means healthy ONLY if his club has filed; check clubs_filed_list"
+    },
+    {
+      "name": "Malik Willis",
+      "position": "QB",
+      "team": "MIA",
+      "slot": "BE",
+      "group": "bench",
+      "why": "not on any filed report -- which means healthy ONLY if his club has filed; check clubs_filed_list"
+    },
+    {
+      "name": "Jordyn Tyson",
+      "position": "WR",
+      "team": "NO",
+      "slot": "IR",
+      "group": "ir",
+      "why": "not on any filed report -- which means healthy ONLY if his club has filed; check clubs_filed_list"
+    }
+  ]
+}
