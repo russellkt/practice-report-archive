@@ -46,6 +46,15 @@ Captures run Wednesday, Thursday and Friday, twice each day — clubs file
 through the afternoon and amend, and west-coast clubs file late. When two
 captures land on the same day the later one wins, because it is a correction.
 
+**A capture's date is not its practice day.** The second run of each day fires
+in the evening local time, which is the *following* date in UTC, and the page
+carries one Practice Status column that is only overwritten once the clubs
+file. So the assembler decides a capture's day from the clock: anything taken
+before 15:00 UTC — before any club in the league has filed — belongs to the day
+before, and is listed in `snapshots_reattributed`. A capture that restates the
+previous day unchanged is ignored entirely (`snapshots_ignored_as_stale`) and
+its day is reported MISSING, because a page nobody has touched is not a filing.
+
 ## Using it
 
 ```bash

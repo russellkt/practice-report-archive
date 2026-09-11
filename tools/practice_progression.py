@@ -20,6 +20,15 @@ can be missed, doubled, or run at odd hours, so a bare third element is not
 "Friday". A day nobody captured is reported as MISSING rather than skipped,
 because a two-day week and a three-day week with a hole are different claims.
 
+...AND THE WEEKDAY IS TAKEN FROM THE CLOCK, NOT THE DATE. The page carries one
+Practice Status column and it is only overwritten once the clubs file, so the
+evening capture -- which lands on the following UTC date -- holds the previous
+day's report. A capture taken before any club could have filed is attributed
+back a day (practice_day), and one that restates the previous day unchanged is
+dropped rather than allowed to open a column (drop_stale_restatements). Between
+them, a day nobody filed stays MISSING instead of being invented out of the
+page that was already there.
+
   uv run python draft2026/tools/practice_progression.py
   uv run python draft2026/tools/practice_progression.py --league fairhope
   uv run python draft2026/tools/practice_progression.py --csv out.csv
@@ -29,7 +38,7 @@ import csv
 import json
 import sys
 from collections import defaultdict
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -38,6 +47,11 @@ OUT_DIR = ROOT / "progression"
 
 PRACTICE_DAYS = ("Wednesday", "Thursday", "Friday")
 RANK = {"DNP": 0, "LIMITED": 1, "FULL": 2}
+
+# Clubs practise mid-day and file in the afternoon. 15:00 UTC is 10:00 ET and
+# 07:00 PT: before it, no club in the league has filed that day, so a capture
+# taken earlier carries the PREVIOUS day's column no matter what date is on it.
+FILING_CUTOFF_UTC = 15
 
 
 class ProgressionError(RuntimeError):
@@ -64,6 +78,73 @@ def load_snapshots(snap_dir=SNAP_DIR, week=None):
     if not snaps:
         raise ProgressionError(f"no captures matched week {week}")
     return snaps
+
+
+def practice_day(d):
+    """The day a capture's filings belong to, which is not always its date.
+
+    THE PAGE LAGS THE CALENDAR. The overnight capture -- cron '47 1 * * 4,5,6',
+    20:47 local the previous evening, the workflow's own comment says so -- is
+    stamped with the following UTC date, because that is when it ran. Reading
+    that stamp as the practice day is what put Thursday's filings in a Friday
+    column on 2026-09-11, and what filed ARI's late-arriving Wednesday report
+    as Thursday participation the day before, turning five 49ers amending a
+    Wednesday entry into ARRIVING.
+
+    So the day is taken from the clock, not from the date: a capture before the
+    hour any club could have filed belongs to the day before. The snapshots keep
+    their own `weekday` untouched -- they record when we fetched, this records
+    what we fetched.
+    """
+    raw = d.get("captured_at")
+    try:
+        at = datetime.fromisoformat(raw).astimezone(timezone.utc)
+    except (TypeError, ValueError):
+        return d.get("weekday")  # a capture with no clock keeps its own label
+    if at.hour < FILING_CUTOFF_UTC:
+        at -= timedelta(days=1)
+    return at.strftime("%A")
+
+
+def filed_state(d):
+    """What the clubs actually filed, with nothing about when we fetched it."""
+    return tuple(sorted(
+        (t.get("team"), p.get("player_slug") or p.get("player"),
+         p.get("practice"), p.get("game_status"), p.get("injury"))
+        for t in d.get("teams", []) for p in t.get("players", [])))
+
+
+def drop_stale_restatements(snaps):
+    """A capture identical to the previous day's is a stale page, not a new day.
+
+    The page carries one Practice Status column, so a run that fires before the
+    clubs have filed reads YESTERDAY's column with today's date stamped on it.
+    Taken at face value that manufactures a day: the 06:38 UTC run on
+    2026-09-11 was identical, player for player, to the 23:25 run the night
+    before, and it opened a Friday column out of Thursday's filings -- which
+    then graded sixteen players ARRIVING on a day that had not happened yet.
+
+    Thirty-two clubs filing identical reports on consecutive days, across every
+    player on the page, has not been observed and would be indistinguishable
+    from this failure in any case. So the trade is deliberate: a day we cannot
+    tell apart from a stale read is reported MISSING rather than asserted.
+    """
+    kept, stale = [], []
+    for d, fname in sorted(snaps, key=lambda s: s[0].get("captured_at", "")):
+        prior = next((k for k in reversed(kept)
+                      if practice_day(k[0]) != practice_day(d)), None)
+        if prior is not None and filed_state(prior[0]) == filed_state(d):
+            stale.append({
+                "file": fname,
+                "weekday": practice_day(d),
+                "captured_at": d.get("captured_at"),
+                "restates": prior[1],
+                "why": ("identical to the previous day's filing -- the page had "
+                        "not been updated when this run fired"),
+            })
+            continue
+        kept.append((d, fname))
+    return kept, stale
 
 
 def classify(days):
@@ -96,13 +177,19 @@ def classify(days):
 
 
 def build(snap_dir=SNAP_DIR, week=None, league=None):
-    snaps = load_snapshots(snap_dir, week)
+    snaps, stale = drop_stale_restatements(load_snapshots(snap_dir, week))
     # (player_slug or name) -> {weekday: record}, newest capture per day wins
     by_player = defaultdict(dict)
     meta = {}
-    days_seen, clubs_by_day = {}, defaultdict(set)
+    days_seen, clubs_by_day, reattributed = {}, defaultdict(set), []
     for d, fname in snaps:
-        day = d.get("weekday")
+        day = practice_day(d)
+        if day != d.get("weekday"):
+            reattributed.append({"file": fname, "captured_at": d.get("captured_at"),
+                                 "stamped": d.get("weekday"), "filed_for": day,
+                                 "why": (f"captured before {FILING_CUTOFF_UTC}:00 "
+                                         f"UTC, so it carries the previous day's "
+                                         f"column")})
         days_seen[day] = max(days_seen.get(day, ""), d.get("captured_at", ""))
         for t in d.get("teams", []):
             clubs_by_day[day].add(t.get("team"))
@@ -145,13 +232,19 @@ def build(snap_dir=SNAP_DIR, week=None, league=None):
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "week": week,
         "snapshots_used": [n for _, n in snaps],
+        "snapshots_ignored_as_stale": stale,
+        "snapshots_reattributed": reattributed,
         "days_captured": sorted(days_seen, key=lambda d: PRACTICE_DAYS.index(d)
                                 if d in PRACTICE_DAYS else 9),
         "days_missing": [d for d in PRACTICE_DAYS if d not in days_seen],
         "clubs_by_day": {k: sorted(v) for k, v in clubs_by_day.items()},
         "caveat": ("Participation only. FULL means the club filed Full "
                    "Participation -- not that no snap limit exists. A day never "
-                   "captured cannot be recovered from any source."),
+                   "captured cannot be recovered from any source." + (
+                       f" {len(stale)} capture(s) restated the previous day's "
+                       f"filing unchanged and were ignored rather than read as "
+                       f"a new day; see snapshots_ignored_as_stale."
+                       if stale else "")),
         "players": len(rows),
         "progression": rows,
     }
@@ -212,6 +305,12 @@ def main(argv=None):
         print(f"wrote {out}")
         print(f"  {rep['players']} players | captured {rep['days_captured'] or 'nothing'}"
               f" | MISSING {rep['days_missing'] or 'none'}")
+        for rc in rep["snapshots_reattributed"]:
+            print(f"  MOVED   {rc['file']}: stamped {rc['stamped']}, "
+                  f"filed for {rc['filed_for']}")
+        for sc in rep["snapshots_ignored_as_stale"]:
+            print(f"  IGNORED {sc['file']} ({sc['weekday']}): restates "
+                  f"{sc['restates']} unchanged")
         shown = rep.get("ours") or rep["progression"]
         label = "ours" if rep.get("ours") else "all"
         for r in shown[:15]:

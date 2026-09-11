@@ -130,3 +130,113 @@ def test_the_caveat_travels_with_the_data(tmp_path):
     rep = pp.build(tmp_path)
     assert "not that no snap limit exists" in rep["caveat"]
     assert rep["snapshots_used"] == ["practice-2026-09-09-1800.json"]
+
+
+# --- a capture is not evidence of a day -------------------------------------
+
+def _snap_at(tmp, date, at, players, club="NYG", day=None):
+    """A capture at a named UTC hour. `day` defaults to the stamp the collector
+    would write, which is the calendar weekday of the capture -- the thing the
+    assembler must not take at face value."""
+    from datetime import datetime
+    stamped = day or datetime.fromisoformat(date).strftime("%A")
+    d = {"captured_at": f"{date}T{at}:00+00:00", "capture_date": date,
+         "weekday": stamped, "source": "test", "week": None,
+         "clubs_filed": 1, "clubs_filed_list": [club],
+         "players": len(players),
+         "teams": [{"team": club, "team_name": club, "players": players}]}
+    (tmp / f"practice-{date}-{at.replace(':', '')}.json").write_text(json.dumps(d))
+
+
+def test_the_overnight_run_is_filed_under_the_day_it_actually_read(tmp_path):
+    """cron '47 1 * * 4,5,6' fires at 20:47 local the evening before, so its
+    capture carries that evening's column under the next morning's date. Read
+    literally it invents a day: the real 2026-09-11 06:38 run opened a Friday
+    column out of Thursday's filings and graded players ARRIVING on it."""
+    _snap_at(tmp_path, "2026-09-09", "21:47", [_p("Malik Nabers", "DNP")])
+    _snap_at(tmp_path, "2026-09-10", "23:25", [_p("Malik Nabers", "FULL")])
+    _snap_at(tmp_path, "2026-09-11", "06:38", [_p("Malik Nabers", "FULL")])
+    rep = pp.build(tmp_path)
+
+    assert rep["days_captured"] == ["Wednesday", "Thursday"]
+    assert rep["days_missing"] == ["Friday"]
+    row = rep["progression"][0]
+    assert row["practice_fri"] is None
+    assert row["trend"] == "ARRIVING"  # Wed->Thu only, not a three-day week
+    assert row["days_missing"] == ["Friday"]
+
+
+def test_a_late_filing_seen_overnight_lands_on_the_day_it_was_filed_for(tmp_path):
+    """The west-coast clubs file after the evening capture, so the overnight run
+    is where their report first appears. It is still THAT day's report: on
+    2026-09-10 the 06:39 run carried ARI's Wednesday filing, and reading it as
+    Thursday turned a Wednesday amendment into a day of improvement."""
+    _snap_at(tmp_path, "2026-09-09", "21:47",
+             [_p("Dre Greenlaw", "LIMITED"), _p("Ricky Pearsall", "FULL")])
+    _snap_at(tmp_path, "2026-09-10", "06:39",
+             [_p("Dre Greenlaw", "FULL"), _p("Ricky Pearsall", "FULL")])
+    _snap_at(tmp_path, "2026-09-10", "23:25",
+             [_p("Dre Greenlaw", "FULL"), _p("Ricky Pearsall", "LIMITED")])
+    rep = pp.build(tmp_path)
+
+    row = next(r for r in rep["progression"] if r["player"] == "Dre Greenlaw")
+    assert (row["practice_wed"], row["practice_thu"]) == ("FULL", "FULL")
+    assert row["trend"] == "FULL_ALL_WEEK"  # not ARRIVING off a Wednesday edit
+
+
+def test_a_reattributed_capture_is_named_rather_than_quietly_moved(tmp_path):
+    _snap_at(tmp_path, "2026-09-10", "23:25", [_p("Malik Nabers", "LIMITED")])
+    _snap_at(tmp_path, "2026-09-11", "06:38", [_p("Malik Nabers", "FULL")])
+    rep = pp.build(tmp_path)
+
+    moved = rep["snapshots_reattributed"]
+    assert len(moved) == 1
+    assert moved[0]["file"] == "practice-2026-09-11-0638.json"
+    assert (moved[0]["stamped"], moved[0]["filed_for"]) == ("Friday", "Thursday")
+    assert rep["progression"][0]["practice_thu"] == "FULL"  # the later run wins
+
+
+def test_an_afternoon_capture_keeps_its_own_day(tmp_path):
+    """The 21:47 UTC run is 16:47 local, after the clubs have filed. Nothing
+    about it is ambiguous and it must not be moved."""
+    _snap_at(tmp_path, "2026-09-11", "21:47", [_p("Malik Nabers", "FULL")])
+    rep = pp.build(tmp_path)
+    assert rep["snapshots_reattributed"] == []
+    assert rep["days_captured"] == ["Friday"]
+
+
+def test_a_page_that_never_changed_does_not_open_a_day(tmp_path):
+    """Belt and braces for the clock rule: an afternoon run can still read a
+    page the clubs have not touched, and an identical page is not a filing."""
+    _snap_at(tmp_path, "2026-09-10", "21:47", [_p("Malik Nabers", "LIMITED")])
+    _snap_at(tmp_path, "2026-09-11", "21:47", [_p("Malik Nabers", "LIMITED")])
+    rep = pp.build(tmp_path)
+
+    assert rep["days_captured"] == ["Thursday"]
+    assert rep["days_missing"] == ["Wednesday", "Friday"]
+    ignored = rep["snapshots_ignored_as_stale"]
+    assert [s["file"] for s in ignored] == ["practice-2026-09-11-2147.json"]
+    assert ignored[0]["restates"] == "practice-2026-09-10-2147.json"
+    assert "snapshots_ignored_as_stale" in rep["caveat"]
+
+
+def test_a_changed_game_status_alone_is_a_real_filing(tmp_path):
+    """Friday's news is often the designation, not the participation: the same
+    practice status with an Out beside it is new information."""
+    _snap_at(tmp_path, "2026-09-10", "21:47",
+             [_p("TreVeyon Henderson", "DNP", game="")])
+    _snap_at(tmp_path, "2026-09-11", "21:47",
+             [_p("TreVeyon Henderson", "DNP", game="Out")])
+    rep = pp.build(tmp_path)
+
+    assert rep["snapshots_ignored_as_stale"] == []
+    assert rep["days_captured"] == ["Thursday", "Friday"]
+    assert rep["progression"][0]["game_status"] == "Out"
+
+
+def test_the_first_capture_of_a_week_is_never_stale(tmp_path):
+    """There is no previous day to restate, so nothing is dropped."""
+    _snap_at(tmp_path, "2026-09-09", "21:47", [_p("Malik Nabers", "FULL")])
+    rep = pp.build(tmp_path)
+    assert rep["snapshots_ignored_as_stale"] == []
+    assert rep["days_captured"] == ["Wednesday"]
