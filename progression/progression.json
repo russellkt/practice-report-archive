@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T06:38:56+00:00",
+  "generated_at": "2026-09-11T21:26:31+00:00",
   "week": null,
   "snapshots_used": [
     "practice-2026-09-09-1847.json",
@@ -10,14 +10,33 @@
     "practice-2026-09-10-2325.json",
     "practice-2026-09-11-0638.json"
   ],
+  "snapshots_ignored_as_stale": [],
+  "snapshots_reattributed": [
+    {
+      "file": "practice-2026-09-10-0639.json",
+      "captured_at": "2026-09-10T06:39:25+00:00",
+      "stamped": "Thursday",
+      "filed_for": "Wednesday",
+      "why": "captured before 15:00 UTC, so it carries the previous day's column"
+    },
+    {
+      "file": "practice-2026-09-11-0638.json",
+      "captured_at": "2026-09-11T06:38:56+00:00",
+      "stamped": "Friday",
+      "filed_for": "Thursday",
+      "why": "captured before 15:00 UTC, so it carries the previous day's column"
+    }
+  ],
   "days_captured": [
     "Wednesday",
-    "Thursday",
+    "Thursday"
+  ],
+  "days_missing": [
     "Friday"
   ],
-  "days_missing": [],
   "clubs_by_day": {
     "Wednesday": [
+      "ARI",
       "ATL",
       "BAL",
       "BUF",
@@ -81,40 +100,6 @@
       "TB",
       "TEN",
       "WAS"
-    ],
-    "Friday": [
-      "ARI",
-      "ATL",
-      "BAL",
-      "BUF",
-      "CAR",
-      "CHI",
-      "CIN",
-      "CLE",
-      "DAL",
-      "DEN",
-      "DET",
-      "GB",
-      "HOU",
-      "IND",
-      "JAX",
-      "KC",
-      "LAC",
-      "LAR",
-      "LV",
-      "MIA",
-      "MIN",
-      "NE",
-      "NO",
-      "NYG",
-      "NYJ",
-      "PHI",
-      "PIT",
-      "SEA",
-      "SF",
-      "TB",
-      "TEN",
-      "WAS"
     ]
   },
   "caveat": "Participation only. FULL means the club filed Full Participation -- not that no snap limit exists. A day never captured cannot be recovered from any source.",
@@ -127,14 +112,15 @@
       "position": "S",
       "practice_wed": "LIMITED",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
+      "practice_fri": null,
       "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -146,14 +132,15 @@
       "position": "TE",
       "practice_wed": "FULL",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
+      "practice_fri": null,
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -165,14 +152,15 @@
       "position": "G",
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -184,14 +172,15 @@
       "position": "DE",
       "practice_wed": "DNP",
       "practice_thu": "DNP",
-      "practice_fri": "DNP",
+      "practice_fri": null,
       "trend": "DNP_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": "Not injury related - resting player",
       "game_status": "Out",
       "full_participation_final": false
@@ -203,14 +192,15 @@
       "position": "T",
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -222,14 +212,15 @@
       "position": "T",
       "practice_wed": "FULL",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
+      "practice_fri": null,
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -241,14 +232,15 @@
       "position": "WR",
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -260,14 +252,15 @@
       "position": "DT",
       "practice_wed": "DNP",
       "practice_thu": "DNP",
-      "practice_fri": "DNP",
+      "practice_fri": null,
       "trend": "DNP_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": "Knee",
       "game_status": "Out",
       "full_participation_final": false
@@ -279,14 +272,15 @@
       "position": "RB",
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -298,14 +292,15 @@
       "position": "TE",
       "practice_wed": "LIMITED",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
+      "practice_fri": null,
       "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -317,14 +312,15 @@
       "position": "T",
       "practice_wed": "FULL",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
+      "practice_fri": null,
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -336,14 +332,15 @@
       "position": "G",
       "practice_wed": "FULL",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
+      "practice_fri": null,
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -355,14 +352,15 @@
       "position": "QB",
       "practice_wed": null,
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
-      "trend": "FULL_ALL_WEEK",
+      "practice_fri": null,
+      "trend": "FULL_SINGLE",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -374,14 +372,15 @@
       "position": "DE",
       "practice_wed": null,
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
-      "trend": "FULL_ALL_WEEK",
+      "practice_fri": null,
+      "trend": "FULL_SINGLE",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -393,14 +392,15 @@
       "position": "RB",
       "practice_wed": "FULL",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
+      "practice_fri": null,
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -412,14 +412,15 @@
       "position": "RB",
       "practice_wed": "DNP",
       "practice_thu": "DNP",
-      "practice_fri": "DNP",
+      "practice_fri": null,
       "trend": "DNP_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -431,14 +432,15 @@
       "position": "DT",
       "practice_wed": null,
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
-      "trend": "LIMITED_STEADY",
+      "practice_fri": null,
+      "trend": "LIMITED_SINGLE",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -450,14 +452,15 @@
       "position": "LB",
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -469,14 +472,15 @@
       "position": "C",
       "practice_wed": "DNP",
       "practice_thu": "DNP",
-      "practice_fri": "DNP",
+      "practice_fri": null,
       "trend": "DNP_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": "Knee",
       "game_status": "Out",
       "full_participation_final": false
@@ -488,14 +492,15 @@
       "position": "TE",
       "practice_wed": "FULL",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
+      "practice_fri": null,
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -507,14 +512,15 @@
       "position": "CB",
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -526,14 +532,15 @@
       "position": "G",
       "practice_wed": "FULL",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
+      "practice_fri": null,
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -543,16 +550,17 @@
       "player_slug": "blake-gillikin",
       "team": "ARI",
       "position": "P",
-      "practice_wed": null,
+      "practice_wed": "FULL",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
+      "practice_fri": null,
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -564,14 +572,15 @@
       "position": "DT",
       "practice_wed": "LIMITED",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
+      "practice_fri": null,
       "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -583,14 +592,15 @@
       "position": "DT",
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -602,14 +612,15 @@
       "position": "RB",
       "practice_wed": "FULL",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
+      "practice_fri": null,
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -621,14 +632,15 @@
       "position": "WR",
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -640,14 +652,15 @@
       "position": "TE",
       "practice_wed": "DNP",
       "practice_thu": "DNP",
-      "practice_fri": "DNP",
+      "practice_fri": null,
       "trend": "DNP_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -659,14 +672,15 @@
       "position": "C",
       "practice_wed": "FULL",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
+      "practice_fri": null,
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -678,14 +692,15 @@
       "position": "LB",
       "practice_wed": "FULL",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
+      "practice_fri": null,
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -697,14 +712,15 @@
       "position": "T",
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -716,14 +732,15 @@
       "position": "LB",
       "practice_wed": "DNP",
       "practice_thu": "DNP",
-      "practice_fri": "DNP",
+      "practice_fri": null,
       "trend": "DNP_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -735,14 +752,15 @@
       "position": "LB",
       "practice_wed": "FULL",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
+      "practice_fri": null,
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -754,14 +772,15 @@
       "position": "LB",
       "practice_wed": "DNP",
       "practice_thu": "DNP",
-      "practice_fri": "DNP",
+      "practice_fri": null,
       "trend": "DNP_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -773,14 +792,15 @@
       "position": "S",
       "practice_wed": null,
       "practice_thu": "DNP",
-      "practice_fri": "DNP",
-      "trend": "DNP_ALL_WEEK",
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -792,14 +812,15 @@
       "position": "DE",
       "practice_wed": "FULL",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
+      "practice_fri": null,
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -811,14 +832,15 @@
       "position": "DT",
       "practice_wed": "FULL",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
+      "practice_fri": null,
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -830,14 +852,15 @@
       "position": "S",
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -849,14 +872,15 @@
       "position": "LB",
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -868,14 +892,15 @@
       "position": "T",
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -887,14 +912,15 @@
       "position": "CB",
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -906,14 +932,15 @@
       "position": "CB",
       "practice_wed": null,
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
-      "trend": "LIMITED_STEADY",
+      "practice_fri": null,
+      "trend": "LIMITED_SINGLE",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -925,14 +952,15 @@
       "position": "DT",
       "practice_wed": null,
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
-      "trend": "LIMITED_STEADY",
+      "practice_fri": null,
+      "trend": "LIMITED_SINGLE",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -942,16 +970,17 @@
       "player_slug": "dadrion-taylor-demerson",
       "team": "ARI",
       "position": "S",
-      "practice_wed": null,
+      "practice_wed": "LIMITED",
       "practice_thu": "DNP",
-      "practice_fri": "DNP",
-      "trend": "DNP_ALL_WEEK",
+      "practice_fri": null,
+      "trend": "DECLINING",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -963,14 +992,15 @@
       "position": "DT",
       "practice_wed": null,
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
-      "trend": "LIMITED_STEADY",
+      "practice_fri": null,
+      "trend": "LIMITED_SINGLE",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -982,14 +1012,15 @@
       "position": "DT",
       "practice_wed": null,
       "practice_thu": "DNP",
-      "practice_fri": "DNP",
-      "trend": "DNP_ALL_WEEK",
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -1001,14 +1032,15 @@
       "position": "CB",
       "practice_wed": "DNP",
       "practice_thu": "DNP",
-      "practice_fri": "DNP",
+      "practice_fri": null,
       "trend": "DNP_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -1020,14 +1052,15 @@
       "position": "DE",
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -1039,14 +1072,15 @@
       "position": "DT",
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -1058,14 +1092,15 @@
       "position": "WR",
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -1075,16 +1110,17 @@
       "player_slug": "dre-greenlaw-x9042",
       "team": "SF",
       "position": "LB",
-      "practice_wed": "LIMITED",
+      "practice_wed": "FULL",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
-      "trend": "ARRIVING",
+      "practice_fri": null,
+      "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -1096,14 +1132,15 @@
       "position": "TE",
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -1115,14 +1152,15 @@
       "position": "RB",
       "practice_wed": "FULL",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
+      "practice_fri": null,
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -1134,14 +1172,15 @@
       "position": "WR",
       "practice_wed": "FULL",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
+      "practice_fri": null,
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -1153,14 +1192,15 @@
       "position": "CB",
       "practice_wed": "FULL",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
+      "practice_fri": null,
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -1170,16 +1210,17 @@
       "player_slug": "garrett-williams",
       "team": "ARI",
       "position": "CB",
-      "practice_wed": null,
+      "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -1191,14 +1232,15 @@
       "position": "TE",
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -1208,16 +1250,17 @@
       "player_slug": "gracen-halton",
       "team": "SF",
       "position": "DT",
-      "practice_wed": "LIMITED",
+      "practice_wed": "FULL",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
-      "trend": "ARRIVING",
+      "practice_fri": null,
+      "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -1229,14 +1272,15 @@
       "position": "DT",
       "practice_wed": null,
       "practice_thu": "DNP",
-      "practice_fri": "DNP",
-      "trend": "DNP_ALL_WEEK",
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -1248,14 +1292,15 @@
       "position": "LB",
       "practice_wed": "FULL",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
+      "practice_fri": null,
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -1267,14 +1312,15 @@
       "position": "DT",
       "practice_wed": null,
       "practice_thu": "DNP",
-      "practice_fri": "DNP",
-      "trend": "DNP_ALL_WEEK",
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -1284,16 +1330,17 @@
       "player_slug": "isaiah-adams",
       "team": "ARI",
       "position": "G",
-      "practice_wed": null,
+      "practice_wed": "DNP",
       "practice_thu": "DNP",
-      "practice_fri": "DNP",
+      "practice_fri": null,
       "trend": "DNP_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -1305,14 +1352,15 @@
       "position": "RB",
       "practice_wed": "FULL",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
+      "practice_fri": null,
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -1324,14 +1372,15 @@
       "position": "WR",
       "practice_wed": "FULL",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
+      "practice_fri": null,
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -1343,14 +1392,15 @@
       "position": "LB",
       "practice_wed": null,
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
-      "trend": "FULL_ALL_WEEK",
+      "practice_fri": null,
+      "trend": "FULL_SINGLE",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -1362,14 +1412,15 @@
       "position": "S",
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -1381,14 +1432,15 @@
       "position": "RB",
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -1400,14 +1452,15 @@
       "position": "S",
       "practice_wed": "DNP",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
       "trend": "IMPROVING",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -1419,14 +1472,15 @@
       "position": "WR",
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -1438,14 +1492,15 @@
       "position": "WR",
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -1457,14 +1512,15 @@
       "position": "DT",
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": "Hamstring",
       "game_status": "Questionable",
       "full_participation_final": false
@@ -1476,14 +1532,15 @@
       "position": "DT",
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -1495,14 +1552,15 @@
       "position": "DT",
       "practice_wed": null,
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
-      "trend": "FULL_ALL_WEEK",
+      "practice_fri": null,
+      "trend": "FULL_SINGLE",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -1514,14 +1572,15 @@
       "position": "T",
       "practice_wed": null,
       "practice_thu": "DNP",
-      "practice_fri": "DNP",
-      "trend": "DNP_ALL_WEEK",
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -1531,16 +1590,17 @@
       "player_slug": "jaylen-watson",
       "team": "LAR",
       "position": "CB",
-      "practice_wed": "LIMITED",
+      "practice_wed": "FULL",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
-      "trend": "ARRIVING",
+      "practice_fri": null,
+      "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -1550,16 +1610,17 @@
       "player_slug": "jeremiyah-love",
       "team": "ARI",
       "position": "RB",
-      "practice_wed": null,
+      "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -1571,14 +1632,15 @@
       "position": "LB",
       "practice_wed": "FULL",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
+      "practice_fri": null,
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -1590,14 +1652,15 @@
       "position": "G",
       "practice_wed": null,
       "practice_thu": "DNP",
-      "practice_fri": "DNP",
-      "trend": "DNP_ALL_WEEK",
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -1609,14 +1672,15 @@
       "position": "CB",
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -1628,14 +1692,15 @@
       "position": "DT",
       "practice_wed": null,
       "practice_thu": "DNP",
-      "practice_fri": "DNP",
-      "trend": "DNP_ALL_WEEK",
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -1647,14 +1712,15 @@
       "position": "DT",
       "practice_wed": "FULL",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
+      "practice_fri": null,
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -1666,14 +1732,15 @@
       "position": "LB",
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -1685,14 +1752,15 @@
       "position": "RB",
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -1704,14 +1772,15 @@
       "position": "CB",
       "practice_wed": "DNP",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
       "trend": "IMPROVING",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -1723,14 +1792,15 @@
       "position": "LB",
       "practice_wed": "FULL",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
+      "practice_fri": null,
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -1742,14 +1812,15 @@
       "position": "T",
       "practice_wed": "LIMITED",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
+      "practice_fri": null,
       "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -1761,14 +1832,15 @@
       "position": "DE",
       "practice_wed": "DNP",
       "practice_thu": "DNP",
-      "practice_fri": "DNP",
+      "practice_fri": null,
       "trend": "DNP_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -1780,14 +1852,15 @@
       "position": "T",
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -1799,14 +1872,15 @@
       "position": "T",
       "practice_wed": null,
       "practice_thu": "DNP",
-      "practice_fri": "DNP",
-      "trend": "DNP_ALL_WEEK",
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -1816,16 +1890,17 @@
       "player_slug": "josh-sweat",
       "team": "ARI",
       "position": "LB",
-      "practice_wed": null,
+      "practice_wed": "DNP",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
-      "trend": "LIMITED_STEADY",
+      "practice_fri": null,
+      "trend": "IMPROVING",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -1837,14 +1912,15 @@
       "position": "CB",
       "practice_wed": "FULL",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
+      "practice_fri": null,
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -1856,14 +1932,15 @@
       "position": "T",
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -1875,14 +1952,15 @@
       "position": "LB",
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -1894,14 +1972,15 @@
       "position": "DT",
       "practice_wed": "LIMITED",
       "practice_thu": "DNP",
-      "practice_fri": "DNP",
+      "practice_fri": null,
       "trend": "DECLINING",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -1913,14 +1992,15 @@
       "position": "RB",
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -1932,14 +2012,15 @@
       "position": "CB",
       "practice_wed": "FULL",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
+      "practice_fri": null,
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -1951,14 +2032,15 @@
       "position": "DE",
       "practice_wed": "FULL",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
+      "practice_fri": null,
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -1970,14 +2052,15 @@
       "position": "LB",
       "practice_wed": null,
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
-      "trend": "LIMITED_STEADY",
+      "practice_fri": null,
+      "trend": "LIMITED_SINGLE",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -1989,14 +2072,15 @@
       "position": "TE",
       "practice_wed": "FULL",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
+      "practice_fri": null,
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -2008,14 +2092,15 @@
       "position": "DE",
       "practice_wed": "DNP",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
+      "practice_fri": null,
       "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -2027,14 +2112,15 @@
       "position": "G",
       "practice_wed": "LIMITED",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
+      "practice_fri": null,
       "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -2046,14 +2132,15 @@
       "position": "FB",
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -2065,14 +2152,15 @@
       "position": "CB",
       "practice_wed": null,
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
-      "trend": "FULL_ALL_WEEK",
+      "practice_fri": null,
+      "trend": "FULL_SINGLE",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -2084,14 +2172,15 @@
       "position": "RB",
       "practice_wed": "DNP",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
       "trend": "IMPROVING",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -2101,16 +2190,17 @@
       "player_slug": "luke-gifford",
       "team": "SF",
       "position": "LB",
-      "practice_wed": "LIMITED",
+      "practice_wed": "FULL",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
-      "trend": "ARRIVING",
+      "practice_fri": null,
+      "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -2122,14 +2212,15 @@
       "position": "TE",
       "practice_wed": null,
       "practice_thu": "DNP",
-      "practice_fri": "DNP",
-      "trend": "DNP_ALL_WEEK",
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -2141,14 +2232,15 @@
       "position": "DT",
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -2160,14 +2252,15 @@
       "position": "WR",
       "practice_wed": "FULL",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
+      "practice_fri": null,
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -2179,14 +2272,15 @@
       "position": "QB",
       "practice_wed": "FULL",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
+      "practice_fri": null,
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -2198,14 +2292,15 @@
       "position": "WR",
       "practice_wed": null,
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
-      "trend": "FULL_ALL_WEEK",
+      "practice_fri": null,
+      "trend": "FULL_SINGLE",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -2217,14 +2312,15 @@
       "position": "DT",
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -2236,14 +2332,15 @@
       "position": "QB",
       "practice_wed": "FULL",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
+      "practice_fri": null,
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -2255,14 +2352,15 @@
       "position": "LB",
       "practice_wed": "FULL",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
+      "practice_fri": null,
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -2274,14 +2372,15 @@
       "position": "C",
       "practice_wed": "FULL",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
+      "practice_fri": null,
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -2293,14 +2392,15 @@
       "position": "DE",
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -2312,14 +2412,15 @@
       "position": "S",
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": "Ankle",
       "game_status": "Questionable",
       "full_participation_final": false
@@ -2331,14 +2432,15 @@
       "position": "DT",
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -2350,14 +2452,15 @@
       "position": "LB",
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -2369,14 +2472,15 @@
       "position": "TE",
       "practice_wed": "DNP",
       "practice_thu": "DNP",
-      "practice_fri": "DNP",
+      "practice_fri": null,
       "trend": "DNP_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -2388,14 +2492,15 @@
       "position": "T",
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -2407,14 +2512,15 @@
       "position": "C",
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -2426,14 +2532,15 @@
       "position": "LB",
       "practice_wed": "DNP",
       "practice_thu": "DNP",
-      "practice_fri": "DNP",
+      "practice_fri": null,
       "trend": "DNP_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -2445,14 +2552,15 @@
       "position": "QB",
       "practice_wed": null,
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
-      "trend": "FULL_ALL_WEEK",
+      "practice_fri": null,
+      "trend": "FULL_SINGLE",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -2464,14 +2572,15 @@
       "position": "DE",
       "practice_wed": null,
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
-      "trend": "FULL_ALL_WEEK",
+      "practice_fri": null,
+      "trend": "FULL_SINGLE",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -2483,14 +2592,15 @@
       "position": "S",
       "practice_wed": "LIMITED",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
+      "practice_fri": null,
       "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -2502,14 +2612,15 @@
       "position": "WR",
       "practice_wed": null,
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
-      "trend": "FULL_ALL_WEEK",
+      "practice_fri": null,
+      "trend": "FULL_SINGLE",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -2519,16 +2630,17 @@
       "player_slug": "renardo-green",
       "team": "SF",
       "position": "CB",
-      "practice_wed": "LIMITED",
+      "practice_wed": "FULL",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
-      "trend": "ARRIVING",
+      "practice_fri": null,
+      "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -2540,14 +2652,15 @@
       "position": "WR",
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -2557,16 +2670,17 @@
       "player_slug": "romello-height",
       "team": "SF",
       "position": "DE",
-      "practice_wed": "LIMITED",
+      "practice_wed": "FULL",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
-      "trend": "ARRIVING",
+      "practice_fri": null,
+      "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -2578,14 +2692,15 @@
       "position": "LB",
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -2597,14 +2712,15 @@
       "position": "LB",
       "practice_wed": "LIMITED",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
+      "practice_fri": null,
       "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -2616,14 +2732,15 @@
       "position": "RB",
       "practice_wed": "DNP",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
       "trend": "IMPROVING",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -2635,14 +2752,15 @@
       "position": "C",
       "practice_wed": "LIMITED",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
+      "practice_fri": null,
       "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -2654,14 +2772,15 @@
       "position": "TE",
       "practice_wed": "FULL",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
+      "practice_fri": null,
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -2673,14 +2792,15 @@
       "position": "DT",
       "practice_wed": "FULL",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
+      "practice_fri": null,
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -2692,14 +2812,15 @@
       "position": "DE",
       "practice_wed": "FULL",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
       "trend": "DECLINING",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -2711,14 +2832,15 @@
       "position": "DE",
       "practice_wed": "LIMITED",
       "practice_thu": "DNP",
-      "practice_fri": "DNP",
+      "practice_fri": null,
       "trend": "DECLINING",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -2730,14 +2852,15 @@
       "position": "LB",
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -2749,14 +2872,15 @@
       "position": "WR",
       "practice_wed": "FULL",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
+      "practice_fri": null,
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -2768,14 +2892,15 @@
       "position": "G",
       "practice_wed": "LIMITED",
       "practice_thu": "DNP",
-      "practice_fri": "DNP",
+      "practice_fri": null,
       "trend": "DECLINING",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -2787,14 +2912,15 @@
       "position": "TE",
       "practice_wed": "FULL",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
+      "practice_fri": null,
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -2806,14 +2932,15 @@
       "position": "S",
       "practice_wed": "FULL",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
+      "practice_fri": null,
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -2825,14 +2952,15 @@
       "position": "WR",
       "practice_wed": "DNP",
       "practice_thu": "DNP",
-      "practice_fri": "DNP",
+      "practice_fri": null,
       "trend": "DNP_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -2844,14 +2972,15 @@
       "position": "WR",
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": "Hamstring",
       "game_status": "Questionable",
       "full_participation_final": false
@@ -2863,14 +2992,15 @@
       "position": "RB",
       "practice_wed": "DNP",
       "practice_thu": "DNP",
-      "practice_fri": "DNP",
+      "practice_fri": null,
       "trend": "DNP_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": "Ankle",
       "game_status": "Out",
       "full_participation_final": false
@@ -2882,14 +3012,15 @@
       "position": "T",
       "practice_wed": "FULL",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
+      "practice_fri": null,
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -2901,14 +3032,15 @@
       "position": "LB",
       "practice_wed": "FULL",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
+      "practice_fri": null,
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -2920,14 +3052,15 @@
       "position": "G",
       "practice_wed": null,
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
-      "trend": "FULL_ALL_WEEK",
+      "practice_fri": null,
+      "trend": "FULL_SINGLE",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -2939,14 +3072,15 @@
       "position": "QB",
       "practice_wed": null,
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
-      "trend": "LIMITED_STEADY",
+      "practice_fri": null,
+      "trend": "LIMITED_SINGLE",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -2958,14 +3092,15 @@
       "position": "DE",
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -2977,14 +3112,15 @@
       "position": "RB",
       "practice_wed": "DNP",
       "practice_thu": "DNP",
-      "practice_fri": "DNP",
+      "practice_fri": null,
       "trend": "DNP_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -2996,14 +3132,15 @@
       "position": "S",
       "practice_wed": "DNP",
       "practice_thu": "DNP",
-      "practice_fri": "DNP",
+      "practice_fri": null,
       "trend": "DNP_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": "Hamstring",
       "game_status": "Out",
       "full_participation_final": false
@@ -3015,14 +3152,15 @@
       "position": "LB",
       "practice_wed": "DNP",
       "practice_thu": "DNP",
-      "practice_fri": "DNP",
+      "practice_fri": null,
       "trend": "DNP_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -3034,14 +3172,15 @@
       "position": "TE",
       "practice_wed": "FULL",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
+      "practice_fri": null,
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -3053,14 +3192,15 @@
       "position": "QB",
       "practice_wed": "DNP",
       "practice_thu": "DNP",
-      "practice_fri": "DNP",
+      "practice_fri": null,
       "trend": "DNP_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -3072,14 +3212,15 @@
       "position": "CB",
       "practice_wed": "FULL",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
+      "practice_fri": null,
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -3091,14 +3232,15 @@
       "position": "LB",
       "practice_wed": "FULL",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
+      "practice_fri": null,
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -3110,14 +3252,15 @@
       "position": "DT",
       "practice_wed": "DNP",
       "practice_thu": "DNP",
-      "practice_fri": "DNP",
+      "practice_fri": null,
       "trend": "DNP_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -3129,14 +3272,15 @@
       "position": "DE",
       "practice_wed": null,
       "practice_thu": "DNP",
-      "practice_fri": "DNP",
-      "trend": "DNP_ALL_WEEK",
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -3146,16 +3290,17 @@
       "player_slug": "will-johnson-5",
       "team": "ARI",
       "position": "CB",
-      "practice_wed": null,
+      "practice_wed": "FULL",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
+      "practice_fri": null,
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -3167,14 +3312,15 @@
       "position": "TE",
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -3186,14 +3332,15 @@
       "position": "S",
       "practice_wed": null,
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
-      "trend": "LIMITED_STEADY",
+      "practice_fri": null,
+      "trend": "LIMITED_SINGLE",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -3205,14 +3352,15 @@
       "position": "WR",
       "practice_wed": null,
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
-      "trend": "FULL_ALL_WEEK",
+      "practice_fri": null,
+      "trend": "FULL_SINGLE",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
@@ -3224,14 +3372,15 @@
       "position": "DE",
       "practice_wed": "LIMITED",
       "practice_thu": "DNP",
-      "practice_fri": "DNP",
+      "practice_fri": null,
       "trend": "DECLINING",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -3243,14 +3392,15 @@
       "position": "T",
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -3262,14 +3412,15 @@
       "position": "WR",
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": false
@@ -3281,14 +3432,15 @@
       "position": "WR",
       "practice_wed": "LIMITED",
       "practice_thu": "FULL",
-      "practice_fri": "FULL",
+      "practice_fri": null,
       "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ],
+      "days_missing": [
         "Friday"
       ],
-      "days_missing": [],
       "injury": null,
       "game_status": null,
       "full_participation_final": true
