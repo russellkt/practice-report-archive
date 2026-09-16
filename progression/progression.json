@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T06:32:04+00:00",
+  "generated_at": "2026-09-16T23:53:00+00:00",
   "week": null,
   "snapshots_used": [
     "practice-2026-09-09-1847.json",
@@ -10,7 +10,8 @@
     "practice-2026-09-10-2325.json",
     "practice-2026-09-11-0638.json",
     "practice-2026-09-11-2333.json",
-    "practice-2026-09-12-0632.json"
+    "practice-2026-09-12-0632.json",
+    "practice-2026-09-16-2353.json"
   ],
   "snapshots_ignored_as_stale": [],
   "snapshots_reattributed": [
@@ -53,11 +54,13 @@
       "CIN",
       "CLE",
       "DAL",
+      "DEN",
       "DET",
       "GB",
       "HOU",
       "IND",
       "JAX",
+      "KC",
       "LAC",
       "LAR",
       "LV",
@@ -145,7 +148,7 @@
     ]
   },
   "caveat": "Participation only. FULL means the club filed Full Participation -- not that no snap limit exists. A day never captured cannot be recovered from any source.",
-  "players": 182,
+  "players": 280,
   "progression": [
     {
       "player": "A.J. Haulcy",
@@ -165,6 +168,25 @@
       "injury": null,
       "game_status": null,
       "full_participation_final": true
+    },
+    {
+      "player": "A.J. Terrell",
+      "player_slug": "a-j-terrell",
+      "team": "ATL",
+      "position": "CB",
+      "practice_wed": "DNP",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
     },
     {
       "player": "AJ Barner",
@@ -228,10 +250,48 @@
       "player_slug": "ajani-cornelius",
       "team": "DAL",
       "position": "T",
-      "practice_wed": "LIMITED",
+      "practice_wed": "FULL",
       "practice_thu": "LIMITED",
       "practice_fri": "FULL",
-      "trend": "ARRIVING",
+      "trend": "MIXED",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": true
+    },
+    {
+      "player": "Akeem Davis-Gaither",
+      "player_slug": "akeem-davis-gaither",
+      "team": "IND",
+      "position": "LB",
+      "practice_wed": "FULL",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "FULL_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": true
+    },
+    {
+      "player": "Akheem Mesidor",
+      "player_slug": "akheem-mesidor",
+      "team": "LAC",
+      "position": "DE",
+      "practice_wed": "FULL",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "FULL_SINGLE",
       "days_captured": [
         "Wednesday",
         "Thursday",
@@ -266,10 +326,10 @@
       "player_slug": "alec-pierce",
       "team": "IND",
       "position": "WR",
-      "practice_wed": "LIMITED",
+      "practice_wed": "FULL",
       "practice_thu": "LIMITED",
       "practice_fri": "LIMITED",
-      "trend": "LIMITED_STEADY",
+      "trend": "DECLINING",
       "days_captured": [
         "Wednesday",
         "Thursday",
@@ -304,10 +364,10 @@
       "player_slug": "alvin-kamara",
       "team": "NO",
       "position": "RB",
-      "practice_wed": "LIMITED",
+      "practice_wed": "FULL",
       "practice_thu": "LIMITED",
       "practice_fri": "FULL",
-      "trend": "ARRIVING",
+      "trend": "MIXED",
       "days_captured": [
         "Wednesday",
         "Thursday",
@@ -357,14 +417,33 @@
       "full_participation_final": true
     },
     {
+      "player": "Andrew Van Ginkel",
+      "player_slug": "andrew-van-ginkel",
+      "team": "MIN",
+      "position": "LB",
+      "practice_wed": "LIMITED",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "LIMITED_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
       "player": "Anthony Bradford",
       "player_slug": "anthony-bradford",
       "team": "SEA",
       "position": "G",
-      "practice_wed": "FULL",
+      "practice_wed": "LIMITED",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "trend": "FULL_ALL_WEEK",
+      "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
@@ -380,10 +459,10 @@
       "player_slug": "anthony-richardson",
       "team": "IND",
       "position": "QB",
-      "practice_wed": null,
+      "practice_wed": "DNP",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "trend": "FULL_ALL_WEEK",
+      "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
@@ -414,11 +493,30 @@
       "full_participation_final": false
     },
     {
+      "player": "Ashton Dulin",
+      "player_slug": "ashton-dulin",
+      "team": "IND",
+      "position": "WR",
+      "practice_wed": "DNP",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
       "player": "Ashton Gillotte",
       "player_slug": "ashton-gillotte",
       "team": "KC",
       "position": "DE",
-      "practice_wed": null,
+      "practice_wed": "FULL",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
       "trend": "FULL_ALL_WEEK",
@@ -475,10 +573,10 @@
       "player_slug": "austin-ajiake",
       "team": "IND",
       "position": "LB",
-      "practice_wed": null,
+      "practice_wed": "LIMITED",
       "practice_thu": null,
       "practice_fri": "DNP",
-      "trend": "DNP_SINGLE",
+      "trend": "DECLINING",
       "days_captured": [
         "Wednesday",
         "Thursday",
@@ -494,7 +592,7 @@
       "player_slug": "b-j-hill",
       "team": "CIN",
       "position": "DT",
-      "practice_wed": null,
+      "practice_wed": "DNP",
       "practice_thu": "LIMITED",
       "practice_fri": "FULL",
       "trend": "ARRIVING",
@@ -532,10 +630,10 @@
       "player_slug": "ben-brown-2",
       "team": "NE",
       "position": "C",
-      "practice_wed": "DNP",
+      "practice_wed": "LIMITED",
       "practice_thu": "DNP",
       "practice_fri": "DNP",
-      "trend": "DNP_ALL_WEEK",
+      "trend": "DECLINING",
       "days_captured": [
         "Wednesday",
         "Thursday",
@@ -570,10 +668,10 @@
       "player_slug": "billy-bowman-jr",
       "team": "ATL",
       "position": "CB",
-      "practice_wed": "LIMITED",
+      "practice_wed": "FULL",
       "practice_thu": "LIMITED",
       "practice_fri": "LIMITED",
-      "trend": "LIMITED_STEADY",
+      "trend": "DECLINING",
       "days_captured": [
         "Wednesday",
         "Thursday",
@@ -604,6 +702,25 @@
       "full_participation_final": true
     },
     {
+      "player": "Blake Cashman",
+      "player_slug": "blake-cashman",
+      "team": "MIN",
+      "position": "LB",
+      "practice_wed": "LIMITED",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "LIMITED_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
       "player": "Blake Gillikin",
       "player_slug": "blake-gillikin",
       "team": "ARI",
@@ -623,14 +740,71 @@
       "full_participation_final": true
     },
     {
+      "player": "Blake Miller",
+      "player_slug": "blake-miller-3",
+      "team": "DET",
+      "position": "T",
+      "practice_wed": "DNP",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": "Knee",
+      "game_status": "Out",
+      "full_participation_final": false
+    },
+    {
       "player": "Bobby Brown III",
       "player_slug": "bobby-brown-iii",
       "team": "CAR",
       "position": "DT",
-      "practice_wed": "LIMITED",
+      "practice_wed": "DNP",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
       "trend": "ARRIVING",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": true
+    },
+    {
+      "player": "Bradley Chubb",
+      "player_slug": "bradley-chubb",
+      "team": "BUF",
+      "position": "LB",
+      "practice_wed": "FULL",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "FULL_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": true
+    },
+    {
+      "player": "Brandon Cisse",
+      "player_slug": "brandon-cisse",
+      "team": "GB",
+      "position": "CB",
+      "practice_wed": "FULL",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "FULL_SINGLE",
       "days_captured": [
         "Wednesday",
         "Thursday",
@@ -699,6 +873,44 @@
       "full_participation_final": true
     },
     {
+      "player": "Brian O'Neill",
+      "player_slug": "brian-o-neill",
+      "team": "MIN",
+      "position": "T",
+      "practice_wed": "LIMITED",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "LIMITED_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
+      "player": "Brian Thomas Jr.",
+      "player_slug": "brian-thomas-jr",
+      "team": "JAX",
+      "position": "WR",
+      "practice_wed": "LIMITED",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "LIMITED_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
       "player": "Brock Bowers",
       "player_slug": "brock-bowers",
       "team": "LV",
@@ -759,11 +971,11 @@
       "player": "Calais Campbell",
       "player_slug": "calais-campbell",
       "team": "BAL",
-      "position": "DE",
-      "practice_wed": null,
+      "position": "DT",
+      "practice_wed": "DNP",
       "practice_thu": null,
       "practice_fri": "DNP",
-      "trend": "DNP_SINGLE",
+      "trend": "DNP_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
@@ -798,10 +1010,10 @@
       "player_slug": "cameron-jordan",
       "team": "NO",
       "position": "LB",
-      "practice_wed": "DNP",
+      "practice_wed": "LIMITED",
       "practice_thu": "DNP",
       "practice_fri": "LIMITED",
-      "trend": "IMPROVING",
+      "trend": "MIXED",
       "days_captured": [
         "Wednesday",
         "Thursday",
@@ -832,6 +1044,25 @@
       "full_participation_final": false
     },
     {
+      "player": "Carlton Davis III",
+      "player_slug": "carlton-davis",
+      "team": "NE",
+      "position": "CB",
+      "practice_wed": "DNP",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
       "player": "Carson Schwesinger",
       "player_slug": "carson-schwesinger",
       "team": "CLE",
@@ -855,10 +1086,10 @@
       "player_slug": "cedric-gray",
       "team": "TEN",
       "position": "LB",
-      "practice_wed": "DNP",
+      "practice_wed": "FULL",
       "practice_thu": "DNP",
       "practice_fri": "DNP",
-      "trend": "DNP_ALL_WEEK",
+      "trend": "DECLINING",
       "days_captured": [
         "Wednesday",
         "Thursday",
@@ -874,7 +1105,7 @@
       "player_slug": "chamarri-conner",
       "team": "KC",
       "position": "S",
-      "practice_wed": null,
+      "practice_wed": "DNP",
       "practice_thu": "DNP",
       "practice_fri": "DNP",
       "trend": "DNP_ALL_WEEK",
@@ -893,10 +1124,10 @@
       "player_slug": "charles-omenihu",
       "team": "WAS",
       "position": "DE",
-      "practice_wed": "FULL",
+      "practice_wed": "LIMITED",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "trend": "FULL_ALL_WEEK",
+      "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
@@ -927,13 +1158,32 @@
       "full_participation_final": false
     },
     {
-      "player": "Chris Jones",
-      "player_slug": "chris-jones",
-      "team": "KC",
-      "position": "DT",
-      "practice_wed": null,
+      "player": "Chig Okonkwo",
+      "player_slug": "chigoziem-okonkwo",
+      "team": "WAS",
+      "position": "TE",
+      "practice_wed": "DNP",
       "practice_thu": null,
-      "practice_fri": "LIMITED",
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
+      "player": "Chop Robinson",
+      "player_slug": "chop-robinson",
+      "team": "MIA",
+      "position": "LB",
+      "practice_wed": "LIMITED",
+      "practice_thu": null,
+      "practice_fri": null,
       "trend": "LIMITED_SINGLE",
       "days_captured": [
         "Wednesday",
@@ -944,6 +1194,63 @@
       "injury": null,
       "game_status": null,
       "full_participation_final": false
+    },
+    {
+      "player": "Chris Jones",
+      "player_slug": "chris-jones",
+      "team": "KC",
+      "position": "DT",
+      "practice_wed": "LIMITED",
+      "practice_thu": null,
+      "practice_fri": "LIMITED",
+      "trend": "LIMITED_STEADY",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
+      "player": "Chris Lindstrom",
+      "player_slug": "chris-lindstrom",
+      "team": "ATL",
+      "position": "G",
+      "practice_wed": "DNP",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
+      "player": "Chris Paul",
+      "player_slug": "chris-paul",
+      "team": "WAS",
+      "position": "G",
+      "practice_wed": "FULL",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "FULL_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": true
     },
     {
       "player": "Christian Barmore",
@@ -988,10 +1295,10 @@
       "player_slug": "christian-izien",
       "team": "DET",
       "position": "S",
-      "practice_wed": "LIMITED",
+      "practice_wed": "FULL",
       "practice_thu": "LIMITED",
       "practice_fri": "LIMITED",
-      "trend": "LIMITED_STEADY",
+      "trend": "DECLINING",
       "days_captured": [
         "Wednesday",
         "Thursday",
@@ -1003,14 +1310,52 @@
       "full_participation_final": false
     },
     {
+      "player": "Christian Mahogany",
+      "player_slug": "christian-mahogany",
+      "team": "DET",
+      "position": "G",
+      "practice_wed": "DNP",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": "Hip",
+      "game_status": "Out",
+      "full_participation_final": false
+    },
+    {
+      "player": "Christian McCaffrey",
+      "player_slug": "christian-mccaffrey",
+      "team": "SF",
+      "position": "RB",
+      "practice_wed": "DNP",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
       "player": "Christian Rozeboom",
       "player_slug": "christian-rozeboom",
       "team": "TB",
       "position": "LB",
-      "practice_wed": "LIMITED",
+      "practice_wed": "FULL",
       "practice_thu": "LIMITED",
       "practice_fri": "LIMITED",
-      "trend": "LIMITED_STEADY",
+      "trend": "DECLINING",
       "days_captured": [
         "Wednesday",
         "Thursday",
@@ -1018,6 +1363,25 @@
       ],
       "days_missing": [],
       "injury": "Foot",
+      "game_status": "Questionable",
+      "full_participation_final": false
+    },
+    {
+      "player": "Cole Bishop",
+      "player_slug": "cole-bishop",
+      "team": "BUF",
+      "position": "S",
+      "practice_wed": "LIMITED",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "LIMITED_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": "Knee, Groin",
       "game_status": "Questionable",
       "full_participation_final": false
     },
@@ -1030,6 +1394,82 @@
       "practice_thu": "LIMITED",
       "practice_fri": "LIMITED",
       "trend": "LIMITED_STEADY",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
+      "player": "Cooper DeJean",
+      "player_slug": "cooper-dejean",
+      "team": "PHI",
+      "position": "CB",
+      "practice_wed": "DNP",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
+      "player": "Cooper Kupp",
+      "player_slug": "cooper-kupp",
+      "team": "SEA",
+      "position": "WR",
+      "practice_wed": "LIMITED",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "LIMITED_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
+      "player": "Cooper Rush",
+      "player_slug": "cooper-rush",
+      "team": "ATL",
+      "position": "QB",
+      "practice_wed": "FULL",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "FULL_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": true
+    },
+    {
+      "player": "D'Andre Swift",
+      "player_slug": "d-andre-swift",
+      "team": "CHI",
+      "position": "RB",
+      "practice_wed": "LIMITED",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "LIMITED_SINGLE",
       "days_captured": [
         "Wednesday",
         "Thursday",
@@ -1057,6 +1497,25 @@
       "days_missing": [],
       "injury": "Calf",
       "game_status": "Doubtful",
+      "full_participation_final": false
+    },
+    {
+      "player": "D.J. Reed",
+      "player_slug": "d-j-reed",
+      "team": "DET",
+      "position": "CB",
+      "practice_wed": "LIMITED",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "LIMITED_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": "Foot",
+      "game_status": "Questionable",
       "full_participation_final": false
     },
     {
@@ -1117,14 +1576,71 @@
       "full_participation_final": false
     },
     {
+      "player": "Dalton Schultz",
+      "player_slug": "dalton-schultz",
+      "team": "HOU",
+      "position": "TE",
+      "practice_wed": "DNP",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
+      "player": "Dalvin Tomlinson",
+      "player_slug": "dalvin-tomlinson",
+      "team": "LAC",
+      "position": "DT",
+      "practice_wed": "LIMITED",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "LIMITED_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
+      "player": "Dametrious Crownover",
+      "player_slug": "dametrious-crownover",
+      "team": "NE",
+      "position": "T",
+      "practice_wed": "DNP",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
       "player": "Dante Trader Jr.",
       "player_slug": "dante-trader-jr",
       "team": "MIA",
       "position": "S",
-      "practice_wed": null,
+      "practice_wed": "FULL",
       "practice_thu": null,
       "practice_fri": "FULL",
-      "trend": "FULL_SINGLE",
+      "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
@@ -1136,14 +1652,109 @@
       "full_participation_final": true
     },
     {
+      "player": "Darien Porter",
+      "player_slug": "darien-porter-2",
+      "team": "LV",
+      "position": "CB",
+      "practice_wed": "DNP",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
+      "player": "Darnell Washington",
+      "player_slug": "darnell-washington",
+      "team": "PIT",
+      "position": "TE",
+      "practice_wed": "DNP",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
+      "player": "Darnell Wright",
+      "player_slug": "darnell-wright",
+      "team": "CHI",
+      "position": "T",
+      "practice_wed": "DNP",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
       "player": "Daron Payne",
       "player_slug": "daron-payne",
       "team": "WAS",
       "position": "DT",
-      "practice_wed": null,
+      "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
       "practice_fri": "LIMITED",
       "trend": "LIMITED_STEADY",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
+      "player": "Darren Waller",
+      "player_slug": "darren-waller",
+      "team": "CAR",
+      "position": "TE",
+      "practice_wed": "DNP",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
+      "player": "David Onyemata",
+      "player_slug": "david-onyemata",
+      "team": "NYJ",
+      "position": "DT",
+      "practice_wed": "DNP",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
       "days_captured": [
         "Wednesday",
         "Thursday",
@@ -1174,13 +1785,89 @@
       "full_participation_final": true
     },
     {
+      "player": "Dawand Jones",
+      "player_slug": "dawand-jones",
+      "team": "CLE",
+      "position": "T",
+      "practice_wed": "LIMITED",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "LIMITED_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
+      "player": "Dayo Odeyingbo",
+      "player_slug": "dayo-odeyingbo",
+      "team": "CHI",
+      "position": "DE",
+      "practice_wed": "LIMITED",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "LIMITED_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
+      "player": "De'Zhaun Stribling",
+      "player_slug": "de-zhaun-stribling",
+      "team": "SF",
+      "position": "WR",
+      "practice_wed": "DNP",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
       "player": "DeForest Buckner",
       "player_slug": "deforest-buckner",
       "team": "IND",
       "position": "DT",
-      "practice_wed": null,
+      "practice_wed": "FULL",
       "practice_thu": null,
       "practice_fri": "DNP",
+      "trend": "DECLINING",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
+      "player": "DeMarvion Overshown",
+      "player_slug": "demarvion-overshown",
+      "team": "DAL",
+      "position": "LB",
+      "practice_wed": "DNP",
+      "practice_thu": null,
+      "practice_fri": null,
       "trend": "DNP_SINGLE",
       "days_captured": [
         "Wednesday",
@@ -1197,10 +1884,10 @@
       "player_slug": "deane-leonard",
       "team": "LAC",
       "position": "CB",
-      "practice_wed": "DNP",
+      "practice_wed": "LIMITED",
       "practice_thu": "DNP",
       "practice_fri": "DNP",
-      "trend": "DNP_ALL_WEEK",
+      "trend": "DECLINING",
       "days_captured": [
         "Wednesday",
         "Thursday",
@@ -1210,6 +1897,25 @@
       "injury": "Abdomen",
       "game_status": "Out",
       "full_participation_final": false
+    },
+    {
+      "player": "Derius Davis",
+      "player_slug": "derius-davis",
+      "team": "LAC",
+      "position": "WR",
+      "practice_wed": "FULL",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "FULL_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": true
     },
     {
       "player": "Derrick Moore",
@@ -1254,10 +1960,10 @@
       "player_slug": "devontez-walker",
       "team": "BAL",
       "position": "WR",
-      "practice_wed": "LIMITED",
+      "practice_wed": "FULL",
       "practice_thu": "LIMITED",
       "practice_fri": "LIMITED",
-      "trend": "LIMITED_STEADY",
+      "trend": "DECLINING",
       "days_captured": [
         "Wednesday",
         "Thursday",
@@ -1288,14 +1994,33 @@
       "full_participation_final": false
     },
     {
+      "player": "Dorance Armstrong",
+      "player_slug": "dorance-armstrong",
+      "team": "WAS",
+      "position": "LB",
+      "practice_wed": "LIMITED",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "LIMITED_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
       "player": "Dre Greenlaw",
       "player_slug": "dre-greenlaw-x9042",
       "team": "SF",
       "position": "LB",
-      "practice_wed": "FULL",
+      "practice_wed": "DNP",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "trend": "FULL_ALL_WEEK",
+      "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
@@ -1305,6 +2030,63 @@
       "injury": null,
       "game_status": null,
       "full_participation_final": true
+    },
+    {
+      "player": "Dre'Mont Jones",
+      "player_slug": "dre-mont-jones",
+      "team": "NE",
+      "position": "LB",
+      "practice_wed": "LIMITED",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "LIMITED_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
+      "player": "Eddy Pineiro",
+      "player_slug": "eddy-pineiro",
+      "team": "SF",
+      "position": "K",
+      "practice_wed": "DNP",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
+      "player": "Elgton Jenkins",
+      "player_slug": "elgton-jenkins",
+      "team": "CLE",
+      "position": "C",
+      "practice_wed": "LIMITED",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "LIMITED_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
     },
     {
       "player": "Eli Stowers",
@@ -1323,6 +2105,25 @@
       "days_missing": [],
       "injury": "Hamstring",
       "game_status": "Questionable",
+      "full_participation_final": false
+    },
+    {
+      "player": "Elijah Molden",
+      "player_slug": "elijah-molden",
+      "team": "LAC",
+      "position": "S",
+      "practice_wed": "DNP",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
       "full_participation_final": false
     },
     {
@@ -1381,6 +2182,44 @@
       "injury": null,
       "game_status": null,
       "full_participation_final": true
+    },
+    {
+      "player": "Foye Oluokun",
+      "player_slug": "foye-oluokun",
+      "team": "JAX",
+      "position": "LB",
+      "practice_wed": "LIMITED",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "LIMITED_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
+      "player": "Frankie Luvu",
+      "player_slug": "frankie-luvu",
+      "team": "WAS",
+      "position": "LB",
+      "practice_wed": "DNP",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
     },
     {
       "player": "Garrett Williams",
@@ -1444,7 +2283,7 @@
       "player_slug": "grady-jarrett",
       "team": "CHI",
       "position": "DT",
-      "practice_wed": null,
+      "practice_wed": "DNP",
       "practice_thu": "DNP",
       "practice_fri": "FULL",
       "trend": "ARRIVING",
@@ -1554,6 +2393,25 @@
       "full_participation_final": true
     },
     {
+      "player": "Isaiah Stalbird",
+      "player_slug": "isaiah-stalbird",
+      "team": "NO",
+      "position": "LB",
+      "practice_wed": "DNP",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
       "player": "Ja'Marr Chase",
       "player_slug": "ja-marr-chase",
       "team": "CIN",
@@ -1592,6 +2450,44 @@
       "full_participation_final": true
     },
     {
+      "player": "Jacob Hummel",
+      "player_slug": "jake-hummel",
+      "team": "HOU",
+      "position": "LB",
+      "practice_wed": "DNP",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
+      "player": "Jacob Parrish",
+      "player_slug": "jacob-parrish",
+      "team": "TB",
+      "position": "CB",
+      "practice_wed": "LIMITED",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "LIMITED_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
       "player": "Jacob Thomas",
       "player_slug": "jacob-thomas",
       "team": "MIN",
@@ -1619,6 +2515,25 @@
       "practice_thu": "LIMITED",
       "practice_fri": "LIMITED",
       "trend": "LIMITED_STEADY",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
+      "player": "Jadeveon Clowney",
+      "player_slug": "jadeveon-clowney",
+      "team": "HOU",
+      "position": "DE",
+      "practice_wed": "DNP",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
       "days_captured": [
         "Wednesday",
         "Thursday",
@@ -1687,14 +2602,52 @@
       "full_participation_final": false
     },
     {
+      "player": "Jalen Carter",
+      "player_slug": "jalen-carter",
+      "team": "PHI",
+      "position": "DT",
+      "practice_wed": "DNP",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
+      "player": "Jalen Coker",
+      "player_slug": "jalen-coker",
+      "team": "CAR",
+      "position": "WR",
+      "practice_wed": "LIMITED",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "LIMITED_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
       "player": "Jalen McMillan",
       "player_slug": "jalen-mcmillan",
       "team": "TB",
       "position": "WR",
-      "practice_wed": "LIMITED",
+      "practice_wed": "FULL",
       "practice_thu": "LIMITED",
       "practice_fri": "LIMITED",
-      "trend": "LIMITED_STEADY",
+      "trend": "DECLINING",
       "days_captured": [
         "Wednesday",
         "Thursday",
@@ -1703,6 +2656,25 @@
       "days_missing": [],
       "injury": "Knee",
       "game_status": "Doubtful",
+      "full_participation_final": false
+    },
+    {
+      "player": "James Houston",
+      "player_slug": "james-houston",
+      "team": "DAL",
+      "position": "LB",
+      "practice_wed": "LIMITED",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "LIMITED_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
       "full_participation_final": false
     },
     {
@@ -1722,6 +2694,82 @@
       "days_missing": [],
       "injury": "Hamstring",
       "game_status": "Questionable",
+      "full_participation_final": false
+    },
+    {
+      "player": "James Williams",
+      "player_slug": "james-williams-8",
+      "team": "TEN",
+      "position": "LB",
+      "practice_wed": "LIMITED",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "LIMITED_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
+      "player": "Jamien Sherwood",
+      "player_slug": "jamien-sherwood",
+      "team": "NYJ",
+      "position": "LB",
+      "practice_wed": "LIMITED",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "LIMITED_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
+      "player": "Jarvis Brownlee Jr.",
+      "player_slug": "jarvis-brownlee-jr",
+      "team": "NYJ",
+      "position": "CB",
+      "practice_wed": "FULL",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "FULL_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": true
+    },
+    {
+      "player": "Jauan Jennings",
+      "player_slug": "jauan-jennings",
+      "team": "MIN",
+      "position": "WR",
+      "practice_wed": "DNP",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
       "full_participation_final": false
     },
     {
@@ -1801,6 +2849,44 @@
       "full_participation_final": true
     },
     {
+      "player": "Jaylin Lane",
+      "player_slug": "jaylin-lane",
+      "team": "WAS",
+      "position": "WR",
+      "practice_wed": "LIMITED",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "LIMITED_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
+      "player": "Jaylinn Hawkins",
+      "player_slug": "jaylinn-hawkins",
+      "team": "BAL",
+      "position": "S",
+      "practice_wed": "FULL",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "FULL_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": true
+    },
+    {
       "player": "Jeremiyah Love",
       "player_slug": "jeremiyah-love",
       "team": "ARI",
@@ -1820,6 +2906,25 @@
       "full_participation_final": false
     },
     {
+      "player": "Jerry Jeudy",
+      "player_slug": "jerry-jeudy",
+      "team": "CLE",
+      "position": "WR",
+      "practice_wed": "FULL",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "FULL_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": true
+    },
+    {
       "player": "Jimmy Rolder",
       "player_slug": "jimmy-rolder",
       "team": "DET",
@@ -1837,6 +2942,25 @@
       "injury": null,
       "game_status": null,
       "full_participation_final": true
+    },
+    {
+      "player": "Joe Burrow",
+      "player_slug": "joe-burrow",
+      "team": "CIN",
+      "position": "QB",
+      "practice_wed": "LIMITED",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "LIMITED_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
     },
     {
       "player": "Joe Thuney",
@@ -1875,6 +2999,44 @@
       "injury": "Back",
       "game_status": "Questionable",
       "full_participation_final": false
+    },
+    {
+      "player": "John Simpson",
+      "player_slug": "john-simpson-2",
+      "team": "BAL",
+      "position": "G",
+      "practice_wed": "DNP",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
+      "player": "Jonah Elliss",
+      "player_slug": "jonah-elliss",
+      "team": "DEN",
+      "position": "LB",
+      "practice_wed": "FULL",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "FULL_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": true
     },
     {
       "player": "Jonathan Allen",
@@ -1957,10 +3119,10 @@
       "player_slug": "jordan-hancock",
       "team": "BUF",
       "position": "CB",
-      "practice_wed": "DNP",
+      "practice_wed": "FULL",
       "practice_thu": "LIMITED",
       "practice_fri": "FULL",
-      "trend": "ARRIVING",
+      "trend": "MIXED",
       "days_captured": [
         "Wednesday",
         "Thursday",
@@ -2029,6 +3191,25 @@
       "full_participation_final": false
     },
     {
+      "player": "Josh Jobe",
+      "player_slug": "joshua-jobe",
+      "team": "SEA",
+      "position": "CB",
+      "practice_wed": "FULL",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "FULL_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": true
+    },
+    {
       "player": "Josh Jones",
       "player_slug": "josh-jones-2",
       "team": "SEA",
@@ -2052,7 +3233,7 @@
       "player_slug": "josh-simmons-2",
       "team": "KC",
       "position": "T",
-      "practice_wed": null,
+      "practice_wed": "DNP",
       "practice_thu": "DNP",
       "practice_fri": "DNP",
       "trend": "DNP_ALL_WEEK",
@@ -2075,6 +3256,25 @@
       "practice_thu": "LIMITED",
       "practice_fri": "FULL",
       "trend": "ARRIVING",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": true
+    },
+    {
+      "player": "Juice Scruggs",
+      "player_slug": "juice-scruggs",
+      "team": "DET",
+      "position": "G",
+      "practice_wed": "FULL",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "FULL_SINGLE",
       "days_captured": [
         "Wednesday",
         "Thursday",
@@ -2109,10 +3309,10 @@
       "player_slug": "justin-skule",
       "team": "TB",
       "position": "T",
-      "practice_wed": "LIMITED",
+      "practice_wed": "FULL",
       "practice_thu": "LIMITED",
       "practice_fri": "LIMITED",
-      "trend": "LIMITED_STEADY",
+      "trend": "DECLINING",
       "days_captured": [
         "Wednesday",
         "Thursday",
@@ -2121,6 +3321,25 @@
       "days_missing": [],
       "injury": "Oblique",
       "game_status": "Doubtful",
+      "full_participation_final": false
+    },
+    {
+      "player": "Juwan Johnson",
+      "player_slug": "juwan-johnson",
+      "team": "NO",
+      "position": "TE",
+      "practice_wed": "DNP",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
       "full_participation_final": false
     },
     {
@@ -2162,6 +3381,25 @@
       "full_participation_final": false
     },
     {
+      "player": "Kaytron Allen",
+      "player_slug": "kaytron-allen",
+      "team": "WAS",
+      "position": "RB",
+      "practice_wed": "FULL",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "FULL_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": true
+    },
+    {
       "player": "Keaton Mitchell",
       "player_slug": "keaton-mitchell",
       "team": "LAC",
@@ -2179,6 +3417,44 @@
       "injury": null,
       "game_status": null,
       "full_participation_final": true
+    },
+    {
+      "player": "Keenan Allen",
+      "player_slug": "keenan-allen",
+      "team": "IND",
+      "position": "WR",
+      "practice_wed": "LIMITED",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "LIMITED_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
+      "player": "Keion White",
+      "player_slug": "keion-white",
+      "team": "SF",
+      "position": "DE",
+      "practice_wed": "LIMITED",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "LIMITED_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
     },
     {
       "player": "Keith Abney II",
@@ -2242,10 +3518,10 @@
       "player_slug": "kene-nwangwu",
       "team": "NYJ",
       "position": "RB",
-      "practice_wed": null,
+      "practice_wed": "DNP",
       "practice_thu": null,
       "practice_fri": "DNP",
-      "trend": "DNP_SINGLE",
+      "trend": "DNP_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
@@ -2274,6 +3550,44 @@
       "injury": null,
       "game_status": null,
       "full_participation_final": true
+    },
+    {
+      "player": "Keondre Jackson",
+      "player_slug": "keondre-jackson",
+      "team": "BAL",
+      "position": "S",
+      "practice_wed": "LIMITED",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "LIMITED_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
+      "player": "Khalid Kareem",
+      "player_slug": "khalid-kareem",
+      "team": "SF",
+      "position": "DE",
+      "practice_wed": "LIMITED",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "LIMITED_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
     },
     {
       "player": "Khalil Mack",
@@ -2333,11 +3647,49 @@
       "full_participation_final": false
     },
     {
+      "player": "Kyle Monangai",
+      "player_slug": "kyle-monangai",
+      "team": "CHI",
+      "position": "RB",
+      "practice_wed": "LIMITED",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "LIMITED_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
+      "player": "Kyler Murray",
+      "player_slug": "kyler-murray",
+      "team": "MIN",
+      "position": "QB",
+      "practice_wed": "LIMITED",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "LIMITED_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
       "player": "L'Jarius Sneed",
       "player_slug": "l-jarius-sneed",
       "team": "KC",
       "position": "CB",
-      "practice_wed": null,
+      "practice_wed": "FULL",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
       "trend": "FULL_ALL_WEEK",
@@ -2352,14 +3704,33 @@
       "full_participation_final": true
     },
     {
+      "player": "Ladd McConkey",
+      "player_slug": "ladd-mcconkey",
+      "team": "LAC",
+      "position": "WR",
+      "practice_wed": "DNP",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
       "player": "LeQuint Allen Jr.",
       "player_slug": "lequint-allen",
       "team": "JAX",
       "position": "RB",
-      "practice_wed": "DNP",
+      "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
       "practice_fri": "LIMITED",
-      "trend": "IMPROVING",
+      "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
         "Thursday",
@@ -2368,6 +3739,25 @@
       "days_missing": [],
       "injury": "Hip",
       "game_status": "Questionable",
+      "full_participation_final": false
+    },
+    {
+      "player": "Lukas Van Ness",
+      "player_slug": "lukas-van-ness",
+      "team": "GB",
+      "position": "LB",
+      "practice_wed": "LIMITED",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "LIMITED_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
       "full_participation_final": false
     },
     {
@@ -2447,6 +3837,44 @@
       "full_participation_final": false
     },
     {
+      "player": "Malik Hooker",
+      "player_slug": "malik-hooker",
+      "team": "DAL",
+      "position": "S",
+      "practice_wed": "DNP",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
+      "player": "Malik Muhammad",
+      "player_slug": "malik-muhammad",
+      "team": "CHI",
+      "position": "CB",
+      "practice_wed": "LIMITED",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "LIMITED_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
       "player": "Malik Nabers",
       "player_slug": "malik-nabers",
       "team": "NYG",
@@ -2463,6 +3891,44 @@
       "days_missing": [],
       "injury": "Knee",
       "game_status": "Questionable",
+      "full_participation_final": true
+    },
+    {
+      "player": "Malik Willis",
+      "player_slug": "malik-willis",
+      "team": "MIA",
+      "position": "QB",
+      "practice_wed": "FULL",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "FULL_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": true
+    },
+    {
+      "player": "Mansoor Delane",
+      "player_slug": "mansoor-delane",
+      "team": "KC",
+      "position": "CB",
+      "practice_wed": "FULL",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "FULL_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
       "full_participation_final": true
     },
     {
@@ -2489,10 +3955,10 @@
       "player_slug": "marvin-mims-jr",
       "team": "DEN",
       "position": "WR",
-      "practice_wed": null,
+      "practice_wed": "DNP",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "trend": "FULL_ALL_WEEK",
+      "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
@@ -2542,6 +4008,63 @@
       "full_participation_final": true
     },
     {
+      "player": "Michael Pittman",
+      "player_slug": "michael-pittman-2",
+      "team": "PIT",
+      "position": "WR",
+      "practice_wed": "LIMITED",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "LIMITED_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
+      "player": "Miles Killebrew",
+      "player_slug": "miles-killebrew",
+      "team": "TB",
+      "position": "S",
+      "practice_wed": "LIMITED",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "LIMITED_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
+      "player": "Minkah Fitzpatrick",
+      "player_slug": "minkah-fitzpatrick",
+      "team": "NYJ",
+      "position": "S",
+      "practice_wed": "DNP",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
       "player": "Myles Garrett",
       "player_slug": "myles-garrett",
       "team": "LAR",
@@ -2559,6 +4082,25 @@
       "injury": null,
       "game_status": null,
       "full_participation_final": true
+    },
+    {
+      "player": "Neville Gallimore",
+      "player_slug": "neville-gallimore",
+      "team": "CHI",
+      "position": "DT",
+      "practice_wed": "DNP",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
     },
     {
       "player": "Nick Allegretti",
@@ -2584,10 +4126,10 @@
       "player_slug": "nick-bosa",
       "team": "SF",
       "position": "DE",
-      "practice_wed": "LIMITED",
+      "practice_wed": "DNP",
       "practice_thu": "LIMITED",
       "practice_fri": "LIMITED",
-      "trend": "LIMITED_STEADY",
+      "trend": "IMPROVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
@@ -2615,6 +4157,25 @@
       "days_missing": [],
       "injury": "Ankle",
       "game_status": "Questionable",
+      "full_participation_final": false
+    },
+    {
+      "player": "Nico Collins",
+      "player_slug": "nico-collins",
+      "team": "HOU",
+      "position": "WR",
+      "practice_wed": "LIMITED",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "LIMITED_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
       "full_participation_final": false
     },
     {
@@ -2656,14 +4217,33 @@
       "full_participation_final": false
     },
     {
+      "player": "Omar Cooper Jr.",
+      "player_slug": "omar-cooper-jr",
+      "team": "NYJ",
+      "position": "WR",
+      "practice_wed": "DNP",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
       "player": "Oscar Delp",
       "player_slug": "oscar-delp",
       "team": "NO",
       "position": "TE",
-      "practice_wed": "DNP",
+      "practice_wed": "LIMITED",
       "practice_thu": "DNP",
       "practice_fri": "DNP",
-      "trend": "DNP_ALL_WEEK",
+      "trend": "DECLINING",
       "days_captured": [
         "Wednesday",
         "Thursday",
@@ -2736,7 +4316,7 @@
       "player_slug": "patrick-mahomes",
       "team": "KC",
       "position": "QB",
-      "practice_wed": null,
+      "practice_wed": "FULL",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
       "trend": "FULL_ALL_WEEK",
@@ -2774,7 +4354,7 @@
       "player_slug": "r-mason-thomas",
       "team": "KC",
       "position": "DE",
-      "practice_wed": null,
+      "practice_wed": "FULL",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
       "trend": "FULL_ALL_WEEK",
@@ -2808,11 +4388,30 @@
       "full_participation_final": true
     },
     {
+      "player": "RJ Harvey",
+      "player_slug": "rj-harvey",
+      "team": "DEN",
+      "position": "RB",
+      "practice_wed": "DNP",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
       "player": "Rashee Rice",
       "player_slug": "rashee-rice",
       "team": "KC",
       "position": "WR",
-      "practice_wed": null,
+      "practice_wed": "FULL",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
       "trend": "FULL_ALL_WEEK",
@@ -2844,6 +4443,25 @@
       "injury": null,
       "game_status": null,
       "full_participation_final": true
+    },
+    {
+      "player": "Robert Spillane",
+      "player_slug": "robert-spillane",
+      "team": "NE",
+      "position": "LB",
+      "practice_wed": "LIMITED",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "LIMITED_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
     },
     {
       "player": "Rome Odunze",
@@ -2888,7 +4506,7 @@
       "player_slug": "ronnie-harrison",
       "team": "MIA",
       "position": "LB",
-      "practice_wed": "LIMITED",
+      "practice_wed": "DNP",
       "practice_thu": "LIMITED",
       "practice_fri": "FULL",
       "trend": "ARRIVING",
@@ -2901,6 +4519,25 @@
       "injury": null,
       "game_status": null,
       "full_participation_final": true
+    },
+    {
+      "player": "Ronnie Stanley",
+      "player_slug": "ronnie-stanley",
+      "team": "BAL",
+      "position": "T",
+      "practice_wed": "DNP",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
     },
     {
       "player": "Rueben Bain Jr.",
@@ -2922,14 +4559,33 @@
       "full_participation_final": true
     },
     {
+      "player": "Sam Darnold",
+      "player_slug": "sam-darnold",
+      "team": "SEA",
+      "position": "QB",
+      "practice_wed": "DNP",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
       "player": "Sean Tucker",
       "player_slug": "sean-tucker",
       "team": "TB",
       "position": "RB",
-      "practice_wed": "DNP",
+      "practice_wed": "FULL",
       "practice_thu": "LIMITED",
       "practice_fri": "LIMITED",
-      "trend": "IMPROVING",
+      "trend": "DECLINING",
       "days_captured": [
         "Wednesday",
         "Thursday",
@@ -2964,10 +4620,10 @@
       "player_slug": "seydou-traore",
       "team": "MIA",
       "position": "TE",
-      "practice_wed": "FULL",
+      "practice_wed": "LIMITED",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "trend": "FULL_ALL_WEEK",
+      "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
@@ -3036,6 +4692,44 @@
       "full_participation_final": false
     },
     {
+      "player": "T.J. Tampa",
+      "player_slug": "t-j-tampa",
+      "team": "BAL",
+      "position": "CB",
+      "practice_wed": "DNP",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
+      "player": "Teair Tart",
+      "player_slug": "teair-tart",
+      "team": "LAC",
+      "position": "DT",
+      "practice_wed": "DNP",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
       "player": "Teddye Buchanan",
       "player_slug": "teddye-buchanan",
       "team": "BAL",
@@ -3074,14 +4768,33 @@
       "full_participation_final": true
     },
     {
+      "player": "Terrel Bernard",
+      "player_slug": "terrel-bernard",
+      "team": "BUF",
+      "position": "LB",
+      "practice_wed": "LIMITED",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "LIMITED_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
       "player": "Teven Jenkins",
       "player_slug": "teven-jenkins",
       "team": "CLE",
       "position": "G",
-      "practice_wed": "LIMITED",
+      "practice_wed": "DNP",
       "practice_thu": "DNP",
       "practice_fri": "DNP",
-      "trend": "DECLINING",
+      "trend": "DNP_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
@@ -3154,10 +4867,10 @@
       "player_slug": "tory-horton",
       "team": "SEA",
       "position": "WR",
-      "practice_wed": "LIMITED",
+      "practice_wed": "FULL",
       "practice_thu": "LIMITED",
       "practice_fri": "LIMITED",
-      "trend": "LIMITED_STEADY",
+      "trend": "DECLINING",
       "days_captured": [
         "Wednesday",
         "Thursday",
@@ -3173,10 +4886,10 @@
       "player_slug": "treveyon-henderson",
       "team": "NE",
       "position": "RB",
-      "practice_wed": "DNP",
+      "practice_wed": "FULL",
       "practice_thu": "DNP",
       "practice_fri": "DNP",
-      "trend": "DNP_ALL_WEEK",
+      "trend": "DECLINING",
       "days_captured": [
         "Wednesday",
         "Thursday",
@@ -3207,6 +4920,25 @@
       "full_participation_final": true
     },
     {
+      "player": "Trent Williams",
+      "player_slug": "trent-williams",
+      "team": "SF",
+      "position": "T",
+      "practice_wed": "DNP",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
       "player": "Trevor Nowaske",
       "player_slug": "trevor-nowaske",
       "team": "DET",
@@ -3224,6 +4956,44 @@
       "injury": null,
       "game_status": null,
       "full_participation_final": true
+    },
+    {
+      "player": "Trey Hendrickson",
+      "player_slug": "trey-hendrickson",
+      "team": "BAL",
+      "position": "LB",
+      "practice_wed": "DNP",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
+      "player": "Trey Pipkins",
+      "player_slug": "trey-pipkins",
+      "team": "LAC",
+      "position": "T",
+      "practice_wed": "DNP",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
     },
     {
       "player": "Trey Smith",
@@ -3245,14 +5015,52 @@
       "full_participation_final": true
     },
     {
+      "player": "Troy Fautanu",
+      "player_slug": "troy-fautanu",
+      "team": "PIT",
+      "position": "T",
+      "practice_wed": "DNP",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
+      "player": "Troy Franklin",
+      "player_slug": "troy-franklin",
+      "team": "DEN",
+      "position": "WR",
+      "practice_wed": "FULL",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "FULL_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": true
+    },
+    {
       "player": "Tua Tagovailoa",
       "player_slug": "tua-tagovailoa",
       "team": "ATL",
       "position": "QB",
-      "practice_wed": null,
+      "practice_wed": "DNP",
       "practice_thu": "LIMITED",
       "practice_fri": "DNP",
-      "trend": "DECLINING",
+      "trend": "MIXED",
       "days_captured": [
         "Wednesday",
         "Thursday",
@@ -3261,6 +5069,25 @@
       "days_missing": [],
       "injury": "Oblique",
       "game_status": "Out",
+      "full_participation_final": false
+    },
+    {
+      "player": "Tucker Addington",
+      "player_slug": "tucker-addington",
+      "team": "MIA",
+      "position": "LS",
+      "practice_wed": "LIMITED",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "LIMITED_SINGLE",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
       "full_participation_final": false
     },
     {
@@ -3287,10 +5114,10 @@
       "player_slug": "ty-johnson-x3152",
       "team": "BUF",
       "position": "RB",
-      "practice_wed": "DNP",
+      "practice_wed": "LIMITED",
       "practice_thu": "DNP",
       "practice_fri": "LIMITED",
-      "trend": "IMPROVING",
+      "trend": "MIXED",
       "days_captured": [
         "Wednesday",
         "Thursday",
@@ -3325,10 +5152,10 @@
       "player_slug": "ty-ron-hopper",
       "team": "GB",
       "position": "LB",
-      "practice_wed": "DNP",
+      "practice_wed": "LIMITED",
       "practice_thu": "DNP",
       "practice_fri": "LIMITED",
-      "trend": "IMPROVING",
+      "trend": "MIXED",
       "days_captured": [
         "Wednesday",
         "Thursday",
@@ -3348,6 +5175,25 @@
       "practice_thu": "FULL",
       "practice_fri": "FULL",
       "trend": "FULL_ALL_WEEK",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": true
+    },
+    {
+      "player": "Tyler Owens",
+      "player_slug": "tyler-owens",
+      "team": "WAS",
+      "position": "S",
+      "practice_wed": "FULL",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "FULL_SINGLE",
       "days_captured": [
         "Wednesday",
         "Thursday",
@@ -3439,10 +5285,10 @@
       "player_slug": "will-anderson-jr",
       "team": "HOU",
       "position": "DE",
-      "practice_wed": null,
+      "practice_wed": "LIMITED",
       "practice_thu": "DNP",
       "practice_fri": "DNP",
-      "trend": "DNP_ALL_WEEK",
+      "trend": "DECLINING",
       "days_captured": [
         "Wednesday",
         "Thursday",
@@ -3496,7 +5342,7 @@
       "player_slug": "xavier-woods",
       "team": "CHI",
       "position": "S",
-      "practice_wed": null,
+      "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
       "practice_fri": "LIMITED",
       "trend": "LIMITED_STEADY",
@@ -3591,10 +5437,29 @@
       "player_slug": "zay-flowers",
       "team": "BAL",
       "position": "WR",
-      "practice_wed": "LIMITED",
+      "practice_wed": "DNP",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
       "trend": "ARRIVING",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "days_missing": [],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": true
+    },
+    {
+      "player": "Zion Johnson",
+      "player_slug": "zion-johnson",
+      "team": "CLE",
+      "position": "G",
+      "practice_wed": "FULL",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "FULL_SINGLE",
       "days_captured": [
         "Wednesday",
         "Thursday",
