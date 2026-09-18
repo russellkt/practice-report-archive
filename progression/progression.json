@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T23:43:16+00:00",
+  "generated_at": "2026-09-18T06:42:02+00:00",
   "week": null,
   "snapshots_used": [
     "practice-2026-09-09-1847.json",
@@ -13,7 +13,8 @@
     "practice-2026-09-12-0632.json",
     "practice-2026-09-16-2353.json",
     "practice-2026-09-17-0642.json",
-    "practice-2026-09-17-2343.json"
+    "practice-2026-09-17-2343.json",
+    "practice-2026-09-18-0642.json"
   ],
   "snapshots_ignored_as_stale": [],
   "snapshots_reattributed": [
@@ -43,6 +44,13 @@
       "captured_at": "2026-09-17T06:42:12+00:00",
       "stamped": "Thursday",
       "filed_for": "Wednesday",
+      "why": "captured before 15:00 UTC, so it carries the previous day's column"
+    },
+    {
+      "file": "practice-2026-09-18-0642.json",
+      "captured_at": "2026-09-18T06:42:02+00:00",
+      "stamped": "Friday",
+      "filed_for": "Thursday",
       "why": "captured before 15:00 UTC, so it carries the previous day's column"
     }
   ],
