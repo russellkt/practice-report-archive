@@ -55,6 +55,21 @@ before, and is listed in `snapshots_reattributed`. A capture that restates the
 previous day unchanged is ignored entirely (`snapshots_ignored_as_stale`) and
 its day is reported MISSING, because a page nobody has touched is not a filing.
 
+**One week at a time.** The columns are named by weekday, so a second week on
+disk fits into them without complaint — and until 2026-09-18 it did exactly
+that. The assembler now builds a single practice week, Wednesday-anchored,
+named in `week_of`; captures from any other week are listed in
+`snapshots_excluded_other_weeks` rather than merged. That matters most on the
+day a week is still filling: with Wednesday and Thursday captured and no Friday
+yet, the old behaviour dropped the *previous* Friday into the Friday column and
+reported `days_missing: []`. It also carried players forward who had not been
+reported at all that week, showing last week's three days as this week's. Build
+an earlier week with `--week-of YYYY-MM-DD`.
+
+Each column also carries the capture that fed it, in `day_captured_at`. A
+consumer timestamping these filings should read that map and not infer times
+from the order of `snapshots_used`.
+
 ## Using it
 
 ```bash

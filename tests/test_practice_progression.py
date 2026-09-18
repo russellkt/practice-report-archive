@@ -240,3 +240,133 @@ def test_the_first_capture_of_a_week_is_never_stale(tmp_path):
     rep = pp.build(tmp_path)
     assert rep["snapshots_ignored_as_stale"] == []
     assert rep["days_captured"] == ["Wednesday"]
+
+
+# --- one week at a time -----------------------------------------------------
+#
+# The columns are named by weekday, so two weeks on disk fit into them without
+# complaint. Everything here is about the assembler refusing that.
+
+def test_last_weeks_friday_does_not_fill_this_weeks_missing_one(tmp_path):
+    """The bug, exactly as it was published on 2026-09-18.
+
+    Week 1 ran to Friday; week 2 has Wednesday and Thursday and no Friday yet.
+    Read together, week 1's Friday lands in week 2's Friday column and the
+    report claims a complete week -- a player is FULL on a day nobody filed.
+    """
+    _snap_at(tmp_path, "2026-09-11", "23:33",
+             [_p("Zay Flowers", "FULL"), _p("Nico Collins", "FULL")])
+    _snap_at(tmp_path, "2026-09-16", "23:53",
+             [_p("Zay Flowers", "DNP"), _p("Nico Collins", "LIMITED")])
+    _snap_at(tmp_path, "2026-09-18", "06:42",
+             [_p("Zay Flowers", "DNP"), _p("Nico Collins", "DNP")])
+
+    rep = pp.build(tmp_path)
+    row = next(r for r in rep["progression"] if r["player"] == "Zay Flowers")
+
+    assert rep["week_of"] == "2026-09-16"
+    assert row["practice_wed"] == "DNP"
+    assert row["practice_thu"] == "DNP"
+    assert row["practice_fri"] is None
+    assert rep["days_missing"] == ["Friday"]
+    assert row["full_participation_final"] is False
+    assert row["trend"] == "DNP_ALL_WEEK"
+
+
+def test_a_capture_from_another_week_is_named_rather_than_dropped_in_silence(tmp_path):
+    _snap_at(tmp_path, "2026-09-11", "23:33", [_p("Zay Flowers", "FULL")])
+    _snap_at(tmp_path, "2026-09-16", "23:53", [_p("Zay Flowers", "DNP")])
+
+    rep = pp.build(tmp_path)
+    off = rep["snapshots_excluded_other_weeks"]
+
+    assert [o["file"] for o in off] == ["practice-2026-09-11-2333.json"]
+    assert off[0]["week_of"] == "2026-09-09"
+    assert "different practice week" in off[0]["why"]
+    assert "days_missing" in rep["caveat"]
+
+
+def test_an_earlier_week_can_still_be_rebuilt_on_request(tmp_path):
+    _snap_at(tmp_path, "2026-09-09", "23:31", [_p("Zay Flowers", "DNP")])
+    _snap_at(tmp_path, "2026-09-11", "23:33", [_p("Zay Flowers", "FULL")])
+    _snap_at(tmp_path, "2026-09-16", "23:53", [_p("Zay Flowers", "LIMITED")])
+
+    from datetime import date
+    rep = pp.build(tmp_path, week_of=date(2026, 9, 11))
+
+    assert rep["week_of"] == "2026-09-09"
+    assert rep["progression"][0]["practice_fri"] == "FULL"
+    assert rep["progression"][0]["practice_wed"] == "DNP"
+
+
+def test_asking_for_a_week_with_no_captures_is_an_error_not_an_empty_week(tmp_path):
+    _snap_at(tmp_path, "2026-09-16", "23:53", [_p("Zay Flowers", "DNP")])
+    from datetime import date
+    with pytest.raises(pp.ProgressionError, match="no captures for the practice week"):
+        pp.build(tmp_path, week_of=date(2026, 8, 5))
+
+
+def test_a_new_week_opening_on_last_weeks_page_is_still_caught_as_stale(tmp_path):
+    """Staleness is checked BEFORE the week is picked, on purpose.
+
+    The run most likely to restate a stale page is the first of a new week: it
+    fires before any club has filed and reads whatever the previous Friday left
+    up. Comparing only within the new week would have nothing to compare it to.
+    """
+    _snap_at(tmp_path, "2026-09-11", "23:33", [_p("Zay Flowers", "FULL")])
+    _snap_at(tmp_path, "2026-09-16", "06:42", [_p("Zay Flowers", "FULL")])
+    _snap_at(tmp_path, "2026-09-16", "23:53", [_p("Zay Flowers", "DNP")])
+
+    rep = pp.build(tmp_path)
+
+    assert [s["file"] for s in rep["snapshots_ignored_as_stale"]] == [
+        "practice-2026-09-16-0642.json"]
+    assert rep["progression"][0]["practice_wed"] == "DNP"
+    assert rep["days_captured"] == ["Wednesday"]
+
+
+def test_the_same_weekday_a_week_apart_is_two_days_not_one(tmp_path):
+    """Stale detection compares dates, not weekday names.
+
+    Two Wednesdays are two days. Comparing by NAME made the second one look
+    like the first, so it was skipped as "the same day" and never compared to
+    anything -- and, worse, its filings were free to overwrite the earlier
+    week's in the same column.
+    """
+    _snap_at(tmp_path, "2026-09-09", "23:31", [_p("Zay Flowers", "FULL")])
+    _snap_at(tmp_path, "2026-09-16", "23:53", [_p("Zay Flowers", "DNP")])
+
+    rep = pp.build(tmp_path)
+
+    assert rep["week_of"] == "2026-09-16"
+    assert rep["progression"][0]["practice_wed"] == "DNP"
+    assert rep["snapshots_used"] == ["practice-2026-09-16-2353.json"]
+
+    from datetime import date
+    prior = pp.build(tmp_path, week_of=date(2026, 9, 9))
+    assert prior["progression"][0]["practice_wed"] == "FULL"
+
+
+def test_each_column_carries_the_capture_that_actually_fed_it(tmp_path):
+    """So a consumer never has to infer timestamps from snapshot ORDER."""
+    _snap_at(tmp_path, "2026-09-16", "23:53", [_p("Zay Flowers", "DNP")])
+    _snap_at(tmp_path, "2026-09-18", "06:42", [_p("Zay Flowers", "LIMITED")])
+
+    rep = pp.build(tmp_path)
+
+    assert rep["day_captured_at"] == {
+        "Wednesday": "2026-09-16T23:53:00+00:00",
+        "Thursday": "2026-09-18T06:42:00+00:00",
+    }
+    assert "Friday" not in rep["day_captured_at"]
+
+
+@pytest.mark.parametrize("day,anchor", [
+    ("2026-09-16", "2026-09-16"),  # Wednesday anchors itself
+    ("2026-09-18", "2026-09-16"),  # Friday looks back
+    ("2026-09-20", "2026-09-16"),  # Sunday still belongs to that week
+    ("2026-09-22", "2026-09-23"),  # Tuesday looks FORWARD, to the week to come
+])
+def test_the_week_runs_wednesday_to_tuesday(day, anchor):
+    from datetime import date
+    assert pp.week_anchor(date.fromisoformat(day)) == date.fromisoformat(anchor)

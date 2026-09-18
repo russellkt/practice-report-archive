@@ -80,8 +80,8 @@ def load_snapshots(snap_dir=SNAP_DIR, week=None):
     return snaps
 
 
-def practice_day(d):
-    """The day a capture's filings belong to, which is not always its date.
+def practice_date(d):
+    """The DATE a capture's filings belong to, which is not always its date.
 
     THE PAGE LAGS THE CALENDAR. The overnight capture -- cron '47 1 * * 4,5,6',
     20:47 local the previous evening, the workflow's own comment says so -- is
@@ -95,15 +95,95 @@ def practice_day(d):
     hour any club could have filed belongs to the day before. The snapshots keep
     their own `weekday` untouched -- they record when we fetched, this records
     what we fetched.
+
+    A FULL DATE, NOT A WEEKDAY NAME. This returned "Friday" until 2026-09-18,
+    and a name is not enough to tell one Friday from the one before it. See
+    select_week.
     """
     raw = d.get("captured_at")
     try:
         at = datetime.fromisoformat(raw).astimezone(timezone.utc)
     except (TypeError, ValueError):
-        return d.get("weekday")  # a capture with no clock keeps its own label
+        return None  # a capture with no clock cannot be placed on a date
     if at.hour < FILING_CUTOFF_UTC:
         at -= timedelta(days=1)
-    return at.strftime("%A")
+    return at.date()
+
+
+def practice_day(d):
+    """The weekday name of practice_date, or the capture's own label if undated."""
+    day = practice_date(d)
+    return day.strftime("%A") if day else d.get("weekday")
+
+
+def week_anchor(day):
+    """The Wednesday that opens the practice week containing `day`.
+
+    Wednesday is the anchor because it is the first day clubs file. Wed-Sun map
+    back to the Wednesday that opened the week; Mon and Tue map FORWARD, to the
+    week about to be filed, because a Monday or Tuesday column only ever arrives
+    from a capture that fired ahead of the Wednesday filings.
+    """
+    if day is None:
+        return None
+    wd = day.weekday()  # Mon=0 .. Sun=6, Wed=2
+    return day + timedelta(days=(2 - wd) if wd < 2 else -(wd - 2))
+
+
+def select_week(snaps, week_of=None):
+    """Keep one practice week. Everything else is named, not silently merged.
+
+    WHY THIS EXISTS. Everything downstream is keyed by WEEKDAY -- practice_wed,
+    practice_thu, practice_fri -- and until 2026-09-18 the assembler read every
+    capture in the archive into those three columns. That was correct for
+    exactly as long as the archive held one week.
+
+    With two weeks on disk it silently interleaved them. Measured on the
+    published feed 2026-09-18: Wednesday and Thursday came from that week's
+    captures, and FRIDAY came from practice-2026-09-12 -- the week before --
+    because no Friday capture of the current week existed yet. The report said
+    days_captured Wed/Thu/Fri and days_missing [], so it read as a complete
+    week. Zay Flowers showed DNP/DNP/FULL, full_participation_final true, trend
+    ARRIVING, where the FULL was eight days old and his actual week was DNP/DNP
+    with Friday not yet filed.
+
+    That is the exact failure this module was written to refuse -- a day nobody
+    captured must be MISSING rather than filled in from the page that happened
+    to be lying around. It was refused per-day and not per-week.
+    """
+    by_week, undated = {}, []
+    for d, fname in snaps:
+        anchor = week_anchor(practice_date(d))
+        if anchor is None:
+            undated.append((d, fname))
+            continue
+        by_week.setdefault(anchor, []).append((d, fname))
+    if not by_week:
+        raise ProgressionError(
+            "no capture carries a usable `captured_at`, so none can be placed "
+            "in a practice week. A week assembled from undated captures would "
+            "be a guess about which week it describes.")
+    if week_of is None:
+        anchor = max(by_week)
+    else:
+        anchor = week_anchor(week_of)
+        if anchor not in by_week:
+            raise ProgressionError(
+                f"no captures for the practice week of {anchor}. Weeks on disk: "
+                f"{', '.join(str(k) for k in sorted(by_week))}")
+    excluded = [
+        {"file": fname, "captured_at": d.get("captured_at"),
+         "filed_for": str(practice_date(d)),
+         "week_of": str(week_anchor(practice_date(d))),
+         "why": "belongs to a different practice week than the one built"}
+        for k, v in sorted(by_week.items()) if k != anchor for d, fname in v
+    ] + [
+        {"file": fname, "captured_at": d.get("captured_at"), "filed_for": None,
+         "week_of": None,
+         "why": "no usable capture timestamp, so it cannot be placed in a week"}
+        for d, fname in undated
+    ]
+    return by_week[anchor], anchor, excluded
 
 
 def filed_state(d):
@@ -132,7 +212,7 @@ def drop_stale_restatements(snaps):
     kept, stale = [], []
     for d, fname in sorted(snaps, key=lambda s: s[0].get("captured_at", "")):
         prior = next((k for k in reversed(kept)
-                      if practice_day(k[0]) != practice_day(d)), None)
+                      if practice_date(k[0]) != practice_date(d)), None)
         if prior is not None and filed_state(prior[0]) == filed_state(d):
             stale.append({
                 "file": fname,
@@ -176,8 +256,14 @@ def classify(days):
     return "MIXED"
 
 
-def build(snap_dir=SNAP_DIR, week=None, league=None):
-    snaps, stale = drop_stale_restatements(load_snapshots(snap_dir, week))
+def build(snap_dir=SNAP_DIR, week=None, league=None, week_of=None):
+    # Staleness is checked across EVERY capture on disk before a week is picked,
+    # because the run that restates a stale page is usually the first of a new
+    # week -- it reads the page the previous Friday left behind. Checking only
+    # inside the selected week would be checking after the one comparison that
+    # catches it.
+    kept, stale = drop_stale_restatements(load_snapshots(snap_dir, week))
+    snaps, anchor, off_week = select_week(kept, week_of)
     # (player_slug or name) -> {weekday: record}, newest capture per day wins
     by_player = defaultdict(dict)
     meta = {}
@@ -231,20 +317,35 @@ def build(snap_dir=SNAP_DIR, week=None, league=None):
     report = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "week": week,
+        "week_of": str(anchor),
         "snapshots_used": [n for _, n in snaps],
+        "snapshots_excluded_other_weeks": off_week,
         "snapshots_ignored_as_stale": stale,
         "snapshots_reattributed": reattributed,
         "days_captured": sorted(days_seen, key=lambda d: PRACTICE_DAYS.index(d)
                                 if d in PRACTICE_DAYS else 9),
         "days_missing": [d for d in PRACTICE_DAYS if d not in days_seen],
         "clubs_by_day": {k: sorted(v) for k, v in clubs_by_day.items()},
+        # The newest capture that fed each column. A consumer that timestamps
+        # these filings must use these and not the order of snapshots_used:
+        # that is how the downstream reader came to date this week's filings
+        # to last week (fantasy26-eu8).
+        "day_captured_at": dict(sorted(days_seen.items(),
+                                       key=lambda kv: PRACTICE_DAYS.index(kv[0])
+                                       if kv[0] in PRACTICE_DAYS else 9)),
         "caveat": ("Participation only. FULL means the club filed Full "
                    "Participation -- not that no snap limit exists. A day never "
                    "captured cannot be recovered from any source." + (
                        f" {len(stale)} capture(s) restated the previous day's "
                        f"filing unchanged and were ignored rather than read as "
                        f"a new day; see snapshots_ignored_as_stale."
-                       if stale else "")),
+                       if stale else "") + (
+                       f" Built from the practice week beginning {anchor}; "
+                       f"{len(off_week)} capture(s) from other weeks were "
+                       f"excluded rather than read into these columns, so a "
+                       f"day listed in days_missing is missing THIS week and "
+                       f"is not filled from the week before."
+                       if off_week else "")),
         "players": len(rows),
         "progression": rows,
     }
@@ -272,6 +373,10 @@ def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--week", type=int, default=None)
+    ap.add_argument("--week-of", type=datetime.fromisoformat, default=None,
+                    metavar="YYYY-MM-DD",
+                    help="build the practice week containing this date "
+                         "(default: the newest week on disk)")
     ap.add_argument("--league", default=None)
     ap.add_argument("--snap-dir", type=Path, default=SNAP_DIR)
     ap.add_argument("--csv", type=Path, default=None,
@@ -281,7 +386,8 @@ def main(argv=None):
     args = ap.parse_args(argv)
 
     try:
-        rep = build(args.snap_dir, args.week, args.league)
+        week_of = args.week_of.date() if args.week_of else None
+        rep = build(args.snap_dir, args.week, args.league, week_of)
     except (ProgressionError, OSError) as exc:
         print(f"PROGRESSION FAILED: {exc}", file=sys.stderr)
         return 2
@@ -303,8 +409,12 @@ def main(argv=None):
         print(json.dumps(rep, indent=2))
     else:
         print(f"wrote {out}")
-        print(f"  {rep['players']} players | captured {rep['days_captured'] or 'nothing'}"
+        print(f"  week of {rep['week_of']} | {rep['players']} players | "
+              f"captured {rep['days_captured'] or 'nothing'}"
               f" | MISSING {rep['days_missing'] or 'none'}")
+        if rep["snapshots_excluded_other_weeks"]:
+            print(f"  OTHER WEEKS: {len(rep['snapshots_excluded_other_weeks'])} "
+                  f"capture(s) set aside, not merged into these columns")
         for rc in rep["snapshots_reattributed"]:
             print(f"  MOVED   {rc['file']}: stamped {rc['stamped']}, "
                   f"filed for {rc['filed_for']}")
