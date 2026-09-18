@@ -144,7 +144,7 @@ def test_not_on_report_says_what_it_does_not_know(monkeypatch):
         {"name": "Malik Nabers", "position": "WR", "team": "NYG", "slot": "WR", "group": "starters"},
         {"name": "Jonathan Taylor", "position": "RB", "team": "IND", "slot": "RB", "group": "starters"},
     ]))
-    rep = nir.build(league="fairhope")
+    rep = nir.build(league="fairhope", raw=False)
     assert [p["player"] for p in rep["ours"]] == ["Malik Nabers"]
     assert rep["ours"][0]["practice"] == "LIMITED"
     assert [p["name"] for p in rep["not_on_report"]] == ["Jonathan Taylor"]
@@ -156,7 +156,7 @@ def test_the_snapshot_records_the_day_it_captured(monkeypatch):
     """A capture that does not say which day it is worthless: the whole value
     is assembling Wed/Thu/Fri from separate runs."""
     monkeypatch.setattr(nir, "fetch", lambda url, timeout=30: _page())
-    rep = nir.build()
+    rep = nir.build(raw=False)
     assert rep["capture_date"] and rep["weekday"]
     assert rep["source"] == nir.LIVE_URL
     assert "overwritten each day" in rep["note"]
@@ -168,5 +168,26 @@ def test_an_archived_week_is_addressed_by_url(monkeypatch):
         seen["url"] = url
         return _page()
     monkeypatch.setattr(nir, "fetch", fake)
-    nir.build(week=10, year=2025)
+    nir.build(week=10, year=2025, raw=False)
     assert seen["url"] == "https://www.nfl.com/injuries/league/2025/REG10"
+
+
+def test_the_raw_page_is_archived_where_it_is_told_and_nowhere_else(tmp_path, monkeypatch):
+    """The archive is the repository's data. A test must never write into it.
+
+    Three tests here called build() with archiving on and left synthetic pages
+    in data/raw named exactly like real captures -- including
+    nfl-injuries-2026-09-09-1900.html.gz, which shares its name with a real
+    29-player capture. A 3,366-char fixture standing in for a 330,000-char page
+    defeats the one thing the raws are for: --from-raw re-parsing every stored
+    day as a regression case.
+    """
+    monkeypatch.setattr(nir, "RAW_DIR", tmp_path / "raw")
+    monkeypatch.setattr(nir, "fetch", lambda url, timeout=30: _page())
+
+    rep = nir.build()
+
+    written = list((tmp_path / "raw").glob("*.html.gz"))
+    assert len(written) == 1
+    assert written[0].name.startswith("nfl-injuries-")
+    assert rep["clubs_filed"] == 2

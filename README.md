@@ -90,6 +90,14 @@ A player absent from a capture is only healthy if his club had filed at that
 moment — every snapshot carries `clubs_filed_list` so you can tell the
 difference between "no report" and "not reported yet".
 
+**Two day-one captures have no archived page.** `practice-2026-09-09-1847`
+and `-1900` are real 4-club captures and their parsed JSON is intact, but the
+gzipped pages behind them are not in `data/raw`: the first day's development
+wrote synthetic fixtures over that filename before the archive was a habit.
+Those eight fixtures were removed on 2026-09-18. Both captures are superseded
+by the 29-club capture at 23:31 the same day, so no participation is lost —
+only the ability to re-parse those two.
+
 ## Design note
 
 The fetch is unrecoverable; the parse is not. So the raw page is archived
