@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-09-23T23:59:54+00:00",
+  "generated_at": "2026-09-24T06:47:04+00:00",
   "week": null,
   "week_of": "2026-09-23",
   "snapshots_used": [
-    "practice-2026-09-23-2359.json"
+    "practice-2026-09-23-2359.json",
+    "practice-2026-09-24-0647.json"
   ],
   "snapshots_excluded_other_weeks": [
     {
@@ -120,7 +121,15 @@
     }
   ],
   "snapshots_ignored_as_stale": [],
-  "snapshots_reattributed": [],
+  "snapshots_reattributed": [
+    {
+      "file": "practice-2026-09-24-0647.json",
+      "captured_at": "2026-09-24T06:47:04+00:00",
+      "stamped": "Thursday",
+      "filed_for": "Wednesday",
+      "why": "captured before 15:00 UTC, so it carries the previous day's column"
+    }
+  ],
   "days_captured": [
     "Wednesday"
   ],
@@ -130,6 +139,7 @@
   ],
   "clubs_by_day": {
     "Wednesday": [
+      "ARI",
       "ATL",
       "BAL",
       "BUF",
@@ -162,10 +172,10 @@
     ]
   },
   "day_captured_at": {
-    "Wednesday": "2026-09-23T23:59:54+00:00"
+    "Wednesday": "2026-09-24T06:47:04+00:00"
   },
   "caveat": "Participation only. FULL means the club filed Full Participation -- not that no snap limit exists. A day never captured cannot be recovered from any source. Built from the practice week beginning 2026-09-23; 16 capture(s) from other weeks were excluded rather than read into these columns, so a day listed in days_missing is missing THIS week and is not filled from the week before.",
-  "players": 250,
+  "players": 259,
   "progression": [
     {
       "player": "A.J. Terrell",
@@ -1508,6 +1518,26 @@
       "full_participation_final": false
     },
     {
+      "player": "Dadrion Taylor-Demerson",
+      "player_slug": "dadrion-taylor-demerson",
+      "team": "ARI",
+      "position": "S",
+      "practice_wed": "DNP",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
+      "days_captured": [
+        "Wednesday"
+      ],
+      "days_missing": [
+        "Thursday",
+        "Friday"
+      ],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
       "player": "Dalton Schultz",
       "player_slug": "dalton-schultz",
       "team": "HOU",
@@ -2128,6 +2158,26 @@
       "full_participation_final": false
     },
     {
+      "player": "Garrett Williams",
+      "player_slug": "garrett-williams",
+      "team": "ARI",
+      "position": "CB",
+      "practice_wed": "LIMITED",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "LIMITED_SINGLE",
+      "days_captured": [
+        "Wednesday"
+      ],
+      "days_missing": [
+        "Thursday",
+        "Friday"
+      ],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
       "player": "George Holani",
       "player_slug": "george-holani",
       "team": "SEA",
@@ -2188,6 +2238,26 @@
       "full_participation_final": true
     },
     {
+      "player": "Hjalte Froholdt",
+      "player_slug": "hjalte-froholdt",
+      "team": "ARI",
+      "position": "C",
+      "practice_wed": "LIMITED",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "LIMITED_SINGLE",
+      "days_captured": [
+        "Wednesday"
+      ],
+      "days_missing": [
+        "Thursday",
+        "Friday"
+      ],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
       "player": "Hogan Hatten",
       "player_slug": "hogan-hatten",
       "team": "DET",
@@ -2206,6 +2276,26 @@
       "injury": null,
       "game_status": null,
       "full_participation_final": true
+    },
+    {
+      "player": "Isaac Seumalo",
+      "player_slug": "isaac-seumalo",
+      "team": "ARI",
+      "position": "G",
+      "practice_wed": "DNP",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
+      "days_captured": [
+        "Wednesday"
+      ],
+      "days_missing": [
+        "Thursday",
+        "Friday"
+      ],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
     },
     {
       "player": "Isaiah Stalbird",
@@ -2312,6 +2402,26 @@
       "player_slug": "jacob-parrish",
       "team": "TB",
       "position": "CB",
+      "practice_wed": "FULL",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "FULL_SINGLE",
+      "days_captured": [
+        "Wednesday"
+      ],
+      "days_missing": [
+        "Thursday",
+        "Friday"
+      ],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": true
+    },
+    {
+      "player": "Jacoby Brissett",
+      "player_slug": "jacoby-brissett",
+      "team": "ARI",
+      "position": "QB",
       "practice_wed": "FULL",
       "practice_thu": null,
       "practice_fri": null,
@@ -3088,6 +3198,26 @@
       "full_participation_final": false
     },
     {
+      "player": "Josh Sweat",
+      "player_slug": "josh-sweat",
+      "team": "ARI",
+      "position": "LB",
+      "practice_wed": "DNP",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
+      "days_captured": [
+        "Wednesday"
+      ],
+      "days_missing": [
+        "Thursday",
+        "Friday"
+      ],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
       "player": "Josiah Trotter",
       "player_slug": "josiah-trotter",
       "team": "TB",
@@ -3428,6 +3558,26 @@
       "full_participation_final": false
     },
     {
+      "player": "Mack Wilson",
+      "player_slug": "mack-wilson",
+      "team": "ARI",
+      "position": "LB",
+      "practice_wed": "LIMITED",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "LIMITED_SINGLE",
+      "days_captured": [
+        "Wednesday"
+      ],
+      "days_missing": [
+        "Thursday",
+        "Friday"
+      ],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
       "player": "Malaki Starks",
       "player_slug": "malaki-starks",
       "team": "BAL",
@@ -3606,6 +3756,26 @@
       "injury": null,
       "game_status": null,
       "full_participation_final": true
+    },
+    {
+      "player": "Max Melton",
+      "player_slug": "max-melton",
+      "team": "ARI",
+      "position": "CB",
+      "practice_wed": "DNP",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
+      "days_captured": [
+        "Wednesday"
+      ],
+      "days_missing": [
+        "Thursday",
+        "Friday"
+      ],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
     },
     {
       "player": "Micah McFadden",
@@ -4332,6 +4502,26 @@
       "player_slug": "ronnie-stanley",
       "team": "BAL",
       "position": "T",
+      "practice_wed": "DNP",
+      "practice_thu": null,
+      "practice_fri": null,
+      "trend": "DNP_SINGLE",
+      "days_captured": [
+        "Wednesday"
+      ],
+      "days_missing": [
+        "Thursday",
+        "Friday"
+      ],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
+      "player": "Roy Lopez",
+      "player_slug": "roy-lopez",
+      "team": "ARI",
+      "position": "DT",
       "practice_wed": "DNP",
       "practice_thu": null,
       "practice_fri": null,
