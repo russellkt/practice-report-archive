@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Assemble Wed/Thu/Fri practice participation into the series nobody publishes.
+"""Assemble Wed/Thu/Fri (and Saturday) practice participation into the series nobody publishes.
 
 THE SNAPSHOTS ARE RAW MATERIAL; THIS IS THE ARTIFACT. nfl_injury_report.py
 captures one day, because the NFL's page carries a single Practice Status
@@ -46,6 +46,20 @@ SNAP_DIR = ROOT / "data"
 OUT_DIR = ROOT / "progression"
 
 PRACTICE_DAYS = ("Wednesday", "Thursday", "Friday")
+
+# SATURDAY IS OPTIONAL, AND PER CLUB. A club playing Monday night practises
+# Thu/Fri/Sat and files its final report -- the one carrying game status -- on
+# Saturday, so a Wed-Fri week ends that club a day early: DeVonta Smith read
+# --/DNP/LIMITED with no designation in 2026 week 3, and was cleared on the
+# Saturday report nobody captured. But most clubs never file on Saturday, and
+# the page keeps showing their Friday rows, so a Saturday capture restates
+# Friday for every Sunday club. Two rules follow from that:
+#   - a club's Saturday rows count only when its filing CHANGED from its last
+#     earlier day (club_restates_prior_day); otherwise it did not file;
+#   - Saturday is never reported MISSING, because for most clubs, most weeks,
+#     there is no Saturday report to miss.
+OPTIONAL_DAYS = ("Saturday",)
+ALL_DAYS = PRACTICE_DAYS + OPTIONAL_DAYS
 RANK = {"DNP": 0, "LIMITED": 1, "FULL": 2}
 
 # Clubs practise mid-day and file in the afternoon. 15:00 UTC is 10:00 ET and
@@ -194,6 +208,14 @@ def filed_state(d):
         for t in d.get("teams", []) for p in t.get("players", [])))
 
 
+def club_state(team):
+    """One club's filing, comparable across captures."""
+    return tuple(sorted(
+        (p.get("player_slug") or p.get("player"), p.get("practice"),
+         p.get("game_status"), p.get("injury"))
+        for p in team.get("players", [])))
+
+
 def drop_stale_restatements(snaps):
     """A capture identical to the previous day's is a stale page, not a new day.
 
@@ -268,6 +290,10 @@ def build(snap_dir=SNAP_DIR, week=None, league=None, week_of=None):
     by_player = defaultdict(dict)
     meta = {}
     days_seen, clubs_by_day, reattributed = {}, defaultdict(set), []
+    # club -> {day: its filing in the newest capture of that day}, so an
+    # optional day can be checked against the club's own previous filing.
+    club_by_day = defaultdict(dict)
+    unchanged_optional = defaultdict(set)
     for d, fname in snaps:
         day = practice_day(d)
         if day != d.get("weekday"):
@@ -276,9 +302,25 @@ def build(snap_dir=SNAP_DIR, week=None, league=None, week_of=None):
                                  "why": (f"captured before {FILING_CUTOFF_UTC}:00 "
                                          f"UTC, so it carries the previous day's "
                                          f"column")})
-        days_seen[day] = max(days_seen.get(day, ""), d.get("captured_at", ""))
+        filed_any = False
         for t in d.get("teams", []):
-            clubs_by_day[day].add(t.get("team"))
+            team = t.get("team")
+            if day in OPTIONAL_DAYS:
+                prior = next((club_by_day[team][p]
+                              for p in reversed(ALL_DAYS[:ALL_DAYS.index(day)])
+                              if p in club_by_day[team]), None)
+                if prior == club_state(t):
+                    # The page still showing this club's Friday is not a
+                    # Saturday filing -- unless an earlier Saturday run
+                    # already saw one, which stands.
+                    if team not in clubs_by_day[day]:
+                        unchanged_optional[day].add(team)
+                    continue
+                unchanged_optional[day].discard(team)
+            elif day in PRACTICE_DAYS:
+                club_by_day[team][day] = club_state(t)
+            filed_any = True
+            clubs_by_day[day].add(team)
             for p in t.get("players", []):
                 key = p.get("player_slug") or p.get("player")
                 meta[key] = {"player": p.get("player"), "team": t.get("team"),
@@ -291,20 +333,25 @@ def build(snap_dir=SNAP_DIR, week=None, league=None, week_of=None):
                         "game_status": p.get("game_status"),
                         "_at": d.get("captured_at", ""),
                     }
+        # An optional day is captured only if some club actually filed on it;
+        # a Saturday run that saw nothing but Friday's page opened no day.
+        if filed_any or day not in OPTIONAL_DAYS:
+            days_seen[day] = max(days_seen.get(day, ""), d.get("captured_at", ""))
 
     rows = []
     for key, per_day in sorted(by_player.items(), key=lambda kv: meta[kv[0]]["player"]):
-        days = [per_day.get(d, {}).get("practice") for d in PRACTICE_DAYS]
-        captured = [d for d in PRACTICE_DAYS if d in days_seen]
+        days = [per_day.get(d, {}).get("practice") for d in ALL_DAYS]
+        captured = [d for d in ALL_DAYS if d in days_seen]
         # A day we never captured is MISSING; a day captured where this club
         # had not filed is NOT_FILED. Both are absent from `days`, and saying
         # which is the difference between "we do not know" and "no report".
         gaps = [d for d in PRACTICE_DAYS if d not in days_seen]
-        latest = next((per_day[d] for d in reversed(PRACTICE_DAYS) if d in per_day), {})
+        latest = next((per_day[d] for d in reversed(ALL_DAYS) if d in per_day), {})
         rows.append({
             "player": meta[key]["player"], "player_slug": key,
             "team": meta[key]["team"], "position": meta[key]["position"],
             "practice_wed": days[0], "practice_thu": days[1], "practice_fri": days[2],
+            "practice_sat": days[3],
             "trend": classify(days),
             "days_captured": captured, "days_missing": gaps,
             "injury": latest.get("injury"),
@@ -322,17 +369,21 @@ def build(snap_dir=SNAP_DIR, week=None, league=None, week_of=None):
         "snapshots_excluded_other_weeks": off_week,
         "snapshots_ignored_as_stale": stale,
         "snapshots_reattributed": reattributed,
-        "days_captured": sorted(days_seen, key=lambda d: PRACTICE_DAYS.index(d)
-                                if d in PRACTICE_DAYS else 9),
+        "days_captured": sorted(days_seen, key=lambda d: ALL_DAYS.index(d)
+                                if d in ALL_DAYS else 9),
         "days_missing": [d for d in PRACTICE_DAYS if d not in days_seen],
         "clubs_by_day": {k: sorted(v) for k, v in clubs_by_day.items()},
+        # Clubs whose optional-day rows were only the earlier page left in
+        # place, and so were not read as a filing (see OPTIONAL_DAYS).
+        "clubs_not_filing_optional_day": {k: sorted(v) for k, v
+                                          in unchanged_optional.items() if v},
         # The newest capture that fed each column. A consumer that timestamps
         # these filings must use these and not the order of snapshots_used:
         # that is how the downstream reader came to date this week's filings
         # to last week (fantasy26-eu8).
         "day_captured_at": dict(sorted(days_seen.items(),
-                                       key=lambda kv: PRACTICE_DAYS.index(kv[0])
-                                       if kv[0] in PRACTICE_DAYS else 9)),
+                                       key=lambda kv: ALL_DAYS.index(kv[0])
+                                       if kv[0] in ALL_DAYS else 9)),
         "caveat": ("Participation only. FULL means the club filed Full "
                    "Participation -- not that no snap limit exists. A day never "
                    "captured cannot be recovered from any source." + (
@@ -398,7 +449,7 @@ def main(argv=None):
 
     if args.csv:
         cols = ["player", "team", "position", "practice_wed", "practice_thu",
-                "practice_fri", "trend", "injury", "game_status",
+                "practice_fri", "practice_sat", "trend", "injury", "game_status",
                 "full_participation_final"]
         with args.csv.open("w", newline="", encoding="utf-8") as fh:
             w = csv.DictWriter(fh, fieldnames=cols, extrasaction="ignore")
@@ -425,7 +476,8 @@ def main(argv=None):
         label = "ours" if rep.get("ours") else "all"
         for r in shown[:15]:
             days = "/".join((d or "--")[:4] for d in
-                            (r["practice_wed"], r["practice_thu"], r["practice_fri"]))
+                            (r["practice_wed"], r["practice_thu"], r["practice_fri"],
+                             r["practice_sat"]))
             print(f"    [{label}] {r['player']:<22} {r['team'] or '?':<4} "
                   f"{days:<16} {r['trend']:<15} {r['injury'] or ''}")
     return 0

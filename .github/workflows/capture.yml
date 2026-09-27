@@ -6,14 +6,19 @@ name: Capture practice report
 on:
   schedule:
     # Times are UTC. Kevin is US/Central, so during CDT (UTC-5):
-    #   21:47 UTC = 16:47 local, same weekday      -> Wed/Thu/Fri = 3,4,5
-    #   01:47 UTC = 20:47 local on the PREVIOUS day -> Thu/Fri/Sat = 4,5,6
+    #   21:47 UTC = 16:47 local, same weekday      -> Wed-Sat = 3,4,5,6
+    #   01:47 UTC = 20:47 local on the PREVIOUS day -> Thu-Sun = 4,5,6,0
+    # SATURDAY is for the Monday-night clubs, which practise Thu/Fri/Sat and
+    # file their final report -- the one with game status -- on Saturday. Week
+    # 3 2026: DeVonta Smith was cleared on a Saturday report nobody captured.
+    # Every other club's Friday rows are still on the page that day; the
+    # assembler reads a club's Saturday only if its filing changed.
     # Twice a day on purpose: clubs file through the afternoon and amend, and
     # west-coast clubs file late. The later capture of a day wins as a
     # correction. Under CST the local times drift an hour earlier, which the
     # wide window absorbs.
-    - cron: '47 21 * * 3,4,5'
-    - cron: '47 1 * * 4,5,6'
+    - cron: '47 21 * * 3,4,5,6'
+    - cron: '47 1 * * 4,5,6,0'
   workflow_dispatch:
 
 permissions:

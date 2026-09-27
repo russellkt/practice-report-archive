@@ -370,3 +370,76 @@ def test_each_column_carries_the_capture_that_actually_fed_it(tmp_path):
 def test_the_week_runs_wednesday_to_tuesday(day, anchor):
     from datetime import date
     assert pp.week_anchor(date.fromisoformat(day)) == date.fromisoformat(anchor)
+
+
+# --- Saturday: optional, and per club ----------------------------------------
+#
+# A Monday-night club files its final report on Saturday. Every other club's
+# rows are still on the page from Friday, and must not become a Saturday.
+
+def _two_clubs(tmp, date, at, phi, nyg):
+    d = {"captured_at": f"{date}T{at}:00+00:00", "capture_date": date,
+         "weekday": "x", "source": "test", "week": None, "clubs_filed": 2,
+         "clubs_filed_list": ["PHI", "NYG"], "players": 2,
+         "teams": [{"team": "PHI", "team_name": "PHI", "players": phi},
+                   {"team": "NYG", "team_name": "NYG", "players": nyg}]}
+    (tmp / f"practice-{date}-{at.replace(':', '')}.json").write_text(json.dumps(d))
+
+
+def test_a_monday_club_files_saturday_and_a_sunday_club_does_not(tmp_path):
+    """2026 week 3: Smith was --/DNP/LIMITED with no designation, and cleared
+    on the Saturday report. Nabers' Friday rows were still on the page."""
+    smith_fri = _p("DeVonta Smith", "LIMITED", injury="Hamstring", game=None)
+    smith_sat = _p("DeVonta Smith", "FULL", injury="Hamstring", game=None)
+    nabers = _p("Malik Nabers", "FULL", game=None)
+    _two_clubs(tmp_path, "2026-09-24", "21:47",
+               [_p("DeVonta Smith", "DNP", injury="Hamstring")], [nabers])
+    _two_clubs(tmp_path, "2026-09-25", "21:47", [smith_fri], [nabers | {"practice": "LIMITED"}])
+    _two_clubs(tmp_path, "2026-09-26", "21:47",
+               [smith_sat | {"game_status": ""}], [nabers | {"practice": "LIMITED"}])
+    rep = pp.build(tmp_path)
+    rows = {r["player"]: r for r in rep["progression"]}
+
+    assert rows["DeVonta Smith"]["practice_sat"] == "FULL"
+    assert rows["DeVonta Smith"]["trend"] == "ARRIVING"
+    assert rows["Malik Nabers"]["practice_sat"] is None
+    assert rows["Malik Nabers"]["practice_fri"] == "LIMITED"
+    assert rep["clubs_by_day"]["Saturday"] == ["PHI"]
+    assert rep["clubs_not_filing_optional_day"] == {"Saturday": ["NYG"]}
+    assert rep["days_captured"][-1] == "Saturday"
+
+
+def test_the_saturday_evening_run_lands_on_saturday(tmp_path):
+    """The second Saturday run fires at 01:47 UTC SUNDAY."""
+    _two_clubs(tmp_path, "2026-09-25", "21:47",
+               [_p("DeVonta Smith", "LIMITED")], [_p("Malik Nabers", "FULL")])
+    _two_clubs(tmp_path, "2026-09-27", "01:47",
+               [_p("DeVonta Smith", "FULL")], [_p("Malik Nabers", "FULL")])
+    rep = pp.build(tmp_path)
+    smith = next(r for r in rep["progression"] if r["player"] == "DeVonta Smith")
+    assert smith["practice_sat"] == "FULL"
+    assert smith["practice_fri"] == "LIMITED"
+
+
+def test_saturday_is_never_missing(tmp_path):
+    """Most weeks most clubs have no Saturday report, so its absence is not a
+    gap -- and a Wed-Fri week must still read complete."""
+    for date in ("2026-09-23", "2026-09-24", "2026-09-25"):
+        _snap_at(tmp_path, date, "21:47", [_p("Malik Nabers", {"2026-09-23": "DNP",
+                 "2026-09-24": "LIMITED", "2026-09-25": "FULL"}[date])])
+    rep = pp.build(tmp_path)
+    assert rep["days_missing"] == []
+    assert rep["progression"][0]["days_missing"] == []
+    assert rep["progression"][0]["practice_sat"] is None
+
+
+def test_a_saturday_run_where_nobody_filed_opens_no_day(tmp_path):
+    """A Saturday run that finds every club's Friday rows untouched is not a
+    Saturday, for anyone."""
+    _two_clubs(tmp_path, "2026-09-25", "21:47",
+               [_p("DeVonta Smith", "LIMITED")], [_p("Malik Nabers", "FULL")])
+    _two_clubs(tmp_path, "2026-09-26", "21:47",
+               [_p("DeVonta Smith", "LIMITED")], [_p("Malik Nabers", "FULL")])
+    rep = pp.build(tmp_path)
+    assert "Saturday" not in rep["days_captured"]
+    assert all(r["practice_sat"] is None for r in rep["progression"])

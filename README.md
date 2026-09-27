@@ -42,9 +42,16 @@ tools/                the collector and the assembler
 tests/                unit tests for both
 ```
 
-Captures run Wednesday, Thursday and Friday, twice each day — clubs file
+Captures run Wednesday through Saturday, twice each day — clubs file
 through the afternoon and amend, and west-coast clubs file late. When two
 captures land on the same day the later one wins, because it is a correction.
+
+**Saturday is optional, and per club.** A club playing Monday night practises
+Thursday to Saturday and files its final report, with game status, on Saturday.
+Every other club's Friday rows are still on the page that day, so a club's
+Saturday rows become `practice_sat` only when its filing changed from Friday;
+the rest are listed in `clubs_not_filing_optional_day`. Saturday is never
+reported in `days_missing`.
 
 **A capture's date is not its practice day.** The second run of each day fires
 in the evening local time, which is the *following* date in UTC, and the page
