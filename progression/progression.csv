@@ -11,7 +11,7 @@ Alaric Jackson,LAR,T,,,DNP,,DNP_SINGLE,,,False
 Albert Regis,JAX,DT,LIMITED,LIMITED,LIMITED,,LIMITED_STEADY,Elbow,Questionable,False
 Amik Robertson,WAS,CB,LIMITED,FULL,FULL,,ARRIVING,,,True
 Andrew Thomas,NYG,T,DNP,DNP,LIMITED,,IMPROVING,,,False
-Anfernee Jennings,NO,LB,,DNP,DNP,,DNP_ALL_WEEK,,,False
+Anfernee Jennings,NO,LB,,DNP,DNP,DNP,DNP_ALL_WEEK,Knee,Out,False
 Anthony Campbell,GB,DT,DNP,DNP,DNP,,DNP_ALL_WEEK,Ankle,Out,False
 Ar'maj Reed-Adams,BUF,G,FULL,FULL,FULL,,FULL_ALL_WEEK,,,True
 Ashton Dulin,IND,WR,DNP,FULL,FULL,,ARRIVING,Ankle,Questionable,True
@@ -20,7 +20,7 @@ Ashton Jeanty,LV,RB,FULL,FULL,FULL,,FULL_ALL_WEEK,,,True
 Azeez Al-Shaair,HOU,LB,DNP,DNP,DNP,,DNP_ALL_WEEK,Groin,Out,False
 B.J. Hill,CIN,DT,DNP,DNP,LIMITED,,IMPROVING,Achilles,Questionable,False
 Baker Mayfield,TB,QB,DNP,DNP,DNP,,DNP_ALL_WEEK,Thumb,Out,False
-Barion Brown,NO,WR,,LIMITED,LIMITED,,LIMITED_STEADY,,,False
+Barion Brown,NO,WR,,LIMITED,LIMITED,FULL,ARRIVING,,,True
 Ben Bartch,DET,G,DNP,DNP,DNP,,DNP_ALL_WEEK,Foot,Out,False
 Ben Sinnott,WAS,TE,LIMITED,LIMITED,LIMITED,,LIMITED_STEADY,,,False
 Benjamin Morrison,TB,CB,,LIMITED,DNP,,DECLINING,Quadricep,Out,False
@@ -48,7 +48,7 @@ Caleb Williams,CHI,QB,,DNP,DNP,,DNP_ALL_WEEK,Hamstring,Out,False
 Calen Bullock,HOU,S,LIMITED,FULL,FULL,,ARRIVING,,,True
 Cam Jackson,CAR,DT,,,LIMITED,,LIMITED_SINGLE,Knee,Questionable,False
 Cam Lewis,CHI,S,,LIMITED,DNP,,DECLINING,Hip,Doubtful,False
-Carl Granderson,NO,LB,,DNP,DNP,,DNP_ALL_WEEK,,,False
+Carl Granderson,NO,LB,,DNP,DNP,DNP,DNP_ALL_WEEK,Ankle,Out,False
 Chamarri Conner,KC,S,FULL,FULL,FULL,,FULL_ALL_WEEK,,,True
 Channing Canada,NE,CB,,LIMITED,LIMITED,,LIMITED_STEADY,Hamstring,Questionable,False
 Charles Demmings,MIN,CB,DNP,DNP,DNP,,DNP_ALL_WEEK,Hamstring,Out,False
@@ -62,7 +62,7 @@ Chris Bell,MIA,WR,LIMITED,LIMITED,FULL,,ARRIVING,,,True
 Chris Godwin Jr.,TB,WR,DNP,FULL,FULL,,ARRIVING,,,True
 Chris Jones,KC,DT,FULL,FULL,FULL,,FULL_ALL_WEEK,,,True
 Chris Moore,BAL,WR,LIMITED,LIMITED,LIMITED,,LIMITED_STEADY,Ankle,Questionable,False
-Christen Miller,NO,DT,,LIMITED,LIMITED,,LIMITED_STEADY,,,False
+Christen Miller,NO,DT,,LIMITED,LIMITED,FULL,ARRIVING,,,True
 Christian Barmore,NE,DT,DNP,DNP,DNP,,DNP_ALL_WEEK,Shoulder,Out,False
 Christian Benford,BUF,CB,DNP,DNP,DNP,,DNP_ALL_WEEK,Toe,Questionable,False
 Christian Braswell,JAX,CB,LIMITED,LIMITED,LIMITED,,LIMITED_STEADY,Knee,Questionable,False
@@ -96,7 +96,7 @@ Dante Trader Jr.,MIA,S,FULL,FULL,FULL,,FULL_ALL_WEEK,,,True
 Darius Cooper,PHI,WR,,FULL,FULL,,FULL_ALL_WEEK,,,True
 Darren Waller,CAR,TE,DNP,FULL,FULL,,ARRIVING,,,True
 Davante Adams,LAR,WR,DNP,DNP,FULL,,ARRIVING,,,True
-Davon Godchaux,NO,DT,,,DNP,,DNP_SINGLE,,,False
+Davon Godchaux,NO,DT,,,DNP,FULL,ARRIVING,,,True
 DeMarvion Overshown,DAL,LB,DNP,DNP,DNP,,DNP_ALL_WEEK,Hamstring,Out,False
 DeMonte Capehart,TB,DT,,FULL,FULL,,FULL_ALL_WEEK,,,True
 DeVonta Smith,PHI,WR,,DNP,DNP,,DNP_ALL_WEEK,Hamstring,Out,False
@@ -105,7 +105,7 @@ Deonte Banks,NYG,CB,LIMITED,LIMITED,FULL,,ARRIVING,,,True
 Derwin James,LAC,S,LIMITED,LIMITED,LIMITED,,LIMITED_STEADY,"Hamstring, Not injury related - resting player",Questionable,False
 Devin Lloyd,CAR,LB,FULL,FULL,FULL,,FULL_ALL_WEEK,,,True
 Dexter Lawrence,CIN,DT,,,DNP,,DNP_SINGLE,,,False
-Divine Deablo,ATL,LB,,LIMITED,LIMITED,,LIMITED_STEADY,,,False
+Divine Deablo,ATL,LB,,LIMITED,LIMITED,LIMITED,LIMITED_STEADY,Hamstring,Questionable,False
 Dondrea Tillman,DEN,LB,DNP,DNP,DNP,,DNP_ALL_WEEK,Hamstring,Out,False
 Donte Jackson,LAC,CB,DNP,DNP,FULL,,ARRIVING,Concussion,Questionable,True
 Dorian Williams,BUF,LB,FULL,FULL,FULL,,FULL_ALL_WEEK,,,True
@@ -147,6 +147,7 @@ Jadeveon Clowney,HOU,DE,LIMITED,LIMITED,DNP,,DECLINING,Knee,Questionable,False
 Jadon Canady,KC,CB,FULL,FULL,FULL,,FULL_ALL_WEEK,,,True
 Jager Burton,GB,C,,LIMITED,LIMITED,,LIMITED_STEADY,Groin,Questionable,False
 Jake Hansen,HOU,LB,LIMITED,LIMITED,FULL,,ARRIVING,Calf,Questionable,True
+Jake Matthews,ATL,T,,,,DNP,DNP_SINGLE,,,False
 Jakobi Meyers,JAX,WR,LIMITED,LIMITED,FULL,,ARRIVING,,,True
 Jalen Carter,PHI,DT,,FULL,FULL,,FULL_ALL_WEEK,,,True
 Jalen Coker,CAR,WR,DNP,LIMITED,LIMITED,,IMPROVING,Quadricep,Questionable,False
@@ -156,8 +157,9 @@ James Thompson Jr.,SF,DT,DNP,DNP,DNP,,DNP_ALL_WEEK,Ankle,Out,False
 Jarran Reed,SEA,DT,,LIMITED,FULL,,ARRIVING,,,True
 Jarrian Jones,JAX,CB,FULL,FULL,FULL,,FULL_ALL_WEEK,,,True
 Javon Kinlaw,WAS,DT,LIMITED,LIMITED,FULL,,ARRIVING,,,True
-Jawaan Taylor,ATL,T,,,DNP,,DNP_SINGLE,,,False
+Jawaan Taylor,ATL,T,,,DNP,FULL,ARRIVING,,,True
 Jayden Daniels,WAS,QB,LIMITED,LIMITED,LIMITED,,LIMITED_STEADY,Elbow,Out,False
+Jayden Price,NO,CB,,,,LIMITED,LIMITED_SINGLE,,,False
 Jaylen Waddle,DEN,WR,FULL,FULL,FULL,,FULL_ALL_WEEK,,,True
 Jaylen Watson,LAR,CB,DNP,DNP,DNP,,DNP_ALL_WEEK,Shoulder,Out,False
 Jaylen Wright,MIA,RB,LIMITED,FULL,FULL,,ARRIVING,,,True
@@ -183,12 +185,12 @@ Josh Wallace,LAR,CB,LIMITED,LIMITED,FULL,,ARRIVING,,,True
 Joshua Uche,MIA,LB,FULL,FULL,FULL,,FULL_ALL_WEEK,,,True
 Josiah Trotter,TB,LB,LIMITED,FULL,FULL,,ARRIVING,,,True
 Jovaughn Gwyn,BAL,C,DNP,DNP,DNP,,DNP_ALL_WEEK,Ankle,Out,False
-Julian Blackmon,NO,S,,LIMITED,FULL,,ARRIVING,,,True
+Julian Blackmon,NO,S,,LIMITED,FULL,FULL,ARRIVING,,,True
 Julian Love,SEA,S,,LIMITED,FULL,,ARRIVING,,,True
 Julius Brents,MIA,CB,FULL,FULL,FULL,,FULL_ALL_WEEK,,,True
 Justin Eboigbe,LAC,DE,DNP,DNP,FULL,,ARRIVING,,,True
 Justin Jefferson,MIN,WR,DNP,DNP,DNP,,DNP_ALL_WEEK,Ankle,Out,False
-Kaden Elliss,NO,LB,,DNP,DNP,,DNP_ALL_WEEK,,,False
+Kaden Elliss,NO,LB,,DNP,DNP,DNP,DNP_ALL_WEEK,Calf,Out,False
 Kamren Kinchens,LAR,S,LIMITED,LIMITED,FULL,,ARRIVING,,,True
 Karl Brooks,GB,DT,DNP,LIMITED,LIMITED,,IMPROVING,,,False
 Kayode Awosika,LAC,G,DNP,DNP,DNP,,DNP_ALL_WEEK,Fibula,Out,False
@@ -196,7 +198,7 @@ Keaton Mitchell,LAC,RB,,LIMITED,FULL,,ARRIVING,,,True
 Keenan Allen,IND,WR,LIMITED,LIMITED,DNP,,DECLINING,"Not injury related - resting player, Groin",Questionable,False
 Keion White,SF,DE,DNP,DNP,LIMITED,,IMPROVING,Hamstring,Questionable,False
 Keionte Scott,TB,CB,LIMITED,LIMITED,FULL,,ARRIVING,,,True
-Kendal Daniels,ATL,LB,,,LIMITED,,LIMITED_SINGLE,,,False
+Kendal Daniels,ATL,LB,,,LIMITED,FULL,ARRIVING,,,True
 Kene Nwangwu,NYJ,RB,FULL,FULL,FULL,,FULL_ALL_WEEK,,,True
 Kenyon Sadiq,NYJ,TE,LIMITED,LIMITED,LIMITED,,LIMITED_STEADY,Back,Questionable,False
 Keon Coleman,BUF,WR,DNP,LIMITED,LIMITED,,IMPROVING,,,False
@@ -224,7 +226,7 @@ Marcus Epps,PHI,S,,LIMITED,DNP,,DECLINING,Groin,Out,False
 Mark Andrews,BAL,TE,FULL,FULL,FULL,,FULL_ALL_WEEK,,,True
 Marlon Humphrey,BAL,CB,LIMITED,FULL,FULL,,ARRIVING,,,True
 Marquise Brown,PHI,WR,,DNP,DNP,,DNP_ALL_WEEK,Ankle,Out,False
-Martin Emerson,NO,CB,,FULL,FULL,,FULL_ALL_WEEK,,,True
+Martin Emerson,NO,CB,,FULL,FULL,FULL,FULL_ALL_WEEK,,,True
 Marvin Mims Jr.,DEN,WR,FULL,FULL,FULL,,FULL_ALL_WEEK,,,True
 Mason Taylor,NYJ,TE,DNP,DNP,DNP,,DNP_ALL_WEEK,Thumb,Out,False
 Mike Evans,SF,WR,DNP,DNP,LIMITED,,IMPROVING,Ribs,Questionable,False
@@ -237,6 +239,7 @@ Moro Ojomo,PHI,DT,,LIMITED,FULL,,ARRIVING,,,True
 Mykel Williams,SF,DE,LIMITED,LIMITED,LIMITED,,LIMITED_STEADY,Knee,Out,False
 Nate Boerkircher,JAX,TE,,DNP,FULL,,ARRIVING,,,True
 Nate Landman,LAR,LB,LIMITED,LIMITED,FULL,,ARRIVING,,,True
+Nathan Shepherd,NO,DT,,,,DNP,DNP_SINGLE,,,False
 Nic Jones,NYG,CB,FULL,FULL,FULL,,FULL_ALL_WEEK,,,True
 Nick Allegretti,WAS,G,LIMITED,LIMITED,FULL,,ARRIVING,,,True
 Nick Bosa,SF,DE,DNP,DNP,DNP,,DNP_ALL_WEEK,"Knee, Calf",Out,False
@@ -244,12 +247,12 @@ Nick Cross,WAS,S,DNP,DNP,DNP,,DNP_ALL_WEEK,Illness,Out,False
 Nick Emmanwori,SEA,S,,FULL,FULL,,FULL_ALL_WEEK,,,True
 Nick Scott,CAR,S,FULL,FULL,FULL,,FULL_ALL_WEEK,,,True
 Nico Collins,HOU,WR,LIMITED,LIMITED,FULL,,ARRIVING,,,True
-Noah Fant,NO,TE,,LIMITED,LIMITED,,LIMITED_STEADY,,,False
+Noah Fant,NO,TE,,LIMITED,LIMITED,LIMITED,LIMITED_STEADY,Abdomen,Questionable,False
 Noah Sewell,CHI,LB,,LIMITED,FULL,,ARRIVING,Achilles,Out,True
 Patrick Mahomes,KC,QB,FULL,FULL,FULL,,FULL_ALL_WEEK,,,True
 Patrick Ricard,NYG,FB,FULL,FULL,FULL,,FULL_ALL_WEEK,,,True
 Percy Butler,WAS,S,LIMITED,FULL,FULL,,ARRIVING,Concussion,Questionable,True
-Pete Werner,NO,LB,,DNP,DNP,,DNP_ALL_WEEK,,,False
+Pete Werner,NO,LB,,DNP,DNP,DNP,DNP_ALL_WEEK,Shoulder,Questionable,False
 Poona Ford,LAR,DT,,,FULL,,FULL_SINGLE,,,True
 Princely Umanmielen,CAR,LB,DNP,FULL,FULL,,ARRIVING,,,True
 Puka Nacua,LAR,WR,LIMITED,LIMITED,FULL,,ARRIVING,,,True
@@ -268,7 +271,7 @@ Roy Lopez,ARI,DT,,LIMITED,FULL,,ARRIVING,,,True
 Rueben Bain Jr.,TB,LB,DNP,DNP,DNP,,DNP_ALL_WEEK,"Groin, Shoulder",Out,False
 Sam Cosmi,WAS,G,DNP,DNP,DNP,,DNP_ALL_WEEK,"Concussion, Throat",Out,False
 Sam Franklin Jr.,BUF,S,,DNP,DNP,,DNP_ALL_WEEK,,,False
-Samson Ebukam,ATL,DE,,LIMITED,LIMITED,,LIMITED_STEADY,,,False
+Samson Ebukam,ATL,DE,,LIMITED,LIMITED,FULL,ARRIVING,Hamstring,Questionable,True
 Seydou Traore,MIA,TE,FULL,FULL,FULL,,FULL_ALL_WEEK,,,True
 Shavon Revel Jr.,DAL,CB,DNP,DNP,FULL,,ARRIVING,,,True
 Shemar Turner,CHI,DE,,LIMITED,FULL,,ARRIVING,Knee,Out,True
@@ -288,6 +291,7 @@ Trent Williams,SF,T,DNP,DNP,FULL,,ARRIVING,,,True
 Trey Hendrickson,BAL,LB,DNP,DNP,DNP,,DNP_ALL_WEEK,Finger,Out,False
 Trey Lance,LAC,QB,,LIMITED,LIMITED,,LIMITED_STEADY,Groin,Questionable,False
 Treydan Stukes,LV,S,FULL,FULL,FULL,,FULL_ALL_WEEK,,,True
+Treyton Welch,NO,TE,,,,DNP,DNP_SINGLE,,,False
 Tristin McCollum,LV,S,FULL,FULL,FULL,,FULL_ALL_WEEK,,,True
 Tucker Addington,MIA,LS,LIMITED,LIMITED,LIMITED,,LIMITED_STEADY,,,False
 Ty Okada,SEA,S,,DNP,FULL,,ARRIVING,Hamstring,Questionable,True
@@ -305,8 +309,9 @@ Will Anderson Jr.,HOU,DE,LIMITED,FULL,FULL,,ARRIVING,,,True
 Will Shipley,PHI,RB,,LIMITED,FULL,,ARRIVING,,,True
 Xavier Legette,CAR,WR,DNP,DNP,DNP,,DNP_ALL_WEEK,Knee,Out,False
 Yahya Black,PIT,DT,,,,,NO_DATA,Not injury related - personal matter,Questionable,False
+Yasir Abdullah,ATL,LB,,,,FULL,FULL_SINGLE,Illness,Questionable,True
 Yaya Diaby,TB,LB,DNP,LIMITED,FULL,,ARRIVING,,,True
-Za'Darius Smith,ATL,DE,,DNP,LIMITED,,IMPROVING,,,False
+Za'Darius Smith,ATL,DE,,DNP,LIMITED,FULL,ARRIVING,,,True
 Zach Allen,DEN,DE,LIMITED,FULL,FULL,,ARRIVING,,,True
 Zach Charbonnet,SEA,RB,,,LIMITED,,LIMITED_SINGLE,Knee,Out,False
 Zack Baun,PHI,LB,,DNP,DNP,,DNP_ALL_WEEK,Concussion,Out,False
