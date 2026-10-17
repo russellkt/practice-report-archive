@@ -1,0 +1,3577 @@
+{
+  "captured_at": "2026-10-17T23:28:44+00:00",
+  "capture_date": "2026-10-17",
+  "weekday": "Saturday",
+  "source": "https://www.nfl.com/injuries/",
+  "raw": "nfl-injuries-2026-10-17-2328.html.gz",
+  "week": null,
+  "note": "A SNAPSHOT, not a current-state file. The page carries one Practice Status column which is overwritten each day, so this day's participation exists only in captures like this one.",
+  "clubs_filed": 28,
+  "clubs_filed_list": [
+    "ARI",
+    "ATL",
+    "BAL",
+    "BUF",
+    "CAR",
+    "CHI",
+    "CLE",
+    "DAL",
+    "DEN",
+    "GB",
+    "HOU",
+    "IND",
+    "JAX",
+    "KC",
+    "LAC",
+    "LAR",
+    "LV",
+    "NE",
+    "NO",
+    "NYG",
+    "NYJ",
+    "PHI",
+    "PIT",
+    "SEA",
+    "SF",
+    "TB",
+    "TEN",
+    "WAS"
+  ],
+  "players": 374,
+  "teams": [
+    {
+      "team": "SEA",
+      "team_name": "Seahawks",
+      "players": [
+        {
+          "player": "Zach Charbonnet",
+          "player_slug": "zach-charbonnet",
+          "position": "RB",
+          "injury": "Knee",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Out"
+        },
+        {
+          "player": "Irvin Charles",
+          "player_slug": "irvin-charles",
+          "position": "WR",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "George Holani",
+          "player_slug": "george-holani",
+          "position": "RB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Drew Lock",
+          "player_slug": "drew-lock",
+          "position": "QB",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        },
+        {
+          "player": "Jaxon Smith-Njigba",
+          "player_slug": "jaxon-smith-njigba",
+          "position": "WR",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Beau Stephens",
+          "player_slug": "beau-stephens",
+          "position": "G",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Chazz Surratt",
+          "player_slug": "chazz-surratt",
+          "position": "LB",
+          "injury": "Calf",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "Drake Thomas",
+          "player_slug": "drake-thomas",
+          "position": "LB",
+          "injury": "Ankle",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "Leonard Williams",
+          "player_slug": "leonard-williams",
+          "position": "DT",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        }
+      ]
+    },
+    {
+      "team": "DEN",
+      "team_name": "Broncos",
+      "players": [
+        {
+          "player": "Talanoa Hufanga",
+          "player_slug": "talanoa-hufanga",
+          "position": "S",
+          "injury": "Ankle",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "Brandon Jones",
+          "player_slug": "brandon-jones-3",
+          "position": "S",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Sai'vion Jones",
+          "player_slug": "sai-vion-jones",
+          "position": "DE",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Riley Moss",
+          "player_slug": "riley-moss",
+          "position": "CB",
+          "injury": "Ribs",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Ben Powers",
+          "player_slug": "ben-powers-x2568",
+          "position": "G",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Pat Surtain II",
+          "player_slug": "patrick-surtain-ii",
+          "position": "CB",
+          "injury": "Ankle",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        }
+      ]
+    },
+    {
+      "team": "HOU",
+      "team_name": "Texans",
+      "players": [
+        {
+          "player": "Azeez Al-Shaair",
+          "player_slug": "azeez-al-shaair",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Will Anderson Jr.",
+          "player_slug": "will-anderson-jr",
+          "position": "DE",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        },
+        {
+          "player": "Trent Brown",
+          "player_slug": "trent-brown",
+          "position": "T",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Jadeveon Clowney",
+          "player_slug": "jadeveon-clowney",
+          "position": "DE",
+          "injury": null,
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": null
+        },
+        {
+          "player": "Nico Collins",
+          "player_slug": "nico-collins",
+          "position": "WR",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        },
+        {
+          "player": "Tank Dell",
+          "player_slug": "tank-dell",
+          "position": "WR",
+          "injury": "Knee",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "Logan Hall",
+          "player_slug": "logan-hall",
+          "position": "DE",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        },
+        {
+          "player": "Jake Hansen",
+          "player_slug": "jake-hansen",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Ja'Marcus Ingram",
+          "player_slug": "ja-marcus-ingram",
+          "position": "CB",
+          "injury": "Elbow",
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "David Montgomery",
+          "player_slug": "david-montgomery",
+          "position": "RB",
+          "injury": "Groin",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "Jalen Pitre",
+          "player_slug": "jalen-pitre",
+          "position": "S",
+          "injury": "Shoulder",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "Dalton Schultz",
+          "player_slug": "dalton-schultz",
+          "position": "TE",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        },
+        {
+          "player": "Henry To'oTo'o",
+          "player_slug": "henry-to-oto-o",
+          "position": "LB",
+          "injury": "Shoulder",
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Wade Woodaz",
+          "player_slug": "wade-woodaz",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        }
+      ]
+    },
+    {
+      "team": "JAX",
+      "team_name": "Jaguars",
+      "players": [
+        {
+          "player": "Nate Boerkircher",
+          "player_slug": "nate-boerkircher",
+          "position": "TE",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        },
+        {
+          "player": "Montaric Brown",
+          "player_slug": "montaric-brown",
+          "position": "CB",
+          "injury": "Hamstring",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "Jarrian Jones",
+          "player_slug": "jarrian-jones",
+          "position": "CB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Jaylon Jones",
+          "player_slug": "jaylon-jones",
+          "position": "CB",
+          "injury": "Hamstring",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Jourdan Lewis",
+          "player_slug": "jourdan-lewis",
+          "position": "CB",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        },
+        {
+          "player": "Ross Matiscik",
+          "player_slug": "ross-matiscik",
+          "position": "LS",
+          "injury": "Shoulder",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "Eric Murray",
+          "player_slug": "eric-murray",
+          "position": "S",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Emmanuel Pregnon",
+          "player_slug": "emmanuel-pregnon",
+          "position": "G",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        },
+        {
+          "player": "Cole Van Lanen",
+          "player_slug": "cole-van-lanen",
+          "position": "T",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        }
+      ]
+    },
+    {
+      "team": "NYJ",
+      "team_name": "Jets",
+      "players": [
+        {
+          "player": "Dane Belton",
+          "player_slug": "dane-belton",
+          "position": "S",
+          "injury": "Knee",
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Omar Cooper Jr.",
+          "player_slug": "omar-cooper-jr",
+          "position": "WR",
+          "injury": "Ankle",
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Breece Hall",
+          "player_slug": "breece-hall",
+          "position": "RB",
+          "injury": "Quadricep",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "Francisco Mauigoa",
+          "player_slug": "francisco-mauigoa",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Adonai Mitchell",
+          "player_slug": "adonai-mitchell",
+          "position": "WR",
+          "injury": "Finger",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "Joseph Ossai",
+          "player_slug": "joseph-ossai",
+          "position": "DE",
+          "injury": "Ankle",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "Dylan Parham",
+          "player_slug": "dylan-parham",
+          "position": "G",
+          "injury": "Knee",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "Kenyon Sadiq",
+          "player_slug": "kenyon-sadiq",
+          "position": "TE",
+          "injury": "Concussion",
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": "Questionable"
+        }
+      ]
+    },
+    {
+      "team": "NE",
+      "team_name": "Patriots",
+      "players": [
+        {
+          "player": "A.J. Brown",
+          "player_slug": "a-j-brown",
+          "position": "WR",
+          "injury": "Ankle",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Marcus Bryant",
+          "player_slug": "marcus-bryant",
+          "position": "T",
+          "injury": "Ankle",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Kevin Byard",
+          "player_slug": "kevin-byard",
+          "position": "S",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Will Campbell",
+          "player_slug": "will-campbell",
+          "position": "T",
+          "injury": "Knee",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Channing Canada",
+          "player_slug": "channing-canada",
+          "position": "CB",
+          "injury": "Hamstring",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Carlton Davis III",
+          "player_slug": "carlton-davis",
+          "position": "CB",
+          "injury": "Neck",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "Cory Durden",
+          "player_slug": "cory-durden",
+          "position": "DT",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Christian Elliss",
+          "player_slug": "christian-elliss",
+          "position": "LB",
+          "injury": "Chest",
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Christian Gonzalez",
+          "player_slug": "christian-gonzalez",
+          "position": "CB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "TreVeyon Henderson",
+          "player_slug": "treveyon-henderson",
+          "position": "RB",
+          "injury": "Ankle",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Dre'Mont Jones",
+          "player_slug": "dre-mont-jones",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Marcus Jones",
+          "player_slug": "marcus-jones-2",
+          "position": "CB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Drake Maye",
+          "player_slug": "drake-maye",
+          "position": "QB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Morgan Moses",
+          "player_slug": "morgan-moses",
+          "position": "T",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        },
+        {
+          "player": "Karon Prunty",
+          "player_slug": "karon-prunty",
+          "position": "CB",
+          "injury": "Hamstring",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "Charles Woods",
+          "player_slug": "charles-woods",
+          "position": "CB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Craig Woodson",
+          "player_slug": "craig-woodson",
+          "position": "S",
+          "injury": "Shoulder",
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": "Questionable"
+        }
+      ]
+    },
+    {
+      "team": "CHI",
+      "team_name": "Bears",
+      "players": [
+        {
+          "player": "T.J. Edwards",
+          "player_slug": "t-j-edwards",
+          "position": "LB",
+          "injury": "Hamstring",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "Keyshaun Elliott",
+          "player_slug": "keyshaun-elliott",
+          "position": "LB",
+          "injury": "Quadricep",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "Kyler Gordon",
+          "player_slug": "kyler-gordon",
+          "position": "CB",
+          "injury": "Calf",
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Grady Jarrett",
+          "player_slug": "grady-jarrett",
+          "position": "DT",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Kyle Monangai",
+          "player_slug": "kyle-monangai",
+          "position": "RB",
+          "injury": "Thumb, Toe",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "Dayo Odeyingbo",
+          "player_slug": "dayo-odeyingbo",
+          "position": "DE",
+          "injury": "Quadricep",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "Tyrique Stevenson",
+          "player_slug": "tyrique-stevenson",
+          "position": "CB",
+          "injury": "Hip",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Joe Thuney",
+          "player_slug": "joseph-michael-thuney",
+          "position": "G",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Caleb Williams",
+          "player_slug": "caleb-williams",
+          "position": "QB",
+          "injury": "Hamstring",
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": "Questionable"
+        }
+      ]
+    },
+    {
+      "team": "ATL",
+      "team_name": "Falcons",
+      "players": [
+        {
+          "player": "Kendal Daniels",
+          "player_slug": "kendal-daniels",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Divine Deablo",
+          "player_slug": "divine-deablo",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        },
+        {
+          "player": "C.J. Henderson",
+          "player_slug": "c-j-henderson",
+          "position": "CB",
+          "injury": "Groin",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "Drake London",
+          "player_slug": "drake-london",
+          "position": "WR",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        },
+        {
+          "player": "Jake Matthews",
+          "player_slug": "jake-matthews",
+          "position": "T",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        },
+        {
+          "player": "Michael Penix Jr.",
+          "player_slug": "michael-penix-jr",
+          "position": "QB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Za'Darius Smith",
+          "player_slug": "za-darius-smith",
+          "position": "DE",
+          "injury": "Neck",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Jawaan Taylor",
+          "player_slug": "jawaan-taylor",
+          "position": "T",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Cameron Thomas",
+          "player_slug": "cameron-thomas",
+          "position": "DE",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        }
+      ]
+    },
+    {
+      "team": "CAR",
+      "team_name": "Panthers",
+      "players": [
+        {
+          "player": "Jalen Coker",
+          "player_slug": "jalen-coker",
+          "position": "WR",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "AJ Dillon",
+          "player_slug": "a-j-dillon",
+          "position": "RB",
+          "injury": "Ankle",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "Trevor Etienne",
+          "player_slug": "trevor-etienne",
+          "position": "RB",
+          "injury": "Ankle",
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Monroe Freeling",
+          "player_slug": "monroe-freeling",
+          "position": "T",
+          "injury": "Knee",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Doubtful"
+        },
+        {
+          "player": "Thomas Incoom",
+          "player_slug": "thomas-incoom",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Damien Lewis",
+          "player_slug": "damien-lewis",
+          "position": "G",
+          "injury": "Elbow",
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Taylor Moton",
+          "player_slug": "taylor-moton",
+          "position": "T",
+          "injury": "Lung",
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Jaelan Phillips",
+          "player_slug": "jaelan-phillips",
+          "position": "LB",
+          "injury": "Hamstring",
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Tommy Tremble",
+          "player_slug": "tommy-tremble",
+          "position": "TE",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Darren Waller",
+          "player_slug": "darren-waller",
+          "position": "TE",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Tershawn Wharton",
+          "player_slug": "tershawn-wharton",
+          "position": "DT",
+          "injury": "Neck",
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Bryce Young",
+          "player_slug": "bryce-young",
+          "position": "QB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        }
+      ]
+    },
+    {
+      "team": "PHI",
+      "team_name": "Eagles",
+      "players": [
+        {
+          "player": "Saquon Barkley",
+          "player_slug": "saquon-barkley",
+          "position": "RB",
+          "injury": "Hamstring",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "Zack Baun",
+          "player_slug": "zack-baun",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Jakorian Bennett",
+          "player_slug": "jakorian-bennett",
+          "position": "CB",
+          "injury": "Knee",
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Marquise Brown",
+          "player_slug": "marquise-brown",
+          "position": "WR",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Grant Calcaterra",
+          "player_slug": "grant-calcaterra",
+          "position": "TE",
+          "injury": "Back",
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Jihaad Campbell",
+          "player_slug": "jihaad-campbell",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Jalen Carter",
+          "player_slug": "jalen-carter",
+          "position": "DT",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Michael Carter II",
+          "player_slug": "michael-carter-ii",
+          "position": "S",
+          "injury": "Abdomen",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "Landon Dickerson",
+          "player_slug": "landon-dickerson",
+          "position": "G",
+          "injury": "Knee",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Arnold Ebiketie",
+          "player_slug": "arnold-ebiketie",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "A.J. Epenesa",
+          "player_slug": "a-j-epenesa",
+          "position": "LB",
+          "injury": "Back",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Doubtful"
+        },
+        {
+          "player": "Marcus Epps",
+          "player_slug": "marcus-epps",
+          "position": "S",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Jonathan Greenard",
+          "player_slug": "jonathan-greenard",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Jalyx Hunt",
+          "player_slug": "jalyx-hunt",
+          "position": "LB",
+          "injury": "Knee, Ankle",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "Jalen Hurts",
+          "player_slug": "jalen-hurts",
+          "position": "QB",
+          "injury": "Calf",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "E.J. Jenkins",
+          "player_slug": "e-j-jenkins",
+          "position": "TE",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Fred Johnson",
+          "player_slug": "fred-johnson",
+          "position": "T",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Drew Kendall",
+          "player_slug": "drew-kendall",
+          "position": "C",
+          "injury": "Knee",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Mac McWilliams",
+          "player_slug": "mac-mcwilliams",
+          "position": "CB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Andrew Mukuba",
+          "player_slug": "andrew-mukuba",
+          "position": "S",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Will Shipley",
+          "player_slug": "will-shipley",
+          "position": "RB",
+          "injury": "Foot",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "DeVonta Smith",
+          "player_slug": "devonta-smith",
+          "position": "WR",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Tyler Steen",
+          "player_slug": "tyler-steen",
+          "position": "G",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Eli Stowers",
+          "player_slug": "eli-stowers",
+          "position": "TE",
+          "injury": "Quadricep",
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Dontayvion Wicks",
+          "player_slug": "dontayvion-wicks",
+          "position": "WR",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        }
+      ]
+    },
+    {
+      "team": "BAL",
+      "team_name": "Ravens",
+      "players": [
+        {
+          "player": "Mark Andrews",
+          "player_slug": "mark-andrews",
+          "position": "TE",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Rashod Bateman",
+          "player_slug": "rashod-bateman",
+          "position": "WR",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Teddye Buchanan",
+          "player_slug": "teddye-buchanan",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Calais Campbell",
+          "player_slug": "calais-campbell",
+          "position": "DT",
+          "injury": null,
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": null
+        },
+        {
+          "player": "Zay Flowers",
+          "player_slug": "zay-flowers",
+          "position": "WR",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        },
+        {
+          "player": "Mike Green",
+          "player_slug": "mike-green-5",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Kyle Hamilton",
+          "player_slug": "kyle-hamilton",
+          "position": "S",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Trey Hendrickson",
+          "player_slug": "trey-hendrickson",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Matthew Hibner",
+          "player_slug": "matthew-hibner",
+          "position": "TE",
+          "injury": "Hand",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "Marlon Humphrey",
+          "player_slug": "marlon-humphrey",
+          "position": "CB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Lamar Jackson",
+          "player_slug": "lamar-jackson",
+          "position": "QB",
+          "injury": "Ankle",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "Emery Jones Jr.",
+          "player_slug": "emery-jones-jr",
+          "position": "G",
+          "injury": "Ankle",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Cam Jurgens",
+          "player_slug": "cam-jurgens",
+          "position": "C",
+          "injury": "Concussion",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Out"
+        },
+        {
+          "player": "Ja'Kobi Lane",
+          "player_slug": "ja-kobi-lane",
+          "position": "WR",
+          "injury": "Wrist",
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Roger Rosengarten",
+          "player_slug": "roger-rosengarten",
+          "position": "T",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "John Simpson",
+          "player_slug": "john-simpson-2",
+          "position": "G",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        },
+        {
+          "player": "Trenton Simpson",
+          "player_slug": "trenton-simpson",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Ronnie Stanley",
+          "player_slug": "ronnie-stanley",
+          "position": "T",
+          "injury": null,
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": null
+        },
+        {
+          "player": "Nick Vannett",
+          "player_slug": "nick-vannett",
+          "position": "TE",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Andrew Vorhees",
+          "player_slug": "andrew-vorhees",
+          "position": "G",
+          "injury": "Foot",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Broderick Washington",
+          "player_slug": "broderick-washington",
+          "position": "DE",
+          "injury": "Ankle",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        }
+      ]
+    },
+    {
+      "team": "CLE",
+      "team_name": "Browns",
+      "players": [
+        {
+          "player": "Derek Barnett",
+          "player_slug": "derek-barnett",
+          "position": "DE",
+          "injury": "Ankle",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Denzel Boston",
+          "player_slug": "denzel-boston",
+          "position": "WR",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        },
+        {
+          "player": "Maliek Collins",
+          "player_slug": "maliek-collins",
+          "position": "DT",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        },
+        {
+          "player": "KC Concepcion",
+          "player_slug": "kc-concepcion",
+          "position": "WR",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Kalia Davis",
+          "player_slug": "kalia-davis",
+          "position": "DT",
+          "injury": "Quadricep",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "Grant Delpit",
+          "player_slug": "grant-delpit",
+          "position": "S",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Dillon Gabriel",
+          "player_slug": "dillon-gabriel",
+          "position": "QB",
+          "injury": "Back",
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": "Out"
+        },
+        {
+          "player": "Mason Graham",
+          "player_slug": "mason-graham",
+          "position": "DT",
+          "injury": "Knee, Ankle",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Mike Hall Jr.",
+          "player_slug": "michael-hall-jr",
+          "position": "DT",
+          "injury": "Ankle",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "Tytus Howard",
+          "player_slug": "tytus-howard-x1979",
+          "position": "T",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Elgton Jenkins",
+          "player_slug": "elgton-jenkins",
+          "position": "C",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Teven Jenkins",
+          "player_slug": "teven-jenkins",
+          "position": "G",
+          "injury": "Back",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "Quinshon Judkins",
+          "player_slug": "quinshon-judkins",
+          "position": "RB",
+          "injury": "Ankle",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Carsen Ryan",
+          "player_slug": "carsen-ryan",
+          "position": "TE",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Dylan Sampson",
+          "player_slug": "dylan-sampson",
+          "position": "RB",
+          "injury": "Knee",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Out"
+        },
+        {
+          "player": "Carson Schwesinger",
+          "player_slug": "carson-schwesinger",
+          "position": "LB",
+          "injury": "Ankle",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Tylan Wallace",
+          "player_slug": "tylan-wallace",
+          "position": "WR",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        }
+      ]
+    },
+    {
+      "team": "PIT",
+      "team_name": "Steelers",
+      "players": [
+        {
+          "player": "Keeanu Benton",
+          "player_slug": "keeanu-benton",
+          "position": "DT",
+          "injury": "Ankle",
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Jamel Dean",
+          "player_slug": "jamel-dean",
+          "position": "CB",
+          "injury": "Ankle",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Rico Dowdle",
+          "player_slug": "rico-dowdle",
+          "position": "RB",
+          "injury": "Toe",
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "DeShon Elliott",
+          "player_slug": "deshon-elliott",
+          "position": "S",
+          "injury": "Knee",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Out"
+        },
+        {
+          "player": "Cameron Heyward",
+          "player_slug": "cameron-heyward",
+          "position": "DT",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "DK Metcalf",
+          "player_slug": "d-k-metcalf",
+          "position": "WR",
+          "injury": "Illness",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Jalen Ramsey",
+          "player_slug": "jalen-ramsey",
+          "position": "CB",
+          "injury": "Wrist",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Ben Skowronek",
+          "player_slug": "ben-skowronek",
+          "position": "WR",
+          "injury": "Calf",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "T.J. Watt",
+          "player_slug": "t-j-watt",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Roman Wilson",
+          "player_slug": "roman-wilson",
+          "position": "WR",
+          "injury": "Finger",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        }
+      ]
+    },
+    {
+      "team": "TB",
+      "team_name": "Buccaneers",
+      "players": [
+        {
+          "player": "SirVocea Dennis",
+          "player_slug": "sirvocea-dennis",
+          "position": "LB",
+          "injury": "Ankle, Foot",
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Ayden Garnes",
+          "player_slug": "ayden-garnes",
+          "position": "CB",
+          "injury": "Ankle",
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Chris Godwin Jr.",
+          "player_slug": "chris-godwin",
+          "position": "WR",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Baker Mayfield",
+          "player_slug": "baker-mayfield",
+          "position": "QB",
+          "injury": "Thumb",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "Benjamin Morrison",
+          "player_slug": "benjamin-morrison",
+          "position": "CB",
+          "injury": "Quadricep",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Doubtful"
+        },
+        {
+          "player": "A'Shawn Robinson",
+          "player_slug": "a-shawn-robinson",
+          "position": "DT",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        },
+        {
+          "player": "David Sills",
+          "player_slug": "david-sills",
+          "position": "WR",
+          "injury": "Hamstring",
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": "Out"
+        },
+        {
+          "player": "Josiah Trotter",
+          "player_slug": "josiah-trotter",
+          "position": "LB",
+          "injury": "Knee",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Sean Tucker",
+          "player_slug": "sean-tucker",
+          "position": "RB",
+          "injury": "Quadricep",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Antoine Winfield Jr.",
+          "player_slug": "antoine-winfield-jr",
+          "position": "S",
+          "injury": "Rib",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "Tristan Wirfs",
+          "player_slug": "tristan-wirfs",
+          "position": "T",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        }
+      ]
+    },
+    {
+      "team": "NO",
+      "team_name": "Saints",
+      "players": [
+        {
+          "player": "Vernon Broughton",
+          "player_slug": "vernon-broughton",
+          "position": "DT",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Kaden Elliss",
+          "player_slug": "kaden-elliss",
+          "position": "LB",
+          "injury": "Calf",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "Davon Godchaux",
+          "player_slug": "davon-godchaux",
+          "position": "DT",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Anfernee Jennings",
+          "player_slug": "anfernee-jennings",
+          "position": "LB",
+          "injury": "Knee",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "Alvin Kamara",
+          "player_slug": "alvin-kamara",
+          "position": "RB",
+          "injury": "Back",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Chris Olave",
+          "player_slug": "chris-olave",
+          "position": "WR",
+          "injury": "Illness",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Nathan Shepherd",
+          "player_slug": "nathan-shepherd",
+          "position": "DT",
+          "injury": "Illness",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Tyler Shough",
+          "player_slug": "tyler-shough",
+          "position": "QB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Lorenzo Styles Jr.",
+          "player_slug": "lorenzo-styles-jr",
+          "position": "CB",
+          "injury": "Knee",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Tyree Wilson",
+          "player_slug": "tyree-wilson",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Zach Wood",
+          "player_slug": "zach-wood",
+          "position": "LS",
+          "injury": "Calf",
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Colby Wooden",
+          "player_slug": "colby-wooden",
+          "position": "DT",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Jeremiah Wright",
+          "player_slug": "jeremiah-wright",
+          "position": "G",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        }
+      ]
+    },
+    {
+      "team": "NYG",
+      "team_name": "Giants",
+      "players": [
+        {
+          "player": "Elijah Campbell",
+          "player_slug": "elijah-campbell",
+          "position": "S",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Abdul Carter",
+          "player_slug": "abdul-carter",
+          "position": "LB",
+          "injury": "Calf",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Jermaine Eluemunor",
+          "player_slug": "jermaine-eluemunor",
+          "position": "T",
+          "injury": "Calf",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Najee Harris",
+          "player_slug": "najee-harris",
+          "position": "RB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Malik Harrison",
+          "player_slug": "malik-harrison",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Colton Hood",
+          "player_slug": "colton-hood",
+          "position": "CB",
+          "injury": "Concussion",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "Theo Johnson",
+          "player_slug": "theo-johnson",
+          "position": "TE",
+          "injury": "Neck",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "Charlie Jones",
+          "player_slug": "charlie-jones-3",
+          "position": "WR",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Isaiah Likely",
+          "player_slug": "isaiah-likely",
+          "position": "TE",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Darnell Mooney",
+          "player_slug": "darnell-mooney",
+          "position": "WR",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Greg Newsome II",
+          "player_slug": "greg-newsome-ii",
+          "position": "CB",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        },
+        {
+          "player": "Tyler Nubin",
+          "player_slug": "tyler-nubin",
+          "position": "S",
+          "injury": "Neck",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "Jason Pinnock",
+          "player_slug": "jason-pinnock",
+          "position": "S",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Andrew Thomas",
+          "player_slug": "andrew-thomas",
+          "position": "T",
+          "injury": "Groin",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Questionable"
+        }
+      ]
+    },
+    {
+      "team": "TEN",
+      "team_name": "Titans",
+      "players": [
+        {
+          "player": "Jordan Elliott",
+          "player_slug": "jordan-elliott",
+          "position": "DT",
+          "injury": "Not injury related - personal matter",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "Cordale Flott",
+          "player_slug": "cordale-flott",
+          "position": "CB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "John Franklin-Myers",
+          "player_slug": "john-franklin-myers",
+          "position": "DE",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Marcus Harris",
+          "player_slug": "marcus-harris-4",
+          "position": "CB",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        },
+        {
+          "player": "Amani Hooker",
+          "player_slug": "amani-hooker",
+          "position": "S",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "David Martin-Robinson",
+          "player_slug": "david-martin-robinson",
+          "position": "TE",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        },
+        {
+          "player": "Tony Pollard",
+          "player_slug": "tony-pollard",
+          "position": "RB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Tyjae Spears",
+          "player_slug": "tyjae-spears",
+          "position": "RB",
+          "injury": "Knee",
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Joshua Williams",
+          "player_slug": "joshua-williams",
+          "position": "CB",
+          "injury": "Pectoral",
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Kevin Winston Jr.",
+          "player_slug": "kevin-winston-jr",
+          "position": "S",
+          "injury": "Quadricep",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        }
+      ]
+    },
+    {
+      "team": "IND",
+      "team_name": "Colts",
+      "players": [
+        {
+          "player": "Keenan Allen",
+          "player_slug": "keenan-allen",
+          "position": "WR",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "DeForest Buckner",
+          "player_slug": "deforest-buckner",
+          "position": "DT",
+          "injury": null,
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": null
+        },
+        {
+          "player": "Jaylon Carlies",
+          "player_slug": "jaylon-carlies",
+          "position": "LB",
+          "injury": "Ribs",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "Josh Downs",
+          "player_slug": "josh-downs",
+          "position": "WR",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Ashton Dulin",
+          "player_slug": "ashton-dulin",
+          "position": "WR",
+          "injury": "Hamstring",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "Matt Goncalves",
+          "player_slug": "matt-goncalves",
+          "position": "G",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        },
+        {
+          "player": "Daniel Jones",
+          "player_slug": "daniel-jones-x5302",
+          "position": "QB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Will Mallory",
+          "player_slug": "will-mallory",
+          "position": "TE",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Darius Slayton",
+          "player_slug": "darius-slayton",
+          "position": "WR",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Grover Stewart",
+          "player_slug": "grover-stewart",
+          "position": "DT",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Jonathan Taylor",
+          "player_slug": "jonathan-taylor",
+          "position": "RB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Jalen Travis",
+          "player_slug": "jalen-travis",
+          "position": "T",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Jaylahn Tuimoloau",
+          "player_slug": "jt-tuimoloau",
+          "position": "DE",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        },
+        {
+          "player": "Charvarius Ward",
+          "player_slug": "charvarius-ward",
+          "position": "CB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Tyler Warren",
+          "player_slug": "tyler-warren",
+          "position": "TE",
+          "injury": "Groin",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Questionable"
+        }
+      ]
+    },
+    {
+      "team": "ARI",
+      "team_name": "Cardinals",
+      "players": [
+        {
+          "player": "Budda Baker",
+          "player_slug": "budda-baker",
+          "position": "S",
+          "injury": "Not injury related - resting player, Groin",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Carson Beck",
+          "player_slug": "carson-beck",
+          "position": "QB",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        },
+        {
+          "player": "Zaven Collins",
+          "player_slug": "zaven-collins",
+          "position": "LB",
+          "injury": "Hip",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Kitan Crawford",
+          "player_slug": "kitan-crawford",
+          "position": "S",
+          "injury": "Ankle",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Devin Duvernay",
+          "player_slug": "devin-duvernay",
+          "position": "WR",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        },
+        {
+          "player": "Blake Gillikin",
+          "player_slug": "blake-gillikin",
+          "position": "P",
+          "injury": "Back",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Jeremiyah Love",
+          "player_slug": "jeremiyah-love",
+          "position": "RB",
+          "injury": "Ankle",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "Isaac Seumalo",
+          "player_slug": "isaac-seumalo",
+          "position": "G",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Josh Sweat",
+          "player_slug": "josh-sweat",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Wydett Williams Jr.",
+          "player_slug": "wydett-williams-jr",
+          "position": "S",
+          "injury": "Concussion",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "Andrew Wingard",
+          "player_slug": "andrew-wingard",
+          "position": "S",
+          "injury": "Knee",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        }
+      ]
+    },
+    {
+      "team": "LAR",
+      "team_name": "Rams",
+      "players": [
+        {
+          "player": "Davis Allen",
+          "player_slug": "davis-allen",
+          "position": "TE",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        },
+        {
+          "player": "Alex Bachman",
+          "player_slug": "alex-bachman",
+          "position": "WR",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Kam Curl",
+          "player_slug": "kamren-curl",
+          "position": "S",
+          "injury": "Ankle",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Tyler Higbee",
+          "player_slug": "tyler-higbee",
+          "position": "TE",
+          "injury": null,
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": null
+        },
+        {
+          "player": "Nate Landman",
+          "player_slug": "nate-landman",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Trent McDuffie",
+          "player_slug": "trent-mcduffie",
+          "position": "CB",
+          "injury": "Groin",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Colby Parkinson",
+          "player_slug": "colby-parkinson",
+          "position": "TE",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Omar Speights",
+          "player_slug": "omar-speights",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Keagen Trost",
+          "player_slug": "keagen-trost",
+          "position": "T",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Josh Wallace",
+          "player_slug": "josh-wallace",
+          "position": "CB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Byron Young",
+          "player_slug": "byron-young-2",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": null
+        }
+      ]
+    },
+    {
+      "team": "LAC",
+      "team_name": "Chargers",
+      "players": [
+        {
+          "player": "Joe Alt",
+          "player_slug": "joe-alt",
+          "position": "T",
+          "injury": "Neck",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "Kayode Awosika",
+          "player_slug": "kayode-awosika",
+          "position": "G",
+          "injury": "Fibula",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "Jamaree Caldwell",
+          "player_slug": "jamaree-caldwell",
+          "position": "DT",
+          "injury": "Knee",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Bud Dupree",
+          "player_slug": "bud-dupree",
+          "position": "DE",
+          "injury": "Neck, Not injury related - resting player",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Justin Eboigbe",
+          "player_slug": "justin-eboigbe",
+          "position": "DE",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Tre Harris",
+          "player_slug": "tre-harris",
+          "position": "WR",
+          "injury": "Hamstring",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "Daiyan Henley",
+          "player_slug": "daiyan-henley",
+          "position": "LB",
+          "injury": "Knee",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Alec Ingold",
+          "player_slug": "alec-ingold-x8122",
+          "position": "FB",
+          "injury": null,
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": null
+        },
+        {
+          "player": "Donte Jackson",
+          "player_slug": "donte-jackson",
+          "position": "CB",
+          "injury": "Hamstring",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "Derwin James",
+          "player_slug": "derwin-james",
+          "position": "S",
+          "injury": "Hamstring",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "Quentin Johnston",
+          "player_slug": "quentin-johnston",
+          "position": "WR",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Charlie Kolar",
+          "player_slug": "charlie-kolar",
+          "position": "TE",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "KeAndre Lambert-Smith",
+          "player_slug": "keandre-lambert-smith",
+          "position": "WR",
+          "injury": "Hamstring",
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Khalil Mack",
+          "player_slug": "khalil-mack",
+          "position": "DE",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Ladd McConkey",
+          "player_slug": "ladd-mcconkey",
+          "position": "WR",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Elijah Molden",
+          "player_slug": "elijah-molden",
+          "position": "S",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Rodney Shelley",
+          "player_slug": "rodney-shelley",
+          "position": "CB",
+          "injury": "Hamstring",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Doubtful"
+        },
+        {
+          "player": "Brenen Thompson",
+          "player_slug": "brenen-thompson",
+          "position": "WR",
+          "injury": "Quadricep",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Dalvin Tomlinson",
+          "player_slug": "dalvin-tomlinson",
+          "position": "DT",
+          "injury": "Hamstring",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Marquez Valdes-Scantling",
+          "player_slug": "marquez-valdes-scantling",
+          "position": "WR",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Kendall Williamson",
+          "player_slug": "kendall-williamson",
+          "position": "S",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        }
+      ]
+    },
+    {
+      "team": "KC",
+      "team_name": "Chiefs",
+      "players": [
+        {
+          "player": "Chamarri Conner",
+          "player_slug": "chamarri-conner",
+          "position": "S",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Patrick Mahomes",
+          "player_slug": "patrick-mahomes",
+          "position": "QB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Rashee Rice",
+          "player_slug": "rashee-rice",
+          "position": "WR",
+          "injury": "Hamstring, Knee",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "Josh Simmons",
+          "player_slug": "josh-simmons-2",
+          "position": "T",
+          "injury": "Back",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Out"
+        },
+        {
+          "player": "L'Jarius Sneed",
+          "player_slug": "l-jarius-sneed",
+          "position": "CB",
+          "injury": "Knee",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Ben VanSumeren",
+          "player_slug": "ben-vansumeren",
+          "position": "FB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Peter Woods",
+          "player_slug": "peter-woods",
+          "position": "DT",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        }
+      ]
+    },
+    {
+      "team": "BUF",
+      "team_name": "Bills",
+      "players": [
+        {
+          "player": "Christian Benford",
+          "player_slug": "christian-benford",
+          "position": "CB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Terrel Bernard",
+          "player_slug": "terrel-bernard",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        },
+        {
+          "player": "Spencer Brown",
+          "player_slug": "spencer-brown",
+          "position": "T",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Bradley Chubb",
+          "player_slug": "bradley-chubb",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Keon Coleman",
+          "player_slug": "keon-coleman",
+          "position": "WR",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Dee Alford",
+          "player_slug": "deaundre-ford",
+          "position": "CB",
+          "injury": "Ankle",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "C.J. Gardner-Johnson",
+          "player_slug": "chauncey-gardner-johnson",
+          "position": "S",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Landon Jackson",
+          "player_slug": "landon-jackson",
+          "position": "DE",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Ty Johnson",
+          "player_slug": "ty-johnson-x3152",
+          "position": "RB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "DJ Moore",
+          "player_slug": "d-j-moore",
+          "position": "WR",
+          "injury": "Shoulder",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Ed Oliver",
+          "player_slug": "ed-oliver",
+          "position": "DE",
+          "injury": "Knee",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Josh Palmer",
+          "player_slug": "josh-palmer",
+          "position": "WR",
+          "injury": "Shoulder",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "TJ Parker",
+          "player_slug": "t-j-parker",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Ar'maj Reed-Adams",
+          "player_slug": "ar-maj-reed-adams",
+          "position": "G",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "T.J. Sanders",
+          "player_slug": "t-j-sanders",
+          "position": "DE",
+          "injury": "Shoulder",
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": "Questionable"
+        }
+      ]
+    },
+    {
+      "team": "LV",
+      "team_name": "Raiders",
+      "players": [
+        {
+          "player": "Brock Bowers",
+          "player_slug": "brock-bowers",
+          "position": "TE",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Spencer Burford",
+          "player_slug": "spencer-burford",
+          "position": "G",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Foley Fatukasi",
+          "player_slug": "foley-fatukasi",
+          "position": "DT",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Tonka Hemingway",
+          "player_slug": "tonka-hemingway",
+          "position": "DT",
+          "injury": "Concussion",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "Ashton Jeanty",
+          "player_slug": "ashton-jeanty",
+          "position": "RB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Patrick Johnson",
+          "player_slug": "patrick-johnson",
+          "position": "DE",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Malcolm Koonce",
+          "player_slug": "malcolm-koonce",
+          "position": "DE",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Jalen Nailor",
+          "player_slug": "jalen-nailor",
+          "position": "WR",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Segun Olubi",
+          "player_slug": "segun-olubi",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Carter Runyon",
+          "player_slug": "carter-runyon-2",
+          "position": "TE",
+          "injury": "Foot",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Out"
+        },
+        {
+          "player": "Dont'e Thornton Jr.",
+          "player_slug": "dont-e-thornton-jr",
+          "position": "WR",
+          "injury": "Hamstring",
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": "Out"
+        },
+        {
+          "player": "Dareke Young",
+          "player_slug": "dareke-young",
+          "position": "WR",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Trey Zuhn III",
+          "player_slug": "trey-zuhn-iii",
+          "position": "C",
+          "injury": "Knee",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Questionable"
+        }
+      ]
+    },
+    {
+      "team": "DAL",
+      "team_name": "Cowboys",
+      "players": [
+        {
+          "player": "Alijah Clark",
+          "player_slug": "alijah-clark",
+          "position": "S",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Cobie Durant",
+          "player_slug": "cobie-durant",
+          "position": "CB",
+          "injury": "Hamstring",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "Tyler Guyton",
+          "player_slug": "tyler-guyton",
+          "position": "T",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "James Houston",
+          "player_slug": "james-houston",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "CeeDee Lamb",
+          "player_slug": "ceedee-lamb",
+          "position": "WR",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Von Miller",
+          "player_slug": "von-miller",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": null
+        },
+        {
+          "player": "DeMarvion Overshown",
+          "player_slug": "demarvion-overshown",
+          "position": "LB",
+          "injury": "Hamstring",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "LT Overton",
+          "player_slug": "lt-overton",
+          "position": "DT",
+          "injury": "Foot",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Joey Porter Jr.",
+          "player_slug": "joey-porter-jr",
+          "position": "CB",
+          "injury": "Ankle",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Shavon Revel Jr.",
+          "player_slug": "shavon-revel-jr",
+          "position": "CB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Drew Shelton",
+          "player_slug": "drew-shelton",
+          "position": "T",
+          "injury": "Hamstring",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "Tyler Smith",
+          "player_slug": "tyler-smith",
+          "position": "G",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Ameer Speed",
+          "player_slug": "ameer-speed",
+          "position": "CB",
+          "injury": "Knee",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Questionable"
+        }
+      ]
+    },
+    {
+      "team": "GB",
+      "team_name": "Packers",
+      "players": [
+        {
+          "player": "Aaron Banks",
+          "player_slug": "aaron-banks",
+          "position": "G",
+          "injury": "Knee, Toe",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Anthony Campbell",
+          "player_slug": "anthony-campbell",
+          "position": "DT",
+          "injury": "Ankle",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Brandon Cisse",
+          "player_slug": "brandon-cisse",
+          "position": "CB",
+          "injury": "Hip",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Jonathan Ford",
+          "player_slug": "jonathan-ford",
+          "position": "DT",
+          "injury": "Calf",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "Javon Hargrave",
+          "player_slug": "javon-hargrave",
+          "position": "DT",
+          "injury": "Achilles",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "Jacob Monk",
+          "player_slug": "jacob-monk",
+          "position": "C",
+          "injury": "Quadricep",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Skyy Moore",
+          "player_slug": "skyy-moore",
+          "position": "WR",
+          "injury": "Ankle",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "Keisean Nixon",
+          "player_slug": "keisean-nixon",
+          "position": "CB",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        },
+        {
+          "player": "Jordon Riley",
+          "player_slug": "jordon-riley",
+          "position": "DE",
+          "injury": "Achilles",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Doubtful"
+        },
+        {
+          "player": "Benjamin St-Juste",
+          "player_slug": "benjamin-st-juste",
+          "position": "CB",
+          "injury": "Hamstring",
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": "Out"
+        },
+        {
+          "player": "Lukas Van Ness",
+          "player_slug": "lukas-van-ness",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Evan Williams",
+          "player_slug": "evan-williams",
+          "position": "S",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Savion Williams",
+          "player_slug": "savion-williams",
+          "position": "WR",
+          "injury": "Ankle",
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": "Questionable"
+        },
+        {
+          "player": "Devonte Wyatt",
+          "player_slug": "devonte-wyatt",
+          "position": "DT",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        }
+      ]
+    },
+    {
+      "team": "WAS",
+      "team_name": "Commanders",
+      "players": [
+        {
+          "player": "Trey Amos",
+          "player_slug": "trey-amos",
+          "position": "CB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Treylon Burks",
+          "player_slug": "treylon-burks",
+          "position": "WR",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        },
+        {
+          "player": "Percy Butler",
+          "player_slug": "percy-butler",
+          "position": "S",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        },
+        {
+          "player": "K'Lavon Chaisson",
+          "player_slug": "k-lavon-chaisson",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": null
+        },
+        {
+          "player": "Jacory Croskey-Merritt",
+          "player_slug": "jacory-croskey-merritt",
+          "position": "RB",
+          "injury": null,
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": null
+        },
+        {
+          "player": "Nick Cross",
+          "player_slug": "nick-cross",
+          "position": "S",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Jayden Daniels",
+          "player_slug": "jayden-daniels",
+          "position": "QB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Stefon Diggs",
+          "player_slug": "stefon-diggs",
+          "position": "WR",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        },
+        {
+          "player": "Austin Ekeler",
+          "player_slug": "austin-ekeler",
+          "position": "RB",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        },
+        {
+          "player": "Javontae Jean-Baptiste",
+          "player_slug": "javontae-jean-baptiste",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": null
+        },
+        {
+          "player": "Javon Kinlaw",
+          "player_slug": "javon-kinlaw",
+          "position": "DT",
+          "injury": null,
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": null
+        },
+        {
+          "player": "Jordan Magee",
+          "player_slug": "jordan-magee",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        },
+        {
+          "player": "Marcus Mariota",
+          "player_slug": "marcus-mariota",
+          "position": "QB",
+          "injury": null,
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": null
+        },
+        {
+          "player": "Quan Martin",
+          "player_slug": "jartavius-martin",
+          "position": "S",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Terry McLaurin",
+          "player_slug": "terry-mclaurin",
+          "position": "WR",
+          "injury": null,
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": null
+        },
+        {
+          "player": "Jeremy McNichols",
+          "player_slug": "jeremy-mcnichols",
+          "position": "RB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Fabian Moreau",
+          "player_slug": "fabian-moreau",
+          "position": "CB",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        },
+        {
+          "player": "Charles Omenihu",
+          "player_slug": "charles-omenihu",
+          "position": "DE",
+          "injury": null,
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": null
+        },
+        {
+          "player": "Tyler Owens",
+          "player_slug": "tyler-owens",
+          "position": "S",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        },
+        {
+          "player": "Lucas Patrick",
+          "player_slug": "lucas-patrick",
+          "position": "G",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        },
+        {
+          "player": "Jeremy Reaves",
+          "player_slug": "jeremy-reaves",
+          "position": "S",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        },
+        {
+          "player": "Rachaad White",
+          "player_slug": "rachaad-white",
+          "position": "RB",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        }
+      ]
+    },
+    {
+      "team": "SF",
+      "team_name": "49ers",
+      "players": [
+        {
+          "player": "Nick Bosa",
+          "player_slug": "nick-bosa",
+          "position": "DE",
+          "injury": null,
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": null
+        },
+        {
+          "player": "Jacob Cowing",
+          "player_slug": "jacob-cowing",
+          "position": "WR",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Mike Evans",
+          "player_slug": "mike-evans",
+          "position": "WR",
+          "injury": null,
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": null
+        },
+        {
+          "player": "Gracen Halton",
+          "player_slug": "gracen-halton",
+          "position": "DT",
+          "injury": null,
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": null
+        },
+        {
+          "player": "Romello Height",
+          "player_slug": "romello-height",
+          "position": "DE",
+          "injury": null,
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": null
+        },
+        {
+          "player": "Kyle Juszczyk",
+          "player_slug": "kyle-juszczyk",
+          "position": "FB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Christian Kirk",
+          "player_slug": "christian-kirk",
+          "position": "WR",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        },
+        {
+          "player": "Christian McCaffrey",
+          "player_slug": "christian-mccaffrey",
+          "position": "RB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Colton McKivitz",
+          "player_slug": "colton-mckivitz",
+          "position": "T",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        },
+        {
+          "player": "Siran Neal",
+          "player_slug": "siran-neal",
+          "position": "S",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        },
+        {
+          "player": "Deebo Samuel Sr.",
+          "player_slug": "deebo-samuel",
+          "position": "WR",
+          "injury": null,
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": null
+        },
+        {
+          "player": "Marques Sigle",
+          "player_slug": "marques-sigle",
+          "position": "S",
+          "injury": null,
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": null
+        },
+        {
+          "player": "Upton Stout",
+          "player_slug": "upton-stout",
+          "position": "CB",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        },
+        {
+          "player": "James Thompson Jr.",
+          "player_slug": "james-thompson-jr",
+          "position": "DT",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        },
+        {
+          "player": "Garret Wallow",
+          "player_slug": "garret-wallow",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Did Not Participate In Practice",
+          "practice": "DNP",
+          "game_status": null
+        },
+        {
+          "player": "Mykel Williams",
+          "player_slug": "mykel-williams",
+          "position": "DE",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "practice": "LIMITED",
+          "game_status": null
+        },
+        {
+          "player": "Trent Williams",
+          "player_slug": "trent-williams",
+          "position": "T",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        },
+        {
+          "player": "Carver Willis",
+          "player_slug": "carver-willis",
+          "position": "G",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "practice": "FULL",
+          "game_status": null
+        }
+      ]
+    }
+  ]
+}
