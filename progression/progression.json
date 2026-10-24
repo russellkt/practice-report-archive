@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T06:31:34+00:00",
+  "generated_at": "2026-10-24T23:46:01+00:00",
   "week": null,
   "week_of": "2026-10-21",
   "snapshots_used": [
@@ -8,7 +8,8 @@
     "practice-2026-10-23-0011.json",
     "practice-2026-10-23-0633.json",
     "practice-2026-10-24-0004.json",
-    "practice-2026-10-24-0631.json"
+    "practice-2026-10-24-0631.json",
+    "practice-2026-10-24-2346.json"
   ],
   "snapshots_excluded_other_weeks": [
     {
@@ -389,7 +390,8 @@
   "days_captured": [
     "Wednesday",
     "Thursday",
-    "Friday"
+    "Friday",
+    "Saturday"
   ],
   "days_missing": [],
   "clubs_by_day": {
@@ -480,16 +482,50 @@
       "SF",
       "TB",
       "TEN"
+    ],
+    "Saturday": [
+      "ATL",
+      "BAL",
+      "CLE",
+      "DAL",
+      "IND",
+      "LV",
+      "NE",
+      "NYG",
+      "PHI"
     ]
   },
-  "clubs_not_filing_optional_day": {},
+  "clubs_not_filing_optional_day": {
+    "Saturday": [
+      "ARI",
+      "CAR",
+      "CHI",
+      "CIN",
+      "DEN",
+      "DET",
+      "GB",
+      "HOU",
+      "KC",
+      "LAR",
+      "MIA",
+      "MIN",
+      "NO",
+      "NYJ",
+      "PIT",
+      "SEA",
+      "SF",
+      "TB",
+      "TEN"
+    ]
+  },
   "day_captured_at": {
     "Wednesday": "2026-10-22T06:38:41+00:00",
     "Thursday": "2026-10-23T06:33:37+00:00",
-    "Friday": "2026-10-24T06:31:33+00:00"
+    "Friday": "2026-10-24T06:31:33+00:00",
+    "Saturday": "2026-10-24T23:46:01+00:00"
   },
   "caveat": "Participation only. FULL means the club filed Full Participation -- not that no snap limit exists. A day never captured cannot be recovered from any source. Built from the practice week beginning 2026-10-21; 47 capture(s) from other weeks were excluded rather than read into these columns, so a day listed in days_missing is missing THIS week and is not filled from the week before.",
-  "players": 349,
+  "players": 350,
   "progression": [
     {
       "player": "A'Shawn Robinson",
@@ -504,7 +540,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -519,12 +556,13 @@
       "practice_wed": "FULL",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -539,17 +577,18 @@
       "practice_wed": null,
       "practice_thu": "LIMITED",
       "practice_fri": "LIMITED",
-      "practice_sat": null,
-      "trend": "LIMITED_STEADY",
+      "practice_sat": "FULL",
+      "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
       "game_status": null,
-      "full_participation_final": false
+      "full_participation_final": true
     },
     {
       "player": "A.J. Terrell",
@@ -559,12 +598,13 @@
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Groin",
@@ -584,7 +624,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -604,7 +645,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Knee, Toe",
@@ -624,7 +666,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -644,7 +687,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -664,7 +708,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -684,7 +729,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -699,12 +745,13 @@
       "practice_wed": null,
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -719,12 +766,13 @@
       "practice_wed": "DNP",
       "practice_thu": "DNP",
       "practice_fri": "DNP",
-      "practice_sat": null,
+      "practice_sat": "DNP",
       "trend": "DNP_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Hamstring",
@@ -744,7 +792,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -759,12 +808,13 @@
       "practice_wed": null,
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -779,12 +829,13 @@
       "practice_wed": "DNP",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -799,12 +850,13 @@
       "practice_wed": "DNP",
       "practice_thu": "LIMITED",
       "practice_fri": "LIMITED",
-      "practice_sat": null,
+      "practice_sat": "LIMITED",
       "trend": "IMPROVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -819,12 +871,13 @@
       "practice_wed": "LIMITED",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -844,7 +897,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Knee",
@@ -859,12 +913,13 @@
       "practice_wed": "FULL",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -884,7 +939,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -904,7 +960,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -924,7 +981,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -939,12 +997,13 @@
       "practice_wed": "DNP",
       "practice_thu": "DNP",
       "practice_fri": "DNP",
-      "practice_sat": null,
+      "practice_sat": "DNP",
       "trend": "DNP_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Concussion",
@@ -964,7 +1023,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Rib",
@@ -979,12 +1039,13 @@
       "practice_wed": null,
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -999,12 +1060,13 @@
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -1024,7 +1086,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -1044,7 +1107,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -1059,12 +1123,13 @@
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
       "practice_fri": "LIMITED",
-      "practice_sat": null,
+      "practice_sat": "LIMITED",
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -1079,12 +1144,13 @@
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
       "practice_fri": "LIMITED",
-      "practice_sat": null,
+      "practice_sat": "LIMITED",
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Back",
@@ -1104,7 +1170,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -1124,7 +1191,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -1144,7 +1212,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Thumb",
@@ -1164,7 +1233,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Hamstring",
@@ -1184,7 +1254,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -1199,16 +1270,17 @@
       "practice_wed": "LIMITED",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Hip",
-      "game_status": "Questionable",
+      "game_status": "Out",
       "full_participation_final": true
     },
     {
@@ -1219,12 +1291,13 @@
       "practice_wed": "DNP",
       "practice_thu": "DNP",
       "practice_fri": "DNP",
-      "practice_sat": null,
+      "practice_sat": "DNP",
       "trend": "DNP_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Knee",
@@ -1244,7 +1317,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Calf",
@@ -1264,7 +1338,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -1284,7 +1359,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Hamstring",
@@ -1299,12 +1375,13 @@
       "practice_wed": "DNP",
       "practice_thu": "DNP",
       "practice_fri": "DNP",
-      "practice_sat": null,
+      "practice_sat": "DNP",
       "trend": "DNP_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Hamstring",
@@ -1324,7 +1401,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Thumb",
@@ -1344,7 +1422,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Back",
@@ -1364,7 +1443,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Hamstring",
@@ -1384,7 +1464,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -1404,7 +1485,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Hamstring",
@@ -1424,7 +1506,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Quadricep",
@@ -1444,7 +1527,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -1464,7 +1548,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Achilles",
@@ -1484,7 +1569,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -1499,12 +1585,13 @@
       "practice_wed": "LIMITED",
       "practice_thu": "DNP",
       "practice_fri": "DNP",
-      "practice_sat": null,
+      "practice_sat": "DNP",
       "trend": "DECLINING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Hamstring",
@@ -1519,12 +1606,13 @@
       "practice_wed": null,
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -1539,12 +1627,13 @@
       "practice_wed": "LIMITED",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -1559,17 +1648,18 @@
       "practice_wed": null,
       "practice_thu": null,
       "practice_fri": "LIMITED",
-      "practice_sat": null,
-      "trend": "LIMITED_SINGLE",
+      "practice_sat": "FULL",
+      "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
       "game_status": null,
-      "full_participation_final": false
+      "full_participation_final": true
     },
     {
       "player": "Broderick Washington",
@@ -1579,12 +1669,13 @@
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
       "practice_fri": "LIMITED",
-      "practice_sat": null,
+      "practice_sat": "LIMITED",
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Ankle",
@@ -1599,12 +1690,13 @@
       "practice_wed": "DNP",
       "practice_thu": "FULL",
       "practice_fri": "DNP",
-      "practice_sat": null,
+      "practice_sat": "DNP",
       "trend": "MIXED",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Groin",
@@ -1624,7 +1716,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -1644,7 +1737,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -1664,7 +1758,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Groin, Illness",
@@ -1684,7 +1779,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -1699,12 +1795,13 @@
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Groin",
@@ -1719,16 +1816,17 @@
       "practice_wed": null,
       "practice_thu": "LIMITED",
       "practice_fri": "DNP",
-      "practice_sat": null,
+      "practice_sat": "DNP",
       "trend": "DECLINING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Ankle",
-      "game_status": "Questionable",
+      "game_status": "Out",
       "full_participation_final": false
     },
     {
@@ -1744,7 +1842,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -1764,7 +1863,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Wrist",
@@ -1779,12 +1879,13 @@
       "practice_wed": "DNP",
       "practice_thu": "FULL",
       "practice_fri": "DNP",
-      "practice_sat": null,
+      "practice_sat": "DNP",
       "trend": "MIXED",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -1804,7 +1905,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -1824,7 +1926,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -1844,7 +1947,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Hip",
@@ -1859,12 +1963,13 @@
       "practice_wed": "FULL",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -1884,7 +1989,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -1899,12 +2005,13 @@
       "practice_wed": null,
       "practice_thu": "LIMITED",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -1919,16 +2026,17 @@
       "practice_wed": null,
       "practice_thu": "LIMITED",
       "practice_fri": "LIMITED",
-      "practice_sat": null,
+      "practice_sat": "LIMITED",
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Ankle",
-      "game_status": "Questionable",
+      "game_status": "Out",
       "full_participation_final": false
     },
     {
@@ -1939,12 +2047,13 @@
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
       "practice_fri": "LIMITED",
-      "practice_sat": null,
+      "practice_sat": "LIMITED",
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Neck",
@@ -1964,7 +2073,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Back",
@@ -1979,12 +2089,13 @@
       "practice_wed": "DNP",
       "practice_thu": "LIMITED",
       "practice_fri": "LIMITED",
-      "practice_sat": null,
+      "practice_sat": "LIMITED",
       "trend": "IMPROVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -1999,12 +2110,13 @@
       "practice_wed": "FULL",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Foot",
@@ -2024,7 +2136,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Knee",
@@ -2044,7 +2157,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -2059,12 +2173,13 @@
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
       "practice_fri": "LIMITED",
-      "practice_sat": null,
+      "practice_sat": "LIMITED",
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Hamstring",
@@ -2084,7 +2199,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -2099,12 +2215,13 @@
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -2119,12 +2236,13 @@
       "practice_wed": "DNP",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -2144,7 +2262,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -2164,7 +2283,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Calf",
@@ -2184,7 +2304,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -2199,12 +2320,13 @@
       "practice_wed": null,
       "practice_thu": "DNP",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -2224,7 +2346,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -2239,17 +2362,39 @@
       "practice_wed": "FULL",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Chest",
       "game_status": "Questionable",
       "full_participation_final": true
+    },
+    {
+      "player": "Christian Gonzalez",
+      "player_slug": "christian-gonzalez",
+      "team": "NE",
+      "position": "CB",
+      "practice_wed": null,
+      "practice_thu": null,
+      "practice_fri": null,
+      "practice_sat": null,
+      "trend": "NO_DATA",
+      "days_captured": [
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "days_missing": [],
+      "injury": "Illness",
+      "game_status": "Questionable",
+      "full_participation_final": false
     },
     {
       "player": "Christian Kirk",
@@ -2264,7 +2409,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Calf",
@@ -2284,7 +2430,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -2304,7 +2451,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -2324,7 +2472,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -2339,12 +2488,13 @@
       "practice_wed": null,
       "practice_thu": "LIMITED",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -2364,7 +2514,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -2384,7 +2535,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -2399,12 +2551,13 @@
       "practice_wed": "LIMITED",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -2424,7 +2577,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Hamstring",
@@ -2444,7 +2598,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Knee",
@@ -2459,12 +2614,13 @@
       "practice_wed": "FULL",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Shoulder",
@@ -2484,7 +2640,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -2499,17 +2656,18 @@
       "practice_wed": null,
       "practice_thu": "DNP",
       "practice_fri": "DNP",
-      "practice_sat": null,
-      "trend": "DNP_ALL_WEEK",
+      "practice_sat": "FULL",
+      "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
       "game_status": null,
-      "full_participation_final": false
+      "full_participation_final": true
     },
     {
       "player": "Dalton Schultz",
@@ -2524,7 +2682,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -2544,7 +2703,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -2564,7 +2724,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Back",
@@ -2579,12 +2740,13 @@
       "practice_wed": "FULL",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -2604,7 +2766,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -2624,7 +2787,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Groin",
@@ -2644,7 +2808,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -2664,7 +2829,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -2679,12 +2845,13 @@
       "practice_wed": null,
       "practice_thu": null,
       "practice_fri": "DNP",
-      "practice_sat": null,
-      "trend": "DNP_SINGLE",
+      "practice_sat": "DNP",
+      "trend": "DNP_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -2704,7 +2871,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Knee",
@@ -2719,12 +2887,13 @@
       "practice_wed": null,
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -2744,7 +2913,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Knee",
@@ -2759,16 +2929,17 @@
       "practice_wed": null,
       "practice_thu": "DNP",
       "practice_fri": "DNP",
-      "practice_sat": null,
+      "practice_sat": "DNP",
       "trend": "DNP_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
-      "injury": null,
-      "game_status": null,
+      "injury": "Hamstring",
+      "game_status": "Out",
       "full_participation_final": false
     },
     {
@@ -2779,16 +2950,17 @@
       "practice_wed": null,
       "practice_thu": "DNP",
       "practice_fri": "DNP",
-      "practice_sat": null,
+      "practice_sat": "DNP",
       "trend": "DNP_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
-      "injury": null,
-      "game_status": null,
+      "injury": "Calf",
+      "game_status": "Out",
       "full_participation_final": false
     },
     {
@@ -2804,7 +2976,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Hamstring",
@@ -2824,7 +2997,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -2839,12 +3013,13 @@
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -2859,12 +3034,13 @@
       "practice_wed": null,
       "practice_thu": null,
       "practice_fri": "LIMITED",
-      "practice_sat": null,
-      "trend": "LIMITED_SINGLE",
+      "practice_sat": "LIMITED",
+      "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Hand",
@@ -2879,12 +3055,13 @@
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -2904,7 +3081,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -2924,7 +3102,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -2944,7 +3123,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -2959,12 +3139,13 @@
       "practice_wed": "FULL",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Back",
@@ -2979,12 +3160,13 @@
       "practice_wed": "DNP",
       "practice_thu": "DNP",
       "practice_fri": "DNP",
-      "practice_sat": null,
+      "practice_sat": "DNP",
       "trend": "DNP_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Forearm",
@@ -2999,12 +3181,13 @@
       "practice_wed": "FULL",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Hamstring",
@@ -3019,16 +3202,17 @@
       "practice_wed": null,
       "practice_thu": "DNP",
       "practice_fri": "DNP",
-      "practice_sat": null,
+      "practice_sat": "DNP",
       "trend": "DNP_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
-      "injury": null,
-      "game_status": null,
+      "injury": "Ankle",
+      "game_status": "Out",
       "full_participation_final": false
     },
     {
@@ -3044,7 +3228,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Foot",
@@ -3059,12 +3244,13 @@
       "practice_wed": "FULL",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -3084,7 +3270,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Ankle",
@@ -3099,12 +3286,13 @@
       "practice_wed": "FULL",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -3119,12 +3307,13 @@
       "practice_wed": null,
       "practice_thu": "LIMITED",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -3144,7 +3333,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Elbow",
@@ -3159,16 +3349,17 @@
       "practice_wed": null,
       "practice_thu": "DNP",
       "practice_fri": "DNP",
-      "practice_sat": null,
+      "practice_sat": "DNP",
       "trend": "DNP_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
-      "injury": null,
-      "game_status": null,
+      "injury": "Hamstring",
+      "game_status": "Out",
       "full_participation_final": false
     },
     {
@@ -3184,7 +3375,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Knee",
@@ -3199,16 +3391,17 @@
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
-      "injury": "Knee",
-      "game_status": "Questionable",
+      "injury": null,
+      "game_status": null,
       "full_participation_final": true
     },
     {
@@ -3224,7 +3417,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -3239,12 +3433,13 @@
       "practice_wed": "DNP",
       "practice_thu": "LIMITED",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -3259,16 +3454,17 @@
       "practice_wed": null,
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
-      "injury": null,
-      "game_status": null,
+      "injury": "Quadricep",
+      "game_status": "Questionable",
       "full_participation_final": true
     },
     {
@@ -3284,7 +3480,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Concussion, Foot",
@@ -3299,12 +3496,13 @@
       "practice_wed": "LIMITED",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -3324,7 +3522,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Quadricep",
@@ -3339,17 +3538,18 @@
       "practice_wed": null,
       "practice_thu": null,
       "practice_fri": "LIMITED",
-      "practice_sat": null,
-      "trend": "LIMITED_SINGLE",
+      "practice_sat": "FULL",
+      "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
       "game_status": null,
-      "full_participation_final": false
+      "full_participation_final": true
     },
     {
       "player": "Garret Wallow",
@@ -3364,7 +3564,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Hamstring",
@@ -3384,7 +3585,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -3399,12 +3601,13 @@
       "practice_wed": null,
       "practice_thu": "LIMITED",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -3419,12 +3622,13 @@
       "practice_wed": null,
       "practice_thu": "LIMITED",
       "practice_fri": "LIMITED",
-      "practice_sat": null,
+      "practice_sat": "LIMITED",
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Hamstring",
@@ -3439,16 +3643,17 @@
       "practice_wed": null,
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
-      "injury": null,
-      "game_status": null,
+      "injury": "Back",
+      "game_status": "Questionable",
       "full_participation_final": true
     },
     {
@@ -3459,16 +3664,17 @@
       "practice_wed": "DNP",
       "practice_thu": "LIMITED",
       "practice_fri": "LIMITED",
-      "practice_sat": null,
+      "practice_sat": "LIMITED",
       "trend": "IMPROVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
-      "injury": "Concussion, Shoulder",
-      "game_status": "Questionable",
+      "injury": null,
+      "game_status": null,
       "full_participation_final": false
     },
     {
@@ -3479,12 +3685,13 @@
       "practice_wed": "DNP",
       "practice_thu": "DNP",
       "practice_fri": "DNP",
-      "practice_sat": null,
+      "practice_sat": "DNP",
       "trend": "DNP_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Concussion",
@@ -3499,12 +3706,13 @@
       "practice_wed": null,
       "practice_thu": "DNP",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -3524,7 +3732,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -3544,7 +3753,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -3564,7 +3774,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -3584,7 +3795,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -3604,7 +3816,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -3624,7 +3837,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Concussion",
@@ -3644,7 +3858,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -3664,7 +3879,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -3684,7 +3900,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -3704,7 +3921,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Hamstring",
@@ -3719,12 +3937,13 @@
       "practice_wed": null,
       "practice_thu": null,
       "practice_fri": "LIMITED",
-      "practice_sat": null,
-      "trend": "LIMITED_SINGLE",
+      "practice_sat": "LIMITED",
+      "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -3739,16 +3958,17 @@
       "practice_wed": null,
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
-      "injury": null,
-      "game_status": null,
+      "injury": "Knee",
+      "game_status": "Questionable",
       "full_participation_final": true
     },
     {
@@ -3759,12 +3979,13 @@
       "practice_wed": null,
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -3784,7 +4005,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Shoulder",
@@ -3804,7 +4026,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -3819,12 +4042,13 @@
       "practice_wed": "LIMITED",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -3839,16 +4063,17 @@
       "practice_wed": null,
       "practice_thu": "LIMITED",
       "practice_fri": "LIMITED",
-      "practice_sat": null,
+      "practice_sat": "LIMITED",
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
-      "injury": null,
-      "game_status": null,
+      "injury": "Knee, Ankle",
+      "game_status": "Questionable",
       "full_participation_final": false
     },
     {
@@ -3864,7 +4089,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -3879,12 +4105,13 @@
       "practice_wed": null,
       "practice_thu": "DNP",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -3904,7 +4131,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -3924,7 +4152,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -3939,12 +4168,13 @@
       "practice_wed": "LIMITED",
       "practice_thu": "DNP",
       "practice_fri": "DNP",
-      "practice_sat": null,
+      "practice_sat": "DNP",
       "trend": "DECLINING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Knee",
@@ -3959,12 +4189,13 @@
       "practice_wed": "LIMITED",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -3984,7 +4215,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Concussion",
@@ -4004,7 +4236,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -4024,7 +4257,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Ankle",
@@ -4039,12 +4273,13 @@
       "practice_wed": "DNP",
       "practice_thu": "LIMITED",
       "practice_fri": "LIMITED",
-      "practice_sat": null,
+      "practice_sat": "LIMITED",
       "trend": "IMPROVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Calf",
@@ -4059,12 +4294,13 @@
       "practice_wed": "DNP",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -4079,16 +4315,17 @@
       "practice_wed": "DNP",
       "practice_thu": "LIMITED",
       "practice_fri": "LIMITED",
-      "practice_sat": null,
+      "practice_sat": "LIMITED",
       "trend": "IMPROVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Concussion",
-      "game_status": "Questionable",
+      "game_status": "Out",
       "full_participation_final": false
     },
     {
@@ -4099,12 +4336,13 @@
       "practice_wed": null,
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -4119,12 +4357,13 @@
       "practice_wed": null,
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -4144,7 +4383,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -4159,12 +4399,13 @@
       "practice_wed": "LIMITED",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -4184,7 +4425,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Knee, Ankle",
@@ -4204,7 +4446,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Ankle",
@@ -4224,7 +4467,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Ankle",
@@ -4244,7 +4488,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -4264,7 +4509,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -4284,7 +4530,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -4299,16 +4546,17 @@
       "practice_wed": null,
       "practice_thu": "LIMITED",
       "practice_fri": "DNP",
-      "practice_sat": null,
+      "practice_sat": "DNP",
       "trend": "DECLINING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
-      "injury": null,
-      "game_status": null,
+      "injury": "Ankle",
+      "game_status": "Questionable",
       "full_participation_final": false
     },
     {
@@ -4319,12 +4567,13 @@
       "practice_wed": "LIMITED",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -4344,7 +4593,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -4359,12 +4609,13 @@
       "practice_wed": null,
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -4384,7 +4635,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -4404,7 +4656,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Thumb",
@@ -4419,12 +4672,13 @@
       "practice_wed": "LIMITED",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -4444,7 +4698,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Achilles",
@@ -4464,7 +4719,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -4484,7 +4740,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Ankle",
@@ -4504,7 +4761,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -4524,7 +4782,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -4544,7 +4803,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -4559,12 +4819,13 @@
       "practice_wed": "FULL",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -4584,7 +4845,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -4604,7 +4866,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -4624,7 +4887,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -4639,12 +4903,13 @@
       "practice_wed": "FULL",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -4659,12 +4924,13 @@
       "practice_wed": "DNP",
       "practice_thu": "LIMITED",
       "practice_fri": "LIMITED",
-      "practice_sat": null,
+      "practice_sat": "LIMITED",
       "trend": "IMPROVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Knee",
@@ -4679,12 +4945,13 @@
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -4699,16 +4966,17 @@
       "practice_wed": null,
       "practice_thu": "DNP",
       "practice_fri": "DNP",
-      "practice_sat": null,
+      "practice_sat": "DNP",
       "trend": "DNP_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
-      "injury": null,
-      "game_status": null,
+      "injury": "Ribs",
+      "game_status": "Out",
       "full_participation_final": false
     },
     {
@@ -4724,7 +4992,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -4739,12 +5008,13 @@
       "practice_wed": "DNP",
       "practice_thu": "DNP",
       "practice_fri": "DNP",
-      "practice_sat": null,
+      "practice_sat": "DNP",
       "trend": "DNP_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Quadricep",
@@ -4759,12 +5029,13 @@
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
       "practice_fri": "LIMITED",
-      "practice_sat": null,
+      "practice_sat": "LIMITED",
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Hamstring",
@@ -4779,12 +5050,13 @@
       "practice_wed": "LIMITED",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -4799,12 +5071,13 @@
       "practice_wed": "DNP",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -4819,12 +5092,13 @@
       "practice_wed": "FULL",
       "practice_thu": "LIMITED",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "MIXED",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Neck",
@@ -4844,7 +5118,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Knee",
@@ -4859,12 +5134,13 @@
       "practice_wed": "FULL",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Chest",
@@ -4884,7 +5160,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Quadricep",
@@ -4904,7 +5181,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -4919,12 +5197,13 @@
       "practice_wed": "LIMITED",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -4944,7 +5223,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -4964,7 +5244,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -4984,7 +5265,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Knee",
@@ -5004,7 +5286,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Thumb, Toe",
@@ -5024,7 +5307,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Knee",
@@ -5039,16 +5323,17 @@
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
       "practice_fri": "LIMITED",
-      "practice_sat": null,
+      "practice_sat": "LIMITED",
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Ankle",
-      "game_status": "Questionable",
+      "game_status": "Out",
       "full_participation_final": false
     },
     {
@@ -5059,17 +5344,18 @@
       "practice_wed": null,
       "practice_thu": "LIMITED",
       "practice_fri": "LIMITED",
-      "practice_sat": null,
-      "trend": "LIMITED_STEADY",
+      "practice_sat": "FULL",
+      "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
-      "injury": null,
-      "game_status": null,
-      "full_participation_final": false
+      "injury": "Knee, Pectoral",
+      "game_status": "Questionable",
+      "full_participation_final": true
     },
     {
       "player": "Logan Hall",
@@ -5084,7 +5370,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -5104,7 +5391,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -5124,7 +5412,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Groin",
@@ -5144,7 +5433,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Calf",
@@ -5159,12 +5449,13 @@
       "practice_wed": "LIMITED",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -5184,7 +5475,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -5199,12 +5491,13 @@
       "practice_wed": "FULL",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -5219,12 +5512,13 @@
       "practice_wed": "DNP",
       "practice_thu": "LIMITED",
       "practice_fri": "LIMITED",
-      "practice_sat": null,
+      "practice_sat": "LIMITED",
       "trend": "IMPROVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Knee",
@@ -5239,16 +5533,17 @@
       "practice_wed": null,
       "practice_thu": "LIMITED",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
-      "injury": null,
-      "game_status": null,
+      "injury": "Forearm",
+      "game_status": "Questionable",
       "full_participation_final": true
     },
     {
@@ -5259,12 +5554,13 @@
       "practice_wed": "FULL",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -5284,7 +5580,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Ankle",
@@ -5299,12 +5596,13 @@
       "practice_wed": null,
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -5319,12 +5617,13 @@
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -5339,12 +5638,13 @@
       "practice_wed": "DNP",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -5364,7 +5664,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -5379,12 +5680,13 @@
       "practice_wed": "LIMITED",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -5404,7 +5706,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Knee",
@@ -5424,7 +5727,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Concussion",
@@ -5439,16 +5743,17 @@
       "practice_wed": null,
       "practice_thu": "DNP",
       "practice_fri": "DNP",
-      "practice_sat": null,
+      "practice_sat": "DNP",
       "trend": "DNP_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
-      "injury": null,
-      "game_status": null,
+      "injury": "Abdomen",
+      "game_status": "Out",
       "full_participation_final": false
     },
     {
@@ -5459,12 +5764,13 @@
       "practice_wed": "LIMITED",
       "practice_thu": "DNP",
       "practice_fri": "DNP",
-      "practice_sat": null,
+      "practice_sat": "DNP",
       "trend": "DECLINING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Biceps",
@@ -5484,7 +5790,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Ribs, Achilles",
@@ -5499,12 +5806,13 @@
       "practice_wed": "DNP",
       "practice_thu": "DNP",
       "practice_fri": "DNP",
-      "practice_sat": null,
+      "practice_sat": "DNP",
       "trend": "DNP_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Ankle",
@@ -5519,12 +5827,13 @@
       "practice_wed": "LIMITED",
       "practice_thu": "DNP",
       "practice_fri": "DNP",
-      "practice_sat": null,
+      "practice_sat": "DNP",
       "trend": "DECLINING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Foot, Back",
@@ -5544,7 +5853,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Knee",
@@ -5559,12 +5869,13 @@
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
       "practice_fri": "LIMITED",
-      "practice_sat": null,
+      "practice_sat": "LIMITED",
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Foot",
@@ -5579,17 +5890,18 @@
       "practice_wed": null,
       "practice_thu": "LIMITED",
       "practice_fri": "LIMITED",
-      "practice_sat": null,
-      "trend": "LIMITED_STEADY",
+      "practice_sat": "FULL",
+      "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
       "game_status": null,
-      "full_participation_final": false
+      "full_participation_final": true
     },
     {
       "player": "Mykel Williams",
@@ -5604,7 +5916,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -5624,7 +5937,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Concussion",
@@ -5644,7 +5958,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Illness, Not injury related - resting player",
@@ -5664,7 +5979,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Knee, Calf",
@@ -5684,7 +6000,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Hip",
@@ -5704,7 +6021,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -5719,16 +6037,17 @@
       "practice_wed": null,
       "practice_thu": "DNP",
       "practice_fri": "DNP",
-      "practice_sat": null,
+      "practice_sat": "DNP",
       "trend": "DNP_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
-      "injury": null,
-      "game_status": null,
+      "injury": "Concussion",
+      "game_status": "Out",
       "full_participation_final": false
     },
     {
@@ -5739,12 +6058,13 @@
       "practice_wed": "LIMITED",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -5759,12 +6079,13 @@
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
       "practice_fri": "LIMITED",
-      "practice_sat": null,
+      "practice_sat": "LIMITED",
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Shoulder",
@@ -5779,16 +6100,17 @@
       "practice_wed": null,
       "practice_thu": null,
       "practice_fri": "LIMITED",
-      "practice_sat": null,
-      "trend": "LIMITED_SINGLE",
+      "practice_sat": "LIMITED",
+      "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
-      "injury": null,
-      "game_status": null,
+      "injury": "Foot",
+      "game_status": "Questionable",
       "full_participation_final": false
     },
     {
@@ -5804,7 +6126,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Ankle",
@@ -5824,7 +6147,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -5839,12 +6163,13 @@
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
       "practice_fri": "LIMITED",
-      "practice_sat": null,
+      "practice_sat": "LIMITED",
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Knee",
@@ -5864,7 +6189,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Calf",
@@ -5879,16 +6205,17 @@
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
-      "injury": null,
-      "game_status": null,
+      "injury": "Chest",
+      "game_status": "Questionable",
       "full_participation_final": true
     },
     {
@@ -5899,12 +6226,13 @@
       "practice_wed": null,
       "practice_thu": "DNP",
       "practice_fri": "LIMITED",
-      "practice_sat": null,
+      "practice_sat": "LIMITED",
       "trend": "IMPROVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Neck",
@@ -5919,12 +6247,13 @@
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -5944,7 +6273,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Hamstring, Knee",
@@ -5964,7 +6294,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -5979,12 +6310,13 @@
       "practice_wed": "LIMITED",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -6004,7 +6336,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Concussion, Hand",
@@ -6024,7 +6357,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Quadricep",
@@ -6044,7 +6378,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Knee",
@@ -6059,16 +6394,17 @@
       "practice_wed": "DNP",
       "practice_thu": "DNP",
       "practice_fri": "DNP",
-      "practice_sat": null,
+      "practice_sat": "DNP",
       "trend": "DNP_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
-      "injury": "Foot",
-      "game_status": "Questionable",
+      "injury": null,
+      "game_status": null,
       "full_participation_final": false
     },
     {
@@ -6084,7 +6420,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -6104,7 +6441,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -6124,7 +6462,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Hamstring",
@@ -6144,7 +6483,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -6164,7 +6504,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -6179,12 +6520,13 @@
       "practice_wed": "LIMITED",
       "practice_thu": "FULL",
       "practice_fri": "DNP",
-      "practice_sat": null,
+      "practice_sat": "DNP",
       "trend": "MIXED",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -6199,12 +6541,13 @@
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
       "practice_fri": "LIMITED",
-      "practice_sat": null,
+      "practice_sat": "LIMITED",
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Hamstring",
@@ -6219,17 +6562,18 @@
       "practice_wed": null,
       "practice_thu": "LIMITED",
       "practice_fri": "LIMITED",
-      "practice_sat": null,
-      "trend": "LIMITED_STEADY",
+      "practice_sat": "FULL",
+      "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
-      "injury": null,
-      "game_status": null,
-      "full_participation_final": false
+      "injury": "Hamstring",
+      "game_status": "Questionable",
+      "full_participation_final": true
     },
     {
       "player": "Sauce Gardner",
@@ -6239,12 +6583,13 @@
       "practice_wed": "DNP",
       "practice_thu": "DNP",
       "practice_fri": "DNP",
-      "practice_sat": null,
+      "practice_sat": "DNP",
       "trend": "DNP_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Calf",
@@ -6264,7 +6609,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -6284,7 +6630,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -6304,7 +6651,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -6319,12 +6667,13 @@
       "practice_wed": "FULL",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -6344,7 +6693,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Knee",
@@ -6359,12 +6709,13 @@
       "practice_wed": "FULL",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -6384,7 +6735,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -6404,7 +6756,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -6424,7 +6777,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Hamstring",
@@ -6444,7 +6798,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -6459,12 +6814,13 @@
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
       "practice_fri": "LIMITED",
-      "practice_sat": null,
+      "practice_sat": "LIMITED",
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Knee",
@@ -6484,7 +6840,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -6504,7 +6861,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Ankle",
@@ -6524,7 +6882,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Knee",
@@ -6539,12 +6898,13 @@
       "practice_wed": "DNP",
       "practice_thu": "DNP",
       "practice_fri": "DNP",
-      "practice_sat": null,
+      "practice_sat": "DNP",
       "trend": "DNP_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Pectoral",
@@ -6564,7 +6924,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -6579,12 +6940,13 @@
       "practice_wed": "DNP",
       "practice_thu": "DNP",
       "practice_fri": "DNP",
-      "practice_sat": null,
+      "practice_sat": "DNP",
       "trend": "DNP_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Back",
@@ -6599,12 +6961,13 @@
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
       "practice_fri": "DNP",
-      "practice_sat": null,
+      "practice_sat": "DNP",
       "trend": "DECLINING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Neck",
@@ -6619,12 +6982,13 @@
       "practice_wed": "FULL",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -6644,7 +7008,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Calf",
@@ -6659,12 +7024,13 @@
       "practice_wed": "DNP",
       "practice_thu": "LIMITED",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -6684,7 +7050,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Ankle",
@@ -6704,7 +7071,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -6724,7 +7092,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -6739,12 +7108,13 @@
       "practice_wed": "FULL",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -6759,12 +7129,13 @@
       "practice_wed": "DNP",
       "practice_thu": "DNP",
       "practice_fri": "DNP",
-      "practice_sat": null,
+      "practice_sat": "DNP",
       "trend": "DNP_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Shoulder",
@@ -6784,7 +7155,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -6804,7 +7176,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Groin",
@@ -6824,7 +7197,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -6839,12 +7213,13 @@
       "practice_wed": "FULL",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -6864,7 +7239,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -6879,12 +7255,13 @@
       "practice_wed": "FULL",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -6904,7 +7281,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -6924,7 +7302,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Not injury related - resting player, Knee",
@@ -6944,7 +7323,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Thumb",
@@ -6959,12 +7339,13 @@
       "practice_wed": null,
       "practice_thu": "LIMITED",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -6979,12 +7360,13 @@
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
       "practice_fri": "LIMITED",
-      "practice_sat": null,
+      "practice_sat": "LIMITED",
       "trend": "LIMITED_STEADY",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Neck",
@@ -7004,7 +7386,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -7019,17 +7402,18 @@
       "practice_wed": null,
       "practice_thu": "LIMITED",
       "practice_fri": "LIMITED",
-      "practice_sat": null,
-      "trend": "LIMITED_STEADY",
+      "practice_sat": "FULL",
+      "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
       "game_status": null,
-      "full_participation_final": false
+      "full_participation_final": true
     },
     {
       "player": "Tyler Warren",
@@ -7039,12 +7423,13 @@
       "practice_wed": "DNP",
       "practice_thu": "DNP",
       "practice_fri": "DNP",
-      "practice_sat": null,
+      "practice_sat": "DNP",
       "trend": "DNP_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Groin",
@@ -7064,7 +7449,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -7084,7 +7470,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Hip",
@@ -7099,12 +7486,13 @@
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -7124,7 +7512,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Hip",
@@ -7144,7 +7533,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Shoulder",
@@ -7164,7 +7554,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -7179,12 +7570,13 @@
       "practice_wed": null,
       "practice_thu": "DNP",
       "practice_fri": "DNP",
-      "practice_sat": null,
+      "practice_sat": "DNP",
       "trend": "DNP_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -7204,7 +7596,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Ankle",
@@ -7224,7 +7617,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -7239,12 +7633,13 @@
       "practice_wed": "FULL",
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -7264,7 +7659,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -7284,7 +7680,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -7304,7 +7701,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Illness",
@@ -7319,17 +7717,18 @@
       "practice_wed": null,
       "practice_thu": "DNP",
       "practice_fri": "LIMITED",
-      "practice_sat": null,
-      "trend": "IMPROVING",
+      "practice_sat": "FULL",
+      "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
       "game_status": null,
-      "full_participation_final": false
+      "full_participation_final": true
     },
     {
       "player": "Wydett Williams Jr.",
@@ -7344,7 +7743,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -7359,12 +7759,13 @@
       "practice_wed": "LIMITED",
       "practice_thu": "LIMITED",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "ARRIVING",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Neck",
@@ -7384,7 +7785,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -7404,7 +7806,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Knee",
@@ -7419,12 +7822,13 @@
       "practice_wed": null,
       "practice_thu": "FULL",
       "practice_fri": "FULL",
-      "practice_sat": null,
+      "practice_sat": "FULL",
       "trend": "FULL_ALL_WEEK",
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
@@ -7444,7 +7848,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": "Shin",
@@ -7464,7 +7869,8 @@
       "days_captured": [
         "Wednesday",
         "Thursday",
-        "Friday"
+        "Friday",
+        "Saturday"
       ],
       "days_missing": [],
       "injury": null,
