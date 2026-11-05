@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-11-05T01:49:48+00:00",
+  "generated_at": "2026-11-05T08:34:09+00:00",
   "week": null,
   "week_of": "2026-11-04",
   "snapshots_used": [
-    "practice-2026-11-05-0149.json"
+    "practice-2026-11-05-0149.json",
+    "practice-2026-11-05-0834.json"
   ],
   "snapshots_excluded_other_weeks": [
     {
@@ -456,6 +457,13 @@
       "stamped": "Thursday",
       "filed_for": "Wednesday",
       "why": "captured before 15:00 UTC, so it carries the previous day's column"
+    },
+    {
+      "file": "practice-2026-11-05-0834.json",
+      "captured_at": "2026-11-05T08:34:09+00:00",
+      "stamped": "Thursday",
+      "filed_for": "Wednesday",
+      "why": "captured before 15:00 UTC, so it carries the previous day's column"
     }
   ],
   "days_captured": [
@@ -491,15 +499,16 @@
       "NYJ",
       "PHI",
       "SF",
+      "TB",
       "WAS"
     ]
   },
   "clubs_not_filing_optional_day": {},
   "day_captured_at": {
-    "Wednesday": "2026-11-05T01:49:48+00:00"
+    "Wednesday": "2026-11-05T08:34:09+00:00"
   },
   "caveat": "Participation only. FULL means the club filed Full Participation -- not that no snap limit exists. A day never captured cannot be recovered from any source. Built from the practice week beginning 2026-11-04; 63 capture(s) from other weeks were excluded rather than read into these columns, so a day listed in days_missing is missing THIS week and is not filled from the week before.",
-  "players": 258,
+  "players": 266,
   "progression": [
     {
       "player": "A.J. Brown",
@@ -815,6 +824,27 @@
       "injury": null,
       "game_status": null,
       "full_participation_final": false
+    },
+    {
+      "player": "Baker Mayfield",
+      "player_slug": "baker-mayfield",
+      "team": "TB",
+      "position": "QB",
+      "practice_wed": "FULL",
+      "practice_thu": null,
+      "practice_fri": null,
+      "practice_sat": null,
+      "trend": "FULL_SINGLE",
+      "days_captured": [
+        "Wednesday"
+      ],
+      "days_missing": [
+        "Thursday",
+        "Friday"
+      ],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": true
     },
     {
       "player": "Bam Knight",
@@ -1321,6 +1351,27 @@
       "full_participation_final": false
     },
     {
+      "player": "Cade Otton",
+      "player_slug": "cade-otton",
+      "team": "TB",
+      "position": "TE",
+      "practice_wed": "FULL",
+      "practice_thu": null,
+      "practice_fri": null,
+      "practice_sat": null,
+      "trend": "FULL_SINGLE",
+      "days_captured": [
+        "Wednesday"
+      ],
+      "days_missing": [
+        "Thursday",
+        "Friday"
+      ],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": true
+    },
+    {
       "player": "Calais Campbell",
       "player_slug": "calais-campbell",
       "team": "BAL",
@@ -1676,6 +1727,27 @@
       "injury": null,
       "game_status": null,
       "full_participation_final": false
+    },
+    {
+      "player": "Cody Mauch",
+      "player_slug": "cody-mauch",
+      "team": "TB",
+      "position": "G",
+      "practice_wed": "FULL",
+      "practice_thu": null,
+      "practice_fri": null,
+      "practice_sat": null,
+      "trend": "FULL_SINGLE",
+      "days_captured": [
+        "Wednesday"
+      ],
+      "days_missing": [
+        "Thursday",
+        "Friday"
+      ],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": true
     },
     {
       "player": "Colby Parkinson",
@@ -2401,6 +2473,48 @@
       "practice_fri": null,
       "practice_sat": null,
       "trend": "LIMITED_SINGLE",
+      "days_captured": [
+        "Wednesday"
+      ],
+      "days_missing": [
+        "Thursday",
+        "Friday"
+      ],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
+      "player": "Elijah Roberts",
+      "player_slug": "elijah-roberts",
+      "team": "TB",
+      "position": "DT",
+      "practice_wed": "DNP",
+      "practice_thu": null,
+      "practice_fri": null,
+      "practice_sat": null,
+      "trend": "DNP_SINGLE",
+      "days_captured": [
+        "Wednesday"
+      ],
+      "days_missing": [
+        "Thursday",
+        "Friday"
+      ],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
+      "player": "Emeka Egbuka",
+      "player_slug": "emeka-egbuka",
+      "team": "TB",
+      "position": "WR",
+      "practice_wed": "DNP",
+      "practice_thu": null,
+      "practice_fri": null,
+      "practice_sat": null,
+      "trend": "DNP_SINGLE",
       "days_captured": [
         "Wednesday"
       ],
@@ -3881,6 +3995,27 @@
       "injury": null,
       "game_status": null,
       "full_participation_final": true
+    },
+    {
+      "player": "Kenny Gainwell",
+      "player_slug": "kenneth-gainwell",
+      "team": "TB",
+      "position": "RB",
+      "practice_wed": "LIMITED",
+      "practice_thu": null,
+      "practice_fri": null,
+      "practice_sat": null,
+      "trend": "LIMITED_SINGLE",
+      "days_captured": [
+        "Wednesday"
+      ],
+      "days_missing": [
+        "Thursday",
+        "Friday"
+      ],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
     },
     {
       "player": "Kenny Moore II",
@@ -5605,6 +5740,27 @@
       "full_participation_final": false
     },
     {
+      "player": "Tykee Smith",
+      "player_slug": "tykee-smith",
+      "team": "TB",
+      "position": "S",
+      "practice_wed": "LIMITED",
+      "practice_thu": null,
+      "practice_fri": null,
+      "practice_sat": null,
+      "trend": "LIMITED_SINGLE",
+      "days_captured": [
+        "Wednesday"
+      ],
+      "days_missing": [
+        "Thursday",
+        "Friday"
+      ],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
       "player": "Tyler Huntley",
       "player_slug": "tyler-huntley",
       "team": "BAL",
@@ -5803,6 +5959,27 @@
       "practice_fri": null,
       "practice_sat": null,
       "trend": "LIMITED_SINGLE",
+      "days_captured": [
+        "Wednesday"
+      ],
+      "days_missing": [
+        "Thursday",
+        "Friday"
+      ],
+      "injury": null,
+      "game_status": null,
+      "full_participation_final": false
+    },
+    {
+      "player": "Yaya Diaby",
+      "player_slug": "yaya-diaby",
+      "team": "TB",
+      "position": "LB",
+      "practice_wed": "DNP",
+      "practice_thu": null,
+      "practice_fri": null,
+      "practice_sat": null,
+      "trend": "DNP_SINGLE",
       "days_captured": [
         "Wednesday"
       ],

@@ -14,6 +14,7 @@ Antonio Johnson,JAX,S,LIMITED,,,,LIMITED_SINGLE,,,False
 Asim Richards,NO,T,LIMITED,,,,LIMITED_SINGLE,,,False
 Austin Barber,CLE,T,DNP,,,,DNP_SINGLE,,,False
 Azeez Al-Shaair,HOU,LB,LIMITED,,,,LIMITED_SINGLE,,,False
+Baker Mayfield,TB,QB,FULL,,,,FULL_SINGLE,,,True
 Bam Knight,ARI,RB,DNP,,,,DNP_SINGLE,,,False
 Beaux Collins,ATL,WR,FULL,,,,FULL_SINGLE,,,True
 Bhayshul Tuten,JAX,RB,DNP,,,,DNP_SINGLE,"Ankle, Foot",Questionable,False
@@ -38,6 +39,7 @@ Bud Dupree,LAC,DE,LIMITED,,,,LIMITED_SINGLE,,,False
 Budda Baker,ARI,S,DNP,,,,DNP_SINGLE,,,False
 CJ Donaldson,NO,RB,LIMITED,,,,LIMITED_SINGLE,,,False
 Cade Mays,DET,C,DNP,,,,DNP_SINGLE,,,False
+Cade Otton,TB,TE,FULL,,,,FULL_SINGLE,,,True
 Calais Campbell,BAL,DT,FULL,,,,FULL_SINGLE,,,True
 Caleb Downs,DAL,S,DNP,,,,DNP_SINGLE,,,False
 Cam Skattebo,NYG,RB,DNP,,,,DNP_SINGLE,,,False
@@ -55,6 +57,7 @@ Christian Barmore,NE,DT,DNP,,,,DNP_SINGLE,,,False
 Christian Kirk,SF,WR,LIMITED,,,,LIMITED_SINGLE,,,False
 Christian McCaffrey,SF,RB,DNP,,,,DNP_SINGLE,,,False
 Christian Watson,GB,WR,LIMITED,,,,LIMITED_SINGLE,,,False
+Cody Mauch,TB,G,FULL,,,,FULL_SINGLE,,,True
 Colby Parkinson,LAR,TE,DNP,,,,DNP_SINGLE,,,False
 Colson Yankoff,WAS,TE,FULL,,,,FULL_SINGLE,,,True
 Colton Hood,NYG,CB,LIMITED,,,,LIMITED_SINGLE,,,False
@@ -90,6 +93,8 @@ Dre'Mont Jones,NE,LB,LIMITED,,,,LIMITED_SINGLE,,,False
 Drew Shelton,DAL,T,FULL,,,,FULL_SINGLE,,,True
 Drue Tranquill,KC,LB,FULL,,,,FULL_SINGLE,,,True
 Elgton Jenkins,CLE,C,LIMITED,,,,LIMITED_SINGLE,,,False
+Elijah Roberts,TB,DT,DNP,,,,DNP_SINGLE,,,False
+Emeka Egbuka,TB,WR,DNP,,,,DNP_SINGLE,,,False
 Eric Murray,JAX,S,DNP,,,,DNP_SINGLE,,,False
 Eyioma Uwazurike,DEN,DE,DNP,,,,DNP_SINGLE,,,False
 Ezra Cleveland,JAX,G,LIMITED,,,,LIMITED_SINGLE,,,False
@@ -160,6 +165,7 @@ Keisean Nixon,GB,CB,LIMITED,,,,LIMITED_SINGLE,,,False
 Kelvin Banks Jr.,NO,T,LIMITED,,,,LIMITED_SINGLE,,,False
 Kendall Williamson,LAC,S,DNP,,,,DNP_SINGLE,,,False
 Kenny Clark,DAL,DT,FULL,,,,FULL_SINGLE,,,True
+Kenny Gainwell,TB,RB,LIMITED,,,,LIMITED_SINGLE,,,False
 Kenny Moore II,PHI,CB,FULL,,,,FULL_SINGLE,,,True
 Kerby Joseph,DET,S,LIMITED,,,,LIMITED_SINGLE,,,False
 Kevin Byard,NE,S,LIMITED,,,,LIMITED_SINGLE,,,False
@@ -242,6 +248,7 @@ Trevin Wallace,NYJ,LB,LIMITED,,,,LIMITED_SINGLE,,,False
 Trey Hendrickson,BAL,LB,FULL,,,,FULL_SINGLE,,,True
 Treylon Burks,WAS,WR,DNP,,,,DNP_SINGLE,,,False
 Tucker Addington,MIA,LS,LIMITED,,,,LIMITED_SINGLE,,,False
+Tykee Smith,TB,S,LIMITED,,,,LIMITED_SINGLE,,,False
 Tyler Huntley,BAL,QB,DNP,,,,DNP_SINGLE,Toe,Out,False
 Tyler Loop,BAL,K,DNP,,,,DNP_SINGLE,,,False
 Tyler Smith,DAL,G,LIMITED,,,,LIMITED_SINGLE,,,False
@@ -252,6 +259,7 @@ Walter Nolen,ARI,DT,LIMITED,,,,LIMITED_SINGLE,,,False
 Will Kacmarek,MIA,TE,LIMITED,,,,LIMITED_SINGLE,,,False
 Will Lee III,CAR,CB,DNP,,,,DNP_SINGLE,,,False
 Yasir Abdullah,ATL,DE,LIMITED,,,,LIMITED_SINGLE,,,False
+Yaya Diaby,TB,LB,DNP,,,,DNP_SINGLE,,,False
 Zach Allen,DEN,DE,LIMITED,,,,LIMITED_SINGLE,,,False
 Zach Sieler,MIA,DT,LIMITED,,,,LIMITED_SINGLE,,,False
 Zachariah Branch,ATL,WR,DNP,,,,DNP_SINGLE,,,False
