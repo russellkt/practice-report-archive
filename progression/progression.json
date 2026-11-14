@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T01:51:37+00:00",
+  "generated_at": "2026-11-14T08:05:55+00:00",
   "week": null,
   "week_of": "2026-11-11",
   "snapshots_used": [
@@ -7,7 +7,8 @@
     "practice-2026-11-12-0852.json",
     "practice-2026-11-13-0209.json",
     "practice-2026-11-13-0847.json",
-    "practice-2026-11-14-0151.json"
+    "practice-2026-11-14-0151.json",
+    "practice-2026-11-14-0805.json"
   ],
   "snapshots_excluded_other_weeks": [
     {
@@ -544,6 +545,13 @@
       "stamped": "Saturday",
       "filed_for": "Friday",
       "why": "captured before 15:00 UTC, so it carries the previous day's column"
+    },
+    {
+      "file": "practice-2026-11-14-0805.json",
+      "captured_at": "2026-11-14T08:05:55+00:00",
+      "stamped": "Saturday",
+      "filed_for": "Friday",
+      "why": "captured before 15:00 UTC, so it carries the previous day's column"
     }
   ],
   "days_captured": [
@@ -642,7 +650,7 @@
   "day_captured_at": {
     "Wednesday": "2026-11-12T08:52:15+00:00",
     "Thursday": "2026-11-13T08:47:49+00:00",
-    "Friday": "2026-11-14T01:51:37+00:00"
+    "Friday": "2026-11-14T08:05:55+00:00"
   },
   "caveat": "Participation only. FULL means the club filed Full Participation -- not that no snap limit exists. A day never captured cannot be recovered from any source. Built from the practice week beginning 2026-11-11; 71 capture(s) from other weeks were excluded rather than read into these columns, so a day listed in days_missing is missing THIS week and is not filled from the week before.",
   "players": 345,
